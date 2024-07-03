@@ -1,0 +1,10 @@
+{
+  "modid": "shadowverse_maps",
+  "name": "The Shadowverse",
+  "author_list": ["Fang"],
+  "description": "The Shadowverse",
+  "version": "0.0.1",
+  "sts_version": "12-22-2020",
+  "mts_version": "3.21.0",
+  "dependencies": ["basemod","stslib","actlikeit"]
+}

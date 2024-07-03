@@ -1,0 +1,255 @@
+{
+  "shadowverse:AbsoluteOnePower": {
+    "NAME": "The Almighty One",
+    "DESCRIPTIONS": [
+      "Immune to Power damage. Put a #yAbsolute #yJudgment into your hand at the start of your turn."
+    ]
+  },
+  "shadowverse:AbyssDoomLordPower": {
+    "NAME": "Doomlord of the Abyss",
+    "DESCRIPTIONS": [
+      " Reduce incoming damage to 0 for #b",
+      " turn(s)."
+    ]
+  },
+  "shadowverse:AncientAmplifierPower": {
+    "NAME": "Ancient Amplifier",
+    "DESCRIPTIONS": [
+      "At the end of your turn, randomly add #b",
+      " cards into your draw pile. Add 1 less card every turn."
+    ]
+  },
+  "shadowverse:LionSanctuaryPower": {
+    "NAME": "Holy Lion Sanctum",
+    "DESCRIPTIONS": [
+      "Immune to debuffs. When you take damage, even by non-Attack cards, deal #b",
+      " damage back."
+    ]
+  },
+  "shadowverse:DisableEffectDamagePower": {
+    "NAME": "Power Damage Immune",
+    "DESCRIPTIONS": [
+      "Reduce damage from Powers and other similar effects to 0 in #b",
+      " turn(s)."
+    ]
+  },
+  "shadowverse:BloodyNailPower": {
+    "NAME": "BloodyNail",
+    "DESCRIPTIONS": [
+      "Whenever you play an Attack card, Urias will deal #b",
+      " damage to you."
+    ]
+  },
+  "shadowverse:DreadAuraPower": {
+    "NAME": "Cursed Aura",
+    "DESCRIPTIONS": [
+      "Any HP lost due to a card effect is reduced to 0."
+    ]
+  },
+  "shadowverse:AlectorPower": {
+    "NAME": "Particle Mace Kotaehge",
+    "DESCRIPTIONS": [
+      "By the end of turn, all enemies gain #b",
+      " #yStrength."
+    ]
+  },
+  "shadowverse:ManaBarrier": {
+    "NAME": "Aether Barrier",
+    "DESCRIPTIONS": [
+      "Change incoming damage to #b0. Can only be removed by #yAether #yForce."
+    ]
+  },
+  "shadowverse:chushouHealPower": {
+    "NAME": "Armored Tentacle: Last Words",
+    "DESCRIPTIONS": [
+      "Upon death, heal #b",
+      " HP for #yBelphomet #yArdelyte. Put an #yAether #yForce into your hand."
+    ]
+  },
+  "shadowverse:chushouExplosionPower": {
+    "NAME": "Assault Tentacle: Last Words",
+    "DESCRIPTIONS": [
+      "Upon death, deal #b",
+      " damage. Put an #yAether #yForce into your hand."
+    ]
+  },
+  "shadowverse:NahtPower": {
+    "NAME": "Tyrant's Box",
+    "DESCRIPTIONS": [
+      "The first card played in each turn that target this enemy will be invalid and deposited in the box",
+      ". Boxed cards:",
+      "triggered in this turn.",
+      "not triggered in this turn."
+    ]
+  },
+  "shadowverse:ICPower": {
+    "NAME": "Curse of Prosperity",
+    "DESCRIPTIONS": [
+      "Each card played will increase this damage by 1. Deal #b",
+      " damage to you."
+    ]
+  },
+  "shadowverse:ICPower2": {
+    "NAME": "Reclamation",
+    "DESCRIPTIONS": [
+      "Damage equal to the damage #yIceschillendrig took this turn will be applied to you at end of his turn.  #yIceschillendrig will also heal for this amount. Deal #b",
+      " damage to you."
+    ]
+  },
+  "shadowverse:NoDamage": {
+    "NAME": "Words of Judgment: No Damage",
+    "DESCRIPTIONS": [
+      "You cannot deal any damage."
+    ]
+  },
+  "shadowverse:NoPower": {
+    "NAME": "Words of Judgment: Powerless",
+    "DESCRIPTIONS": [
+      "You cannot play Power cards."
+    ]
+  },
+  "shadowverse:ManaPower": {
+    "NAME": "Mana Power",
+    "DESCRIPTIONS": [
+      "You can use #gMana #gPower against Vincent's Words. Whenever you play #b12 cards in your turn, gain #b1 #gMana #gPower. If you have at least #b1 #gMana #gPower, negate the next Vincent's Words."
+    ]
+  },
+  "shadowverse:JudgmentWordPower": {
+    "NAME": "Words of Judgment",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #yNo #yDamage, #yPowerless, #yHexed (1 turn), #yNo #yBlock in order. Gain #b1 #yArtifact if you have Energy left by the end of your turn."
+    ]
+  },
+  "shadowverse:RapidFirePower": {
+    "NAME": "Rapid Fire",
+    "DESCRIPTIONS": [
+      "Whenever you play #b3 cards, take #b",
+      " damage."
+    ]
+  },
+  "shadowverse:FreezePower": {
+    "NAME": "Freeze",
+    "DESCRIPTIONS": [
+      "Increase cost to cards drawn by 1."
+    ]
+  },
+  "shadowverse:KMFPower": {
+    "NAME": "Absolute Defense Field",
+    "DESCRIPTIONS": [
+      "Damage under #b",
+      " will be ignored. When taking damage, lose this effect this turn."
+    ]
+  },
+  "shadowverse:CheckmatePower": {
+    "NAME": "Checkmate",
+    "DESCRIPTIONS": [
+      "If you play any #yRare cards, take #b",
+      " damage and lose this effect."
+    ]
+  },
+  "shadowverse:GeassPower": {
+    "NAME": "Geass",
+    "DESCRIPTIONS": [
+      "At the end of your turn, put 1 #yGeass into draw pile."
+    ]
+  },
+  "shadowverse:CurseOfGeass": {
+    "NAME": "Curse of Geass",
+    "DESCRIPTIONS": [
+      "When you would die, remove all debuffs, heal 1 HP, gain #b5 #yStrength and #yDexterity, gain #b25 #yBlock and end the turn."
+    ]
+  },
+  "shadowverse:CommanderPower": {
+    "NAME": "Tactical Command",
+    "DESCRIPTIONS": [
+      "At the end of turn, activate the following effects in order: NL 1. All enemies gain #b1 #yArtifact NL 2. All enemies gain #b1 #yStrength NL 3. All enemies gain #b3 #yPlated #yArmor NL 4. Apply #b2 #yWeak."
+    ]
+  },
+  "shadowverse:TaketsumiPower": {
+    "NAME": "Power of the Great Spider",
+    "DESCRIPTIONS": [
+      "When killed, #yTaketsumi loses #b80 max HP."
+    ]
+  },
+  "shadowverse:HeroOfTheHuntPower": {
+    "NAME": "Hero Of The Hunt",
+    "DESCRIPTIONS": [
+      "Reduce damage received by #b",
+      " ."
+    ]
+  },
+  "shadowverse:Cemetery": {
+    "NAME": "Shadows",
+    "DESCRIPTIONS": [
+      "Increase when playing cards or triggering specific effects. Spend #yShadows to trigger #yNecromancy effects."
+    ]
+  },
+  "shadowverse:ImperialSaintPower": {
+    "NAME": "Imperial Saint",
+    "DESCRIPTIONS": [
+      "The next time you would die, heal to 50% of your max HP and take an extra turn after instead."
+    ]
+  },
+  "shadowverse:GuiltyShieldPower": {
+    "NAME": "Shield of Transgression",
+    "DESCRIPTIONS": [
+      "Any damage you take greater than #b5 becomes #b4. Countdown #b",
+      ": Lose this effect."
+    ]
+  },
+  "shadowverse:JudgementSpearPower": {
+    "NAME": "Spear of Judgment",
+    "DESCRIPTIONS": [
+      "At the end of your turn, deal #b",
+      "damage to a random enemy. Countdown #b",
+      ": Lose this effect."
+    ]
+  },
+  "shadowverse:EternalDogmaPower": {
+    "NAME": "Eternal Dogma",
+    "DESCRIPTIONS": [
+      "Draw #b1 additional card at the start of your turn and heal #b2 HP. Countdown #b",
+      ": Lose this effect."
+    ]
+  },
+  "shadowverse:UltimateBahmutPower": {
+    "NAME": "Ultimate Bahamut",
+    "DESCRIPTIONS": [
+      "At the end of each turn, decrease this countdown by #b1. Die when the countdown reaches 0."
+    ]
+  },
+  "shadowverse:ShiningValkyriePower": {
+    "NAME": "Shining Valkyrie",
+    "DESCRIPTIONS": [
+      "Put a #yFairy into your hand at the start of your turn. NL Whenever you play a #yFairy, gain #b2 #yStrength and #b1 #yDexterity."
+    ]
+  },
+  "shadowverse:SevensForceSorcererPower": {
+    "NAME": "Sorcerer of Seven Forces",
+    "DESCRIPTIONS": [
+      "Whenever you play #b",
+      " #ySkill cards in 1 turn, kill all enemies and lose this effect."
+    ]
+  },
+  "shadowverse:LegendSwordCommanderPower": {
+    "NAME": "Legendary Sword Commander",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #b",
+      "Block. Whenever you play an Attack card, deal #b",
+      "damage to all enemies."
+    ]
+  },
+  "shadowverse:betterExplosionPower": {
+    "NAME": "Explosion",
+    "DESCRIPTIONS": [
+      "Upon death, deal #b",
+      " damage."
+    ]
+  },
+  "shadowverse:MaiserPower": {
+    "NAME": "Maiser, Accelerated Hero",
+    "DESCRIPTIONS": [
+      "Whenever you play a #ySkill card, deal #b5 damage to all enemies."
+    ]
+  }
+}

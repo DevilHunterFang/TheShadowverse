@@ -1,0 +1,35 @@
+{
+  "shadowverse:Burial": {
+    "TEXT": [
+      "장송"
+    ]
+  },
+  "shadowverse:applyEffect": {
+    "TEXT": [
+      "효과를 적용할 카드를 선택하세요."
+    ]
+  },
+  "shadowverse:EnergyPanelTip": {
+    "TEXT": [
+      "적의 현재 에너지입니다."
+    ],
+    "EXTRA_TEXT": [
+      "에너지"
+    ]
+  },
+  "shadowverse:Exhaust": {
+    "TEXT": [
+      "소멸"
+    ]
+  },
+  "shadowverse:Ethereal": {
+    "TEXT": [
+      "휘발성"
+    ]
+  },
+  "shadowverse:Retain": {
+    "TEXT": [
+      "보존"
+    ]
+  }
+}

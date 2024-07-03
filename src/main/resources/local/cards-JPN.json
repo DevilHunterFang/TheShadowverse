@@ -1,0 +1,376 @@
+{
+  "shadowverse:SevensForceSorcerer": {
+    "NAME": "セブンズフォースソーサラー",
+    "DESCRIPTION": "1ターンに7枚のスキルをプレイした後、すべての敵を即死させ、この能力を失う。",
+    "UPGRADE_DESCRIPTION": "1ターンに7枚のスキルをプレイした後、すべての敵を即死させ、この能力を失う。 NL 手札にあるコスト1以下のスキルのコストをこのターンだけ0にする。"
+  },
+  "shadowverse:EnRadiantAngel": {
+    "NAME": "レディアンスエンジェル",
+    "DESCRIPTION": "!B! ブロック を得る。 NL HPを !M! 回復する。 NL 次のターン、追加でカードを1枚引く。"
+  },
+  "shadowverse:EnAncientLionSpirit": {
+    "NAME": "エンシェントレオスピリット",
+    "DESCRIPTION": "敵全体に !D!ダメージを与える。"
+  },
+  "shadowverse:EnPriestOfTheCudgel": {
+    "NAME": "鉄槌の僧侶",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 弱体 を !M!与える。 NL 敵の山札の一番上のカードを廃棄する。"
+  },
+  "shadowverse:EnArdentSister": {
+    "NAME": "アーデントシスター",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 筋力 を !M! 得る。"
+  },
+  "shadowverse:EnHeavenlyHound": {
+    "NAME": "天界の忠犬",
+    "DESCRIPTION": "!B! ブロック を得る。 NL プレートアーマー を !M! 得る。"
+  },
+  "shadowverse:EnDarkPriest": {
+    "NAME": "ダークプリースト",
+    "DESCRIPTION": "!B! ブロック を得る。 NL 弱体 と 脆弱化 を !M! 与える。"
+  },
+  "shadowverse:EnThemisDecree": {
+    "NAME": "テミスの審判",
+    "DESCRIPTION": "敵の山札のアタックをすべて廃棄する。 NL 廃棄 。"
+  },
+  "shadowverse:KMRGaze": {
+    "NAME": "木村唯人の眼光",
+    "DESCRIPTION": "これが引かれる時、手札にあるスキルのコストはこのターンすべて+10される。 NL エセリアル 。"
+  },
+  "shadowverse:WUP": {
+    "NAME": "ナテラ崩壊",
+    "DESCRIPTION": "機械 ・ 自然 。 NL これが引かれる時、 *支配者の弾圧 3枚を手札に加える。 NL デッキに 機械 か 自然 カードがある場合、3枚ではなく2枚。 NL エセリアル 。"
+  },
+  "shadowverse:Death": {
+    "NAME": "死神のカード",
+    "DESCRIPTION": "ターン終了時、山札の数が0の場合、即死する。"
+  },
+  "shadowverse:Altersphere": {
+    "NAME": "次元歪曲",
+    "DESCRIPTION": "カードをプレイする時、ランダムに手札1枚を廃棄し、ランダムなカード1枚を手札に加える。 NL エセリアル 。"
+  },
+  "shadowverse:Rowen": {
+    "NAME": "笑顔の絶傑・ローウェン",
+    "DESCRIPTION": "ターン終了時、 *黒龍の呪い 1枚を手札に加える。"
+  },
+  "shadowverse:CurseOfTheBlackDragon": {
+    "NAME": "黒龍の呪い",
+    "DESCRIPTION": "保留 。 NL ターン終了時、 覚醒 でないなら、HPを1失う。 NL 覚醒 なら、ランダムな敵に !D! ダメージを与える。"
+  },
+  "shadowverse:ShadowBahmut": {
+    "NAME": "シャドウバハムート",
+    "DESCRIPTION": "防御不能の !D! ダメージを与える。 NL 敵は 筋力 と 敏捷性 以外のバフをすべて失う。 NL ミニオン をすべて即死させる。"
+  },
+  "shadowverse:ShiningValkyrie": {
+    "NAME": "シャイニングヴァルキリー",
+    "DESCRIPTION": " *フェアリー  !M! 枚を手札に加える。 NL ターン開始時、*フェアリー1枚を手札に加える。 NL *フェアリー をプレイする度、ランダムな敵に6ダメージ、 筋力 1と 敏捷性 1を得る。"
+  },
+  "shadowverse:LegendSwordCommander": {
+    "NAME": "レジェンドソードコマンダー",
+    "DESCRIPTION": "ターン開始時、 ブロック は消えない。 NL ターン終了時、 !M! ブロックを得る。 NL アタックをプレイする度、敵全体に !M! ダメージを与える。"
+  },
+  "shadowverse:DeadSoulTaker": {
+    "NAME": "デッドソウルテイカー",
+    "DESCRIPTION": "!B! ブロック を得る。 NL 廃棄札からアタック1枚をコスト0にして手札に加える。 NL ネクロマンス 10 \b手札が一杯になるまでランダムにこの戦闘中プレイしたアタックをコスト0・廃棄の形で手札に加える。"
+  },
+  "shadowverse:AbyssDoomLord": {
+    "NAME": "アビスドゥームロード",
+    "DESCRIPTION": "任意の枚数の手札を廃棄する。 NL !D! ダメージを与える。 NL HPが1になるまでHPを失う。 NL 失った分の2倍のダメージを敵全体に与える。 NL このターン、受けるダメージは0になる。 NL 廃棄 。"
+  },
+  "shadowverse:KMRsPresent": {
+    "NAME": "木村唯人からのプレゼント",
+    "DESCRIPTION": "保留。 NL チョイス： *伝説のカード 1枚を手札に加える。 NL 廃棄。"
+  },
+  "shadowverse:ShadowversePain": {
+    "NAME": "シャドバはお前達を痛めつける道具",
+    "DESCRIPTION": "シャドバカードをプレイする度、HPを1失う。"
+  },
+  "shadowverse:Betray": {
+    "NAME": "シャドバは私を裏切った",
+    "DESCRIPTION": "ターン終了時、これの複製を1枚捨札に加える。 NL 廃棄 。"
+  },
+  "shadowverse:CalamityMode": {
+    "NAME": "カラミティ・モード",
+    "DESCRIPTION": "自分のデッキをカラミティにする。 NL 廃棄 。"
+  },
+  "shadowverse:JusticeTyrant": {
+    "NAME": "ジャスティス・タイラント",
+    "DESCRIPTION": "!B! ブロック を得る。 NL *ワールド・エリミネーター 4体を出す。 NL 敵の次のターンのドロー数を1減らす。"
+  },
+  "shadowverse:ShangrilaBreaker": {
+    "NAME": "シャングリラ・ブレイカー",
+    "DESCRIPTION": "!D! ダメージを10回与える。 NL !B! ブロック を得る。"
+  },
+  "shadowverse:CalamityEnd": {
+    "NAME": "カラミティ・エンド",
+    "DESCRIPTION": "敵を即死させる。"
+  },
+  "shadowverse:EnDeath": {
+    "NAME": "死神のカード",
+    "DESCRIPTION": "これが引かれる時、即死する。"
+  },
+  "shadowverse:SacredLion": {
+    "NAME": "セイクリッドレオ",
+    "DESCRIPTION": "!B! ブロック を得る。 NL バッファー を1得る。 NL 攻撃を受ける時、敵に !M! 反撃ダメージ 。 NL *獅子の祝福 1枚を敵の手札に加える。"
+  },
+  "shadowverse:LionBless": {
+    "NAME": "獅子の祝福",
+    "DESCRIPTION": "廃棄札からアタック1枚を手札に加え、そのコストをこのターンだけ0にする。 NL 敵に24 ブロック 、6炎の障壁を与える。 NL エセリアル 。 NL 廃棄 。"
+  },
+  "shadowverse:EnHereticalInquiry": {
+    "NAME": "詠唱：異端審問",
+    "DESCRIPTION": "ランダムに呪いカード !M! 枚を敵の山札に加える。"
+  },
+  "shadowverse:EnAcolyteLight": {
+    "NAME": "破邪の光",
+    "DESCRIPTION": "敵のブロックを20まで除去する。 NL 除去した分HPを回復する。"
+  },
+  "shadowverse:EnSacredPlea": {
+    "NAME": "詠唱：聖なる願い",
+    "DESCRIPTION": "次のターン、追加でカードを !M! 枚引く。"
+  },
+  "shadowverse:EnLucifer": {
+    "NAME": "ルシフェル",
+    "DESCRIPTION": "チョイス ： NL HPを !M! 回復する。 NL 敵全体に !D! ダメージを与える。"
+  },
+  "shadowverse:EnMagisteelLion": {
+    "NAME": "魔鉄の獅子",
+    "DESCRIPTION": "!B! ブロック を得る。 NL *アナライズアーティファクト 2枚を山札に加える。"
+  },
+  "shadowverse:EnAnalyzeArtifact": {
+    "NAME": "アナライズアーティファクト",
+    "DESCRIPTION": "AF 。 NL !D! ダメージを与える。 NL 次のターン、追加でカードを1枚引く。 NL 廃棄 。"
+  },
+  "shadowverse:TheGreatCreation": {
+    "NAME": "大いなる創造",
+    "DESCRIPTION": " 筋力 と 敏捷性 を !M! 得る。 NL *エンシェントアーティファクト 1枚を手札に加える。"
+  },
+  "shadowverse:EnAncientAmplifier": {
+    "NAME": "古代の増幅器",
+    "DESCRIPTION": "敵は「ターン終了時、ランダムなカードを !M! 枚山札に加える。」を持つ。この能力は !M! ターン働く。"
+  },
+  "shadowverse:EnMysticArtifact": {
+    "NAME": "ミスティックアーティファクト",
+    "DESCRIPTION": "AF 。 NL !B! ブロック を得る。 NL 次のターン、追加でカードを1枚引く。"
+  },
+  "shadowverse:EnGenesisArtifact": {
+    "NAME": "ジェネシスアーティファクト",
+    "DESCRIPTION": "AF 。 NL !B! ブロック を得る。 NL *ガードアーティファクト と *ディフェクトアーティファクト それぞれ1枚を手札に加える。 NL *キャノンアーティファクト 2枚を山札に加える。"
+  },
+  "shadowverse:EnSpineLucille": {
+    "NAME": "神秘の遺物・スピネ＆ルチル",
+    "DESCRIPTION": "AF 。 NL 敵全体に !D! ダメージを与える"
+  },
+  "shadowverse:AncientArtifact": {
+    "NAME": "エンシェントアーティファクト",
+    "DESCRIPTION": "AF 。 NL !D! ダメージを与える。 NL 廃棄 。"
+  },
+  "shadowverse:EnBlackenedScripture": {
+    "NAME": "漆黒の法典",
+    "DESCRIPTION": " 脱力 と 脆弱化 を !M! 与える。"
+  },
+  "shadowverse:EnMoonAlmiraj": {
+    "NAME": "ムーンアルミラージ",
+    "DESCRIPTION": "!D! ダメージを与え、与えたダメージ分HPを回復する。 NL !B! ブロック を得る。"
+  },
+  "shadowverse:AbsoluteJudgment": {
+    "NAME": "絶対なる裁き",
+    "DESCRIPTION": "敵に 弱体 がないなら、 !M! 与える 。 NL あるなら、敵は 筋力 を1失う。 NL 次に受けるダメージは0になる。 NL 廃棄 。"
+  },
+  "shadowverse:AbsoluteOne": {
+    "NAME": "アブソリュート・ワン",
+    "DESCRIPTION": "!B! ブロック を得る。 NL 能力によるダメージを受けなくなる。 NL 毎ターン、 *絶対なる裁き 1枚を手札に加える。 NL 廃棄 。"
+  },
+  "shadowverse:EnAcceleratium": {
+    "NAME": "加速装置",
+    "DESCRIPTION": "次のターン、 !M! エナジーを得る。"
+  },
+  "shadowverse:ShadowMode": {
+    "NAME": "シャドウ・モード",
+    "DESCRIPTION": " 無形 1を得る。"
+  },
+  "shadowverse:EdgeArtifact": {
+    "NAME": "エッジアーティファクト",
+    "DESCRIPTION": "AF 。 NL !D! ダメージを与える。 NL 与えたダメージ分HPを回復する。 NL 廃棄 。"
+  },
+  "shadowverse:BlitzArtifact": {
+    "NAME": "ブリッツアーティファクト",
+    "DESCRIPTION": "AF 。 NL !D! ダメージを与える。 NL ラストワード このカードが 廃棄 される時、敵全体に !M! ダメージを与える。 NL 廃棄 。"
+  },
+  "shadowverse:EnProtectArtifact": {
+    "NAME": "プロテクトアーティファクト",
+    "DESCRIPTION": "AF 。 NL !B! ブロック を得る。 NL 敵に 脆弱化 を !M! 与える。 NL 廃棄 。"
+  },
+  "shadowverse:GuardArtifact": {
+    "NAME": "ガードアーティファクト",
+    "DESCRIPTION": "AF 。 NL !B! ブロック を得る。 NL アーティファクト を !M! 得る。 NL 廃棄 。"
+  },
+  "shadowverse:DefectArtifact": {
+    "NAME": "ディフェクトアーティファクト",
+    "DESCRIPTION": "AF 。 NL !B! ブロック を得る。 NL 能力によるダメージは無効 を !M! 得る。 NL 廃棄 。"
+  },
+  "shadowverse:CannonArtifact": {
+    "NAME": "キャノンアーティファクト",
+    "DESCRIPTION": "AF 。 NL !D! ダメージを与える。 NL ランダムな敵に手札にある AF カードの数かける !M! 倍のダメージを与える。 NL 廃棄 。"
+  },
+  "shadowverse:EnRalmia": {
+    "NAME": "音速の機構・ララミア",
+    "DESCRIPTION": "機械 ・ AF 。 NL !D! ダメージを与える。 NL このターン、 AF カードをプレイする度、 筋力 を !M! 得る。このカードが 筋力 からの影響は4倍になる。"
+  },
+  "shadowverse:EnNightmareTime": {
+    "NAME": "ナイトメア・タイム",
+    "DESCRIPTION": "HPを1失う。 NL すべてのデバフを取り除く。 NL ターン開始時、追加でカードを !M! 枚引く。 NL 廃棄 。"
+  },
+  "shadowverse:EnBloodyNail": {
+    "NAME": "ブラッディーネイル",
+    "DESCRIPTION": "HPを1失い、 !D! ダメージを与える。 NL 敵は「アタックをプレイする度、1ダメージを受ける」を持つ。 NL 廃棄 。"
+  },
+  "shadowverse:EnDemonStorm": {
+    "NAME": "デモンストーム",
+    "DESCRIPTION": "お互いに !D! ダメージを与える。"
+  },
+  "shadowverse:EnMono": {
+    "NAME": "悠久の真紅・モノ",
+    "DESCRIPTION": "機械 。 NL !B! ブロック を得る。 NL 筋力 2を得る。 NL 復讐 なら、 金属化  !M! を得る。"
+  },
+  "shadowverse:EnDemonCommander": {
+    "NAME": "デモンコマンダー・ラウラ",
+    "DESCRIPTION": "!B! ブロック を得る。 NL 復讐 なら、次のアタックは2回プレイされる。"
+  },
+  "shadowverse:EnTerrorNight": {
+    "NAME": "テラーナイト",
+    "DESCRIPTION": "お互いに !D! ダメージを与える。 NL 限定 次のターン開始時、通常ドローの代わりに *ナイトメア・タイム 、 *ブラッディーネイル 、 *ドレッドオーラ それぞれ1枚を手札に加える。"
+  },
+  "shadowverse:EnBloodPact": {
+    "NAME": "血の取引",
+    "DESCRIPTION": "HPを2失う。 NL 次のターン、追加でカードを !M! 枚引く。"
+  },
+  "shadowverse:EnSeox": {
+    "NAME": "神狼・シス",
+    "DESCRIPTION": "!D! ダメージを2回与える。 NL 奥義 3 \bもう2回ダメージを与える。 NL 解放奥義 6 \bもう2回ダメージを与える。"
+  },
+  "shadowverse:RazoryClaw": {
+    "NAME": "鋭利な一裂き",
+    "DESCRIPTION": "HPを2失う。 NL !D! ダメージを与える。"
+  },
+  "shadowverse:DarkGeneral": {
+    "NAME": "ダークジェネラル",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 復讐 ならダメージを倍にする。"
+  },
+  "shadowverse:DiabolicDrain": {
+    "NAME": "ディアボリックドレイン",
+    "DESCRIPTION": "!D! ダメージを与え、HPを !M! 回復する。 NL 復讐 なら、コストを0にする。"
+  },
+  "shadowverse:DreadAura": {
+    "NAME": "ドレッドオーラ",
+    "DESCRIPTION": "自分によって失うHPは0になる。 NL HPを1失い、敵全体に !D! ダメージを与える。 NL 廃棄 。"
+  },
+  "shadowverse:ForestBat": {
+    "NAME": "フォレストバット",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 廃棄 。"
+  },
+  "shadowverse:SummoningBloodkin": {
+    "NAME": "眷属の召喚",
+    "DESCRIPTION": "*フォレストバット !M! 枚を手札に加える。",
+    "UPGRADE_DESCRIPTION": "*フォレストバット+ !M! 枚を手札に加える。"
+  },
+  "shadowverse:ManaForce": {
+    "NAME": "マナの力",
+    "DESCRIPTION": "保留 。 NL 自然 。 NL マナの障壁 を除去する。 NL 廃棄 。"
+  },
+  "shadowverse:Maiser_Story": {
+    "NAME": "フォーミュラーヒーロー・マイザー",
+    "DESCRIPTION": "ヒーロー 。 NL !D! ダメージを与える。 NL *機動二輪車 1枚を手札に加える。 NL このターン、スキンをプレイする度、敵全体に5ダメージを与える。 NL 廃棄 。"
+  },
+  "shadowverse:Selena_Story": {
+    "NAME": "ブラスティングシュガー・セリーナ",
+    "DESCRIPTION": "!B! ブロックを得る。 NL 手札にある他のアタックが1枚以上なら、HPを4回復する。 NL 2枚以上なら、カードを2枚引く。 NL 3枚以上なら、 筋力 と 敏捷性 1を得る。 NL 廃棄 。"
+  },
+  "shadowverse:Illganeau_Story": {
+    "NAME": "アウェイクンホロウ・イルガンノ",
+    "DESCRIPTION": "!D! ダメージを与える。 NL すべての敵は 筋力 と 敏捷性 を1失う。 NL 廃棄札にあるアタックによってこのカードのダメージを+ !M! する。 NL 廃棄 。"
+  },
+  "shadowverse:Sekka_Story": {
+    "NAME": "九尾の猛火・セッカ",
+    "DESCRIPTION": "!D! ダメージを与える。 NL [E] を得、 *EP 1枚を手札に加える。 NL この戦闘中プレイしていたアタックの数が18以上なら、 筋力 と 敏捷性 !M! を得る。 NL 廃棄 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Xの数は",
+      " 。)"
+    ]
+  },
+  "shadowverse:Dracu_Story": {
+    "NAME": "天翔ける竜翼・ドラーク",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 敏捷性 1を得る。 NL 敏捷性が5以上なら、もう一回ダメージを与える。 NL 廃棄 。"
+  },
+  "shadowverse:Kagero_Story": {
+    "NAME": "秘剣の幽鬼・カゲロウ",
+    "DESCRIPTION": "!D! ダメージを与える。 NL ランダムな敵に 弱体 2を与える。 NL ネクロマンス 10 ダメージを+ !M! する。 NL 廃棄 。"
+  },
+  "shadowverse:VerdictWord": {
+    "NAME": "バーディクトワード",
+    "DESCRIPTION": "*フォーミュラーヒーロー・マイザー NL *ブラスティングシュガー・セリーナ NL *アウェイクンホロウ・イルガンノ NL チョイス ：自分のクラス以外のカードを1枚を手札に加える。 NL この戦闘中にプレイしていた *バーディクトワード の数が2以上なら、チョイスではなく、すべてをアップグレードして手札に加える。さらにこのターンのアタックダメージを倍にする。 NL 保留 ・ 廃棄 。"
+  },
+  "shadowverse:AbsoluteOrder": {
+    "NAME": "アブソリュートオーダー",
+    "DESCRIPTION": "*九尾の猛火・セッカ NL *天翔ける竜翼・ドラーク NL *秘剣の幽鬼・カゲロウ NL チョイス ：自分のクラス以外のカードを1枚を手札に加える。 NL この戦闘中にプレイしていた *アブソリュートオーダー の数が2以上なら、チョイスではなく、すべてをアップグレードして手札に加える。さらにこのターンのアタックダメージを倍にする。 NL 保留 ・ 廃棄 。"
+  },
+  "shadowverse:Motorbike": {
+    "NAME": "機動二輪車",
+    "DESCRIPTION": "次のアタックのダメージを+ !M! する。"
+  },
+  "shadowverse:Horse": {
+    "NAME": "従順な駿馬",
+    "DESCRIPTION": " 筋力 と 敏捷性 を !M! 得る。"
+  },
+  "shadowverse:Fairy_f": {
+    "NAME": "フェアリー",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 廃棄 。"
+  },
+  "shadowverse:InfiniflameDragon": {
+    "NAME": "インフィニットフレイムドラゴン",
+    "DESCRIPTION": "50ダメージを与える。 NL ミニオン をすべて即死させる。1体につき、10ダメージを与える。 NL 手札のアタックを全て廃棄する。1枚につき、10ダメージを与える。 NL !D! ダメージを2回与える。"
+  },
+  "shadowverse:UltimateBahmut": {
+    "NAME": "アルティメットバハムート",
+    "DESCRIPTION": "直接召喚 ターン開始時、この戦闘中に使われたエナジーが50以上なら、手札に加える。その後、敵は3ターン後に即死する。 NL アクセラレート 2：ランダムな敵に !M! ダメージを与え、2エナジーを得る。 NL  NL --------------------- NL  NL !D! ダメージを与える。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (消費したエナジーは",
+      " 。)"
+    ]
+  },
+  "shadowverse:DivineTreasureHerald": {
+    "NAME": "神器の使者",
+    "DESCRIPTION": "!D! ダメージを与える。 NL !B! ブロック を得る。 NL ラストワード ：このカードが廃棄される時、 エンハンス を持たない *神器鳴動 1枚を手札に加える。 NL 廃棄 。"
+  },
+  "shadowverse:DivineTreasureGuardian": {
+    "NAME": "神器の番人",
+    "DESCRIPTION": "!D! ダメージを与える。 NL !B! ブロック を得る。 NL 敵全体に !M! ダメージを与える。 NL 廃棄 。"
+  },
+  "shadowverse:JudgmentSpear": {
+    "NAME": "ジャジメント・スピア",
+    "DESCRIPTION": "ターン終了時にランダムな敵に !M! ダメージを与える。 NL カウントダウン 2：この能力を失う。"
+  },
+  "shadowverse:GuiltyShield": {
+    "NAME": "ギルティ・シールド",
+    "DESCRIPTION": "自分への5以上のダメージは4になる。 NL カウントダウン 2：この能力を失う。"
+  },
+  "shadowverse:EternalDogma": {
+    "NAME": "エターナル・ドグマ",
+    "DESCRIPTION": "ターン開始時、追加でカードを1枚引き、HPを2回復する。 NL  カウントダウン 2：この能力を失う。"
+  },
+  "shadowverse:SummonDivineTreasure": {
+    "NAME": "神器鳴動",
+    "DESCRIPTION": "チョイス : NL *ジャジメント・スピア NL *ギルティ・シールド NL *エターナル・ドグマ NL エンハンス 2： *神器の使者 1枚を手札に加える。 NL エンハンス 3： *神器の番人 1枚を手札に加える。 NL あと !stslib:ex! 回使って廃棄する。"
+  },
+  "shadowverse:SummonDivineTreasure_Copy": {
+    "NAME": "神器鳴動",
+    "DESCRIPTION": "チョイス : NL *ジャジメント・スピア NL *ギルティ・シールド NL *エターナル・ドグマ NL 廃棄 。"
+  },
+  "shadowverse:ImperialSaint": {
+    "NAME": "インペリアルセイント",
+    "DESCRIPTION": "!M! 仮HP を得る。 NL ブラー を1得る。 NL 死を1回だけ回避し、50%のHPを回復して1ターンを追加する。"
+  },
+  "shadowverse:BelphometStatus": {
+    "NAME": "支配者の弾圧",
+    "DESCRIPTION": "保留 。 NL 機械 。 NL 自分に4ダメージを与える。 NL 保留 される時、手札のこのカード以外の *支配者の弾圧 の数だけ自分に !M! ダメージを与える。"
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "shadowverse:AbyssDoomLord": {
+    "NAME": "Doomlord of the Abyss",
+    "DESCRIPTION": "Exhaust any number of cards in your hand. NL Deal !D! damage. NL Lose HP until your HP equals 1. NL Deal damage equal to double the HP you lost. NL Any damage you take until your next turn becomes 0. NL Exhaust."
+  },
+  "shadowverse:SevensForceSorcerer": {
+    "NAME": "Sorcerer of Seven Forces",
+    "DESCRIPTION": "Whenever you play 7 Skill cards in 1 turn, kill ALL enemies and remove this effect.",
+    "UPGRADE_DESCRIPTION": "Whenever you play 7 Skill cards in 1 turn, kill ALL enemies and remove this effect. NL ALL 1 cost Skills cost 0 this turn."
+  },
+  "shadowverse:EnRadiantAngel": {
+    "NAME": "Radiance Angel",
+    "DESCRIPTION": "Gain !B! Block. NL Heal !M! HP. NL Draw 1 more card next turn."
+  },
+  "shadowverse:EnAncientLionSpirit": {
+    "NAME": "Ancient Lion Spirit",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies."
+  },
+  "shadowverse:EnPriestOfTheCudgel": {
+    "NAME": "Priest of the Cudgel",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable. NL Exhaust 1 card on the top of your draw pile."
+  },
+  "shadowverse:EnArdentSister": {
+    "NAME": "Ardent Nun",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Strength."
+  },
+  "shadowverse:EnHeavenlyHound": {
+    "NAME": "Heavenly Hound",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Plated Armor."
+  },
+  "shadowverse:EnDarkPriest": {
+    "NAME": "Dark Priest",
+    "DESCRIPTION": "Gain !B! Block. NL Apply !M! Weak and Frail."
+  },
+  "shadowverse:EnThemisDecree": {
+    "NAME": "Themis Decree",
+    "DESCRIPTION": "Exhaust ALL Attacks in enemy's draw pile. NL Exhaust."
+  },
+  "shadowverse:KMRGaze": {
+    "NAME": "KMR's Gaze",
+    "DESCRIPTION": "Whenever you draw this card, ALL Skills in your hand cost 10 more this turn. NL Ethereal."
+  },
+  "shadowverse:WUP": {
+    "NAME": "World Uprooted",
+    "DESCRIPTION": "Machina - Natura. NL Whenever you draw this card, add 2 *Tyrannical *Force into your hand. NL If there are no Machina or Natura cards in your deck, add 1 more. NL Ethereal."
+  },
+  "shadowverse:Death": {
+    "NAME": "Death",
+    "DESCRIPTION": "At the end of your turn, die if your draw pile is empty."
+  },
+  "shadowverse:Altersphere": {
+    "NAME": "Altersphere",
+    "DESCRIPTION": "Whenever you play a card, randomly Exhaust a card in your hand and put a random card into your hand. NL Ethereal."
+  },
+  "shadowverse:Rowen": {
+    "NAME": "Smiling Rowen",
+    "DESCRIPTION": "At the end of your turn, put 1 *Curse *of *the *Black *Dragon into your hand."
+  },
+  "shadowverse:CurseOfTheBlackDragon": {
+    "NAME": "Curse of the Black Dragon",
+    "DESCRIPTION": "Retain. NL If Overflow is not active, lose 1 HP at the end of your turn. NL If Overflow is active, deal !D! damage to a random enemy."
+  },
+  "shadowverse:ShadowBahmut": {
+    "NAME": "Shadow Bahamut",
+    "DESCRIPTION": "Deal !D! unblockable damage. NL Enemy loses ALL buffs except Strength and Dexterity. NL Kill ALL Minions."
+  },
+  "shadowverse:ShiningValkyrie": {
+    "NAME": "Shining Valkyrie",
+    "DESCRIPTION": "Put !M! *Fairy into your hand. NL Put 1 *Fairy into your hand at the start of your turn. NL Whenever you play a *Fairy, deal 6 damage to a random enemy, gain 1 Strength and 1 Dexterity."
+  },
+  "shadowverse:LegendSwordCommander": {
+    "NAME": "Legendary Sword Commander",
+    "DESCRIPTION": "Block is no longer removed at the start of your turn. NL At the end of your turn, gain !M! Block. NL Whenever you play an attack card, deal !M! damage to ALL enemies."
+  },
+  "shadowverse:DeadSoulTaker": {
+    "NAME": "Departed Soultaker",
+    "DESCRIPTION": "Gain !B! Block. NL Put 1 Attack card from your Exhaust pile to your hand and change its cost to 0 this turn. NL Necromancy 10: Put random Attack cards played in this combat into your hand until it is full. These cards cost 0 and have Exhaust."
+  },
+  "shadowverse:KMRsPresent": {
+    "NAME": "KMR's Present",
+    "DESCRIPTION": "Retain. NL Choose: Put 1 *Mythical *Card into your hand (select and scroll from the drop-down list). NL Exhaust."
+  },
+  "shadowverse:ShadowversePain": {
+    "NAME": "Shadowverse is Pain",
+    "DESCRIPTION": "Whenever you play a Shadowverse card, lose 1 HP."
+  },
+  "shadowverse:Betray": {
+    "NAME": "Shadowverse Betrayed Me!",
+    "DESCRIPTION": "At the end of your turn, put a copy of this card into your discard pile. NL Exhaust."
+  },
+  "shadowverse:CalamityMode": {
+    "NAME": "Calamity's Genesis'",
+    "DESCRIPTION": "Replace your deck with a *Calamity *Deck. NL Exhaust."
+  },
+  "shadowverse:JusticeTyrant": {
+    "NAME": "Magisterial Dreadnought",
+    "DESCRIPTION": "Gain !B! Block. NL Summon 4 *World *Eliminators. NL Put 1 *Evolution *Point into enemy's hand. NL The enemy draws 1 less card next turn."
+  },
+  "shadowverse:ShangrilaBreaker": {
+    "NAME": "Ruiner of Eden",
+    "DESCRIPTION": "Deal !D! damage 10 times. NL Gain !B! Block."
+  },
+  "shadowverse:CalamityEnd": {
+    "NAME": "Calamity's End",
+    "DESCRIPTION": "Kill the enemy."
+  },
+  "shadowverse:EnDeath": {
+    "NAME": "Death",
+    "DESCRIPTION": "You die when you draw this card."
+  },
+  "shadowverse:SacredLion": {
+    "NAME": "Sacred Lion",
+    "DESCRIPTION": "Gain !B! Block. NL Gain 1 Buffer. NL Deal !M! damage back whenever you're attacked this turn. NL Put 1 Holy *Lion's *Blessing into your enemy's hand."
+  },
+  "shadowverse:LionBless": {
+    "NAME": "Holy Lion's Blessing",
+    "DESCRIPTION": "Put 1 Attack card from your Exhaust pile into your hand and change its cost to 0. NL Apply 24 Block and 6 Flame Barrier to the enemy. NL Ethereal. NL Exhaust."
+  },
+  "shadowverse:EnHereticalInquiry": {
+    "NAME": "Countdown: Heretical Inquiry",
+    "DESCRIPTION": "Randomly put !M! Curse cards into your enemy's draw pile."
+  },
+  "shadowverse:EnAcolyteLight": {
+    "NAME": "Acolyte's Light",
+    "DESCRIPTION": "If the Block of your enemy is less than 20, remove ALL Block. NL Otherwise, deal 20 damage. NL Heal HP equal to the removed Block."
+  },
+  "shadowverse:EnSacredPlea": {
+    "NAME": "Countdown: Sacred Plea",
+    "DESCRIPTION": "Draw !M! cards next turn."
+  },
+  "shadowverse:EnLucifer": {
+    "NAME": "Lucifer",
+    "DESCRIPTION": "Choose: Heal !M! HP or deal !D! damage to ALL enemies."
+  },
+  "shadowverse:EnMagisteelLion": {
+    "NAME": "Magisteel Lion",
+    "DESCRIPTION": "Gain !B! Block. NL Put 2 *Analyzing *Artifact into your draw pile."
+  },
+  "shadowverse:EnAnalyzeArtifact": {
+    "NAME": "Analyzing Artifact",
+    "DESCRIPTION": "AF. NL Deal !D! damage. NL Draw 1 more card next turn. NL Exhaust."
+  },
+  "shadowverse:TheGreatCreation": {
+    "NAME": "The Great Creation",
+    "DESCRIPTION": "Gain !M! Strength and Dexterity. NL Put 1 *Ancient *Artifact into your hand."
+  },
+  "shadowverse:EnAncientAmplifier": {
+    "NAME": "Ancient Amplifier",
+    "DESCRIPTION": "Give your enemy the following effect: Randomly put !M! cards into your draw pile. Put 1 less card every turn. NL Lasts for !M! turns."
+  },
+  "shadowverse:EnMysticArtifact": {
+    "NAME": "Mystic Artifact",
+    "DESCRIPTION": "AF. NL Gain !B! Block. NL Draw 1 more card next turn."
+  },
+  "shadowverse:EnGenesisArtifact": {
+    "NAME": "Genesis Artifact",
+    "DESCRIPTION": "AF. NL Gain !B! Block. NL Put 1 *Guard *Artifact and *Defecse *Artifact into your hand. NL Put 2 *Cannon *Artifact into your draw pile."
+  },
+  "shadowverse:EnSpineLucille": {
+    "NAME": "Spinaria & Lucille, Keepers",
+    "DESCRIPTION": "AF. NL Deal !D! damage to ALL enemies"
+  },
+  "shadowverse:AncientArtifact": {
+    "NAME": "Ancient Artifact",
+    "DESCRIPTION": "AF. NL Deal !D! damage. NL Exhaust."
+  },
+  "shadowverse:EnBlackenedScripture": {
+    "NAME": "Blackened Scripture",
+    "DESCRIPTION": "Apply !M! Weak and Frail."
+  },
+  "shadowverse:EnMoonAlmiraj": {
+    "NAME": "Moon Al-mi'raj",
+    "DESCRIPTION": "Deal !D! damage and heal HP equal to the damage dealt. NL Gain !B! Block."
+  },
+  "shadowverse:AbsoluteJudgment": {
+    "NAME": "Almighty Verdict",
+    "DESCRIPTION": "If the enemy does not have Vulnerable, apply !M! Vulnerable. NL If the enemy has Vulnerable, the enemy loses 1 Strength. NL The next damage you take becomes 0. NL Exhaust."
+  },
+  "shadowverse:AbsoluteOne": {
+    "NAME": "The Almighty One",
+    "DESCRIPTION": "Gain !B! Block. NL Immune to Power damage. NL Put a *Almighty *Verdict into your hand at the start of your turn. NL Exhaust."
+  },
+  "shadowverse:EnAcceleratium": {
+    "NAME": "Acceleratium",
+    "DESCRIPTION": "Gain !M! Energy next turn."
+  },
+  "shadowverse:ShadowMode": {
+    "NAME": "Shadow Aura",
+    "DESCRIPTION": "Gain 1 Intangible."
+  },
+  "shadowverse:EdgeArtifact": {
+    "NAME": "Keenedge Artifact",
+    "DESCRIPTION": "AF. NL Deal !D! damage. NL Heal HP equal to the damage dealt. NL Exhaust."
+  },
+  "shadowverse:BlitzArtifact": {
+    "NAME": "Airstrike Artifact",
+    "DESCRIPTION": "AF. NL Deal !D! damage. NL Last_Words: When Exhausted, deal !M! damage to ALL enemies. NL Exhaust."
+  },
+  "shadowverse:EnProtectArtifact": {
+    "NAME": "Barrier Artifact",
+    "DESCRIPTION": "AF. NL Gain !B! Block. NL Apply !M! Weak. NL Exhaust."
+  },
+  "shadowverse:GuardArtifact": {
+    "NAME": "Guard Artifact",
+    "DESCRIPTION": "AF. NL Gain !B! Block. NL Gain !M! Artifact. NL Exhaust."
+  },
+  "shadowverse:DefectArtifact": {
+    "NAME": "Defense Artifact",
+    "DESCRIPTION": "AF. NL Gain !B! Block. NL Gain !M! Power_Damage_Immune. NL Exhaust."
+  },
+  "shadowverse:CannonArtifact": {
+    "NAME": "Cannon Artifact",
+    "DESCRIPTION": "AF. NL Deal !D! damage. NL Deal damage equal to !M! times the number of AF cards in your hand to a random enemy. NL Exhaust."
+  },
+  "shadowverse:EnRalmia": {
+    "NAME": "Ralmia, Sonic Racer",
+    "DESCRIPTION": "Machina - AF. NL Deal !D! damage. NL Whenever you play an AF card, gain !M! Strength. This card is affected by Strength 4 times."
+  },
+  "shadowverse:EnNightmareTime": {
+    "NAME": "Nightmare Begins",
+    "DESCRIPTION": "Lose 1 HP. NL Remove ALL debuffs. NL At the start of your turn, draw !M! additional card(s). NL Exhaust."
+  },
+  "shadowverse:EnBloodyNail": {
+    "NAME": "Bloody Claw",
+    "DESCRIPTION": "Lose 1 HP and deal !D! damage. NL Apply the following effect to an enemy: Whenever you play an Attack, you take 1 damage. NL Exhaust."
+  },
+  "shadowverse:EnDemonStorm": {
+    "NAME": "Demonic Storm",
+    "DESCRIPTION": "Deal !D! damage to yourself and ALL enemies."
+  },
+  "shadowverse:EnMono": {
+    "NAME": "Mono, Immortal Garnet",
+    "DESCRIPTION": "Machina. NL Gain !B! Block. NL Gain 2 Strength. NL If Vengeance is active, gain !M! Metallicize."
+  },
+  "shadowverse:EnDemonCommander": {
+    "NAME": "Demon Commander Laura",
+    "DESCRIPTION": "Gain !B! Block. NL If Vengeance is active, the next Attack card is played twice."
+  },
+  "shadowverse:EnTerrorNight": {
+    "NAME": "A Horrible Night",
+    "DESCRIPTION": "Deal !D! damage to yourself and ALL enemies. NL At the start of your next turn, instead of drawing cards, put a *Nightmare *Begins, *Bloody *Claw and *Cursed *Aura into your hand (Limit)."
+  },
+  "shadowverse:EnBloodPact": {
+    "NAME": "Blood Pact",
+    "DESCRIPTION": "Lose 2 HP. NL Draw !M! additional cards next turn."
+  },
+  "shadowverse:EnSeox": {
+    "NAME": "Seox, Heavenly Howl",
+    "DESCRIPTION": "Deal !D! damage twice. NL Skybound_Art 3: Repeat this 1 time. NL Super_Skybound_Art 6: Repeat this 2 times."
+  },
+  "shadowverse:EnLonePromise": {
+    "NAME": "Lone Promise",
+    "DESCRIPTION": "Machina. NL Gain 1 Strength. Heal !M! HP. NL Apply !M! Weak."
+  },
+  "shadowverse:RazoryClaw": {
+    "NAME": "Razory Claw",
+    "DESCRIPTION": "Lose 2 HP. NL Deal !D! damage."
+  },
+  "shadowverse:DarkGeneral": {
+    "NAME": "Dark General",
+    "DESCRIPTION": "Deal !D! damage. NL If Vengeance is active, double the damage."
+  },
+  "shadowverse:DiabolicDrain": {
+    "NAME": "Diabolic Drain",
+    "DESCRIPTION": "Deal !D! damage and heal !M! HP. NL If Vengeance is active, this card costs 0."
+  },
+  "shadowverse:DreadAura": {
+    "NAME": "Cursed Aura",
+    "DESCRIPTION": "Whenever you would lose HP from a card effect, reduce the amount of HP lost to 0. NL Lose 1 HP and deal !D! damage to ALL enemies. NL Exhaust."
+  },
+  "shadowverse:ForestBat": {
+    "NAME": "Forest Bat",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust."
+  },
+  "shadowverse:SummoningBloodkin": {
+    "NAME": "Summon Bloodkin",
+    "DESCRIPTION": "Add !M! *Forest *Bat into your hand.",
+    "UPGRADE_DESCRIPTION": "Add !M! *Forest *Bat+ into your hand."
+  },
+  "shadowverse:ManaForce": {
+    "NAME": "Aether Force",
+    "DESCRIPTION": "Retain. NL Natura. NL Remove the enemy's Aether Barrier. NL Exhaust."
+  },
+  "shadowverse:Maiser_Story": {
+    "NAME": "Maiser, Accelerated Hero",
+    "DESCRIPTION": "Heroic. NL Deal !D! damage. NL Put a *Bullet *Bike into your hand. NL Deal 5 damage to ALL enemies whenever you play a Skill card this turn. NL Exhaust."
+  },
+  "shadowverse:Selena_Story": {
+    "NAME": "Selena, Sugar-Sweet Ending",
+    "DESCRIPTION": "Gain !B! Block. NL If you have at least 1 other Attack card, heal 4 HP. NL If you have at least 2, draw 2 cards. NL If you have at least 3, gain 1 Strength and Dexterity. NL Exhaust."
+  },
+  "shadowverse:Illganeau_Story": {
+    "NAME": "Illganeau, Horror Awakened",
+    "DESCRIPTION": "Deal !D! damage. NL ALL enemies lose 1 Strength and Dexterity. NL Deal !M! additional damage determined by the number of cards in your exhaust pile. NL Exhaust."
+  },
+  "shadowverse:Sekka_Story": {
+    "NAME": "Sekka, Nine-Tailed Inferno",
+    "DESCRIPTION": "Deal !D! damage. NL Gain [E] and put 1 *Evolution *Point into your hand. NL If you've played at least 18 non-Strike Attack cards this combat, gain !M! Strength and Dexterity. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (X: ",
+      ".)"
+    ]
+  },
+  "shadowverse:Dracu_Story": {
+    "NAME": "Drache, Soaring Dragonlord",
+    "DESCRIPTION": "Deal !D! damage. NL Gain 1 Dexterity. NL If you have at least 5 Dexterity, deal !D! damage again. NL Exhaust."
+  },
+  "shadowverse:Kagero_Story": {
+    "NAME": "Kagero, the Blade Within",
+    "DESCRIPTION": "Deal !D! damage. NL Apply 2 Vulnerable to a random enemy. NL Necromancy 10: Deal !M! additional damage. NL Exhaust."
+  },
+  "shadowverse:VerdictWord": {
+    "NAME": "Verdict Rendered",
+    "DESCRIPTION": "Choose: Put 1 of the following cards into your hand that is not from your class: NL *Maiser, *Accelerated *Hero NL *Selena, *Sugar-Sweet *Ending NL *Illganeau, *Horror *Awakened NL NL If you've played at least 2 *Verdict *Rendered this combat, instead put ALL of them into your hand, upgrade them and double their damage this turn. NL Retain. NL Exhaust."
+  },
+  "shadowverse:AbsoluteOrder": {
+    "NAME": "Absolute Decree",
+    "DESCRIPTION": "Choose: Put 1 of the following cards into your hand that is not from your class: *Sekka, *Nine-Tailed *Inferno NL *Drache, *Soaring *Dragonlord NL *Kagero, *the *Blade *Within NL NL If you've played at least 2 *Absolute *Decree this combat, instead put ALL of them into your hand, upgrade them and double their damage this turn. NL Retain. NL Exhaust."
+  },
+  "shadowverse:Motorbike": {
+    "NAME": "Bullet Bike",
+    "DESCRIPTION": "The next attack you play deals !M! additional damage."
+  },
+  "shadowverse:Horse": {
+    "NAME": "Dutiful Steed",
+    "DESCRIPTION": "Gain !M! Strength and Dexterity."
+  },
+  "shadowverse:Fairy_f": {
+    "NAME": "Fairy",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust."
+  },
+  "shadowverse:InfiniflameDragon": {
+    "NAME": "Infiniflame Dragon",
+    "DESCRIPTION": "Deal 50 damage. NL Kill ALL minions and deal 10 damage for each one killed. NL Exhaust ALL attack cards in your hand and deal 10 damage for each one exhausted. NL Deal !D! damage twice."
+  },
+  "shadowverse:UltimateBahmut": {
+    "NAME": "Ultimate Bahamut",
+    "DESCRIPTION": "Invocation: At the start of your turn, if you've used 50 or more Energy this combat, add this card to your hand and kill ALL enemies after 3 turns. NL Accelerate 2: Deal !M! damage to a random enemy. Then, gain 2 Energy. NL --------------------- NL Deal !D! damage.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (" ,
+      " Energy used.)"
+    ]
+  },
+  "shadowverse:DivineTreasureHerald": {
+    "NAME": "Divine Treasure Herald",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Last_Words: When exhausted, add a *Summon *Divine *Treasure without Enhance to your hand. NL Exhaust."
+  },
+  "shadowverse:DivineTreasureGuardian": {
+    "NAME": "Divine Treasure Guardian",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Deal !M! damage to ALL enemies. NL Exhaust."
+  },
+  "shadowverse:JudgmentSpear": {
+    "NAME": "Spear of Judgment",
+    "DESCRIPTION": "Deal !M! damage to a random enemy at the end of your turn. NL Countdown 2: Lose this effect."
+  },
+  "shadowverse:GuiltyShield": {
+    "NAME": "Shield of Transgression",
+    "DESCRIPTION": "If you would take 5 or more damage, that damage becomes 4. NL Countdown 2: Lose this effect."
+  },
+  "shadowverse:EternalDogma": {
+    "NAME": "Eternal Dogma",
+    "DESCRIPTION": "At the start of your turn, heal 2 HP and draw a card. NL Countdown 2: Lose this effect."
+  },
+  "shadowverse:SummonDivineTreasure": {
+    "NAME": "Summon Divine Treasure",
+    "DESCRIPTION": "Choose: Play this card as: NL *Judgment *Spear NL *Shield *of *Transgression NL OR *Eternal *Dogma NL Enhance 2: Then add a *Divine *Treasure *Herald to your hand. NL Enhance 3: Then add a *Divine *Treasure *Guardian to your hand. NL Exhaust."
+  },
+  "shadowverse:SummonDivineTreasure_Copy": {
+    "NAME": "Summon Divine Treasure",
+    "DESCRIPTION": "Choose: Play this card as: NL *Judgment *Spear NL *Shield *of *Transgression NL OR *Eternal *Dogma NL Exhaust."
+  },
+  "shadowverse:ImperialSaint": {
+    "NAME": "Imperial Saint",
+    "DESCRIPTION": "Gain !M! Temporary HP. NL Gain 1 Blur. NL The next time you would die, heal to 50% of your max HP and take an extra turn after your turn instead."
+  },
+  "shadowverse:BelphometStatus": {
+    "NAME": "Tyrannical Force",
+    "DESCRIPTION": "Retain. NL Machina. NL Take 4 damage. NL Whenever this card is Retained, take !M! damage for every *Tyrannical *Force (excluding the first) in your hand."
+  }
+}
+

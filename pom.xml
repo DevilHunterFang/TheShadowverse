@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>shadowverse</groupId>
+  <artifactId>TheShadowverse</artifactId>
+  <version>0.1</version>
+  <packaging>jar</packaging>
+
+  <name>TheShadowverse</name>
+  <description>shadowverse</description>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <steam.path>D:\Steam\steamapps</steam.path>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>bin</groupId>
+      <artifactId>BaseMod</artifactId>
+      <scope>system</scope>
+      <version>1.0</version>
+      <systemPath>${steam.path}/workshop/content/646570/1605833019/BaseMod.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>bin</groupId>
+      <artifactId>SlayTheSpire</artifactId>
+      <scope>system</scope>
+      <version>1.0</version>
+      <systemPath>${steam.path}/common/SlayTheSpire/desktop-1.0.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>bin</groupId>
+      <artifactId>ModTheSpire</artifactId>
+      <scope>system</scope>
+      <version>1.0</version>
+      <systemPath>${steam.path}/workshop/content/646570/1605060445/ModTheSpire.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>actlikeit</groupId>
+      <artifactId>actlikeit</artifactId>
+      <version>v1.2.8</version>
+      <scope>system</scope>
+      <systemPath>${steam.path}/workshop/content/646570/1934902042/actlikeit.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>come.evacipated.cardcrawl</groupId>
+      <artifactId>stslib</artifactId>
+      <version>1.17.2</version>
+      <scope>system</scope>
+      <systemPath>${steam.path}/workshop/content/646570/1609158507/StSLib.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>shadowverse</groupId>
+      <artifactId>shadowverse</artifactId>
+      <version>0.1</version>
+      <scope>system</scope>
+      <systemPath>${steam.path}/workshop/content/646570/2774440141/shadowverseMod.jar</systemPath>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <finalName>TheShadowverse</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.7.0</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>1.8</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <configuration>
+              <target>
+                <copy file="target/TheShadowverse.jar"
+                      tofile="${steam.path}/common/SlayTheSpire/mods/TheShadowverse.jar"/>
+              </target>
+            </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

@@ -1,0 +1,255 @@
+{
+  "shadowverse:AbsoluteOnePower": {
+    "NAME": "궁극의 존재",
+    "DESCRIPTIONS": [
+      "파워 피해에 면역입니다. 턴 시작시 궁극의 판결을 1장 얻습니다."
+    ]
+  },
+  "shadowverse:AbyssDoomLordPower": {
+    "NAME": "어비스 둠 로드",
+    "DESCRIPTIONS": [
+      " #b",
+      " 턴간 피해를 받지 않습니다."
+    ]
+  },
+  "shadowverse:AncientAmplifierPower": {
+    "NAME": "고대의 증폭기",
+    "DESCRIPTIONS": [
+      "턴 종료시 무작위 카드 #b",
+      " 장을 뽑을 카드더미에 넣습니다. 매 턴 카드를 1장 덜 뽑습니다."
+    ]
+  },
+  "shadowverse:LionSanctuaryPower": {
+    "NAME": "사자의 성역",
+    "DESCRIPTIONS": [
+      "디버프에 면역입니다. 피해를 받으면 피해를 #b",
+      " 만큼 돌려줍니다."
+    ]
+  },
+  "shadowverse:DisableEffectDamagePower": {
+    "NAME": "파워 피해 면역",
+    "DESCRIPTIONS": [
+      "앞으로 #b",
+      " 턴동안, 파워에 의한 피해를 받지 않습니다."
+    ]
+  },
+  "shadowverse:BloodyNailPower": {
+    "NAME": "피의 손톱",
+    "DESCRIPTIONS": [
+      "당신이 공격 카드를 사용할 때마다 유리아스가 당신에게 피해를 #b",
+      " 줍니다."
+    ]
+  },
+  "shadowverse:DreadAuraPower": {
+    "NAME": "공포의 기운",
+    "DESCRIPTIONS": [
+      "카드의 효과로 잃는 체력이 0이 됩니다."
+    ]
+  },
+  "shadowverse:AlectorPower": {
+    "NAME": "파괴의 완드 크트라자",
+    "DESCRIPTIONS": [
+      "턴 종료시 모든 적이 힘을  #b",
+      " 얻습니다."
+    ]
+  },
+  "shadowverse:ManaBarrier": {
+    "NAME": "마나 배리어",
+    "DESCRIPTIONS": [
+      "받는 피해를 0으로 합니다. 마나의 힘으로 제거 가능."
+    ]
+  },
+  "shadowverse:chushouHealPower": {
+    "NAME": "차단의 촉수:유언",
+    "DESCRIPTIONS": [
+      "죽으면 벨포메트의 체력을 ",
+      " 회복시키고, 마나의 힘을 줍니다."
+    ]
+  },
+  "shadowverse:chushouExplosionPower": {
+    "NAME": "유린의 촉수:유언",
+    "DESCRIPTIONS": [
+      "죽으면 피해를  #b",
+      " 주고 마나의 힘을 줍니다."
+    ]
+  },
+  "shadowverse:NahtPower": {
+    "NAME": "폭군의 상자",
+    "DESCRIPTIONS": [
+      "매 턴 처음 이 적을 대상으로 지정하는 카드는 무효화되어 박스에 담겨버립니다.",
+      ". 담긴 카드:",
+      "이번 턴 발동했습니다.",
+      "이번 턴 아직 발동하지 않았습니다."
+    ]
+  },
+  "shadowverse:ICPower": {
+    "NAME": "번영의 저주",
+    "DESCRIPTIONS": [
+      " 사용한 카드마다 피해 +1. 자기자신에게 피해를 #b",
+      " 줍니다."
+    ]
+  },
+  "shadowverse:ICPower2": {
+    "NAME": "대가",
+    "DESCRIPTIONS": [
+      "이번 턴 아이시렌드링이 받은 피해만큼 당신도 피해를 받고, 아이시렌드링은 그만큼 회복합니다. 피해를 #b",
+      " 줍니다."
+    ]
+  },
+  "shadowverse:NoDamage": {
+    "NAME": "심판의 한마디:피해 봉인",
+    "DESCRIPTIONS": [
+      "피해를 줄 수 없습니다."
+    ]
+  },
+  "shadowverse:NoPower": {
+    "NAME": "심판의 한마디:파워 봉인",
+    "DESCRIPTIONS": [
+      "파워 카드를 쓸 수 없습니다."
+    ]
+  },
+  "shadowverse:ManaPower": {
+    "NAME": "마나의 힘",
+    "DESCRIPTIONS": [
+      "1턴동안 카드를 12장 사용하면 마나의 힘을 1장 얻습니다. 마나의 힘이 있다면, 다음 심판의 한마디를 무효화합니다."
+    ]
+  },
+  "shadowverse:JudgmentWordPower": {
+    "NAME": "심판의 한마디",
+    "DESCRIPTIONS": [
+      "턴 시작시 피해봉인, 파워봉인, 주술(1턴), 방어불가 중 하나를 얻습니다. 에너지를 남긴채 턴을 끝내면 인공물을 1 얻습니다."
+    ]
+  },
+  "shadowverse:RapidFirePower": {
+    "NAME": "래피드 파이어",
+    "DESCRIPTIONS": [
+      "카드를 3장 사용할 때마다, 피해를 #b",
+      " 받습니다."
+    ]
+  },
+  "shadowverse:FreezePower": {
+    "NAME": "동결",
+    "DESCRIPTIONS": [
+      "뽑은 카드의 비용+1."
+    ]
+  },
+  "shadowverse:KMFPower": {
+    "NAME": "절대방어영역",
+    "DESCRIPTIONS": [
+      " #b",
+      " 이하의 피해를 받지 않습니다. 피해를 받으면 이번 턴 이 효과가 해제됩니다."
+    ]
+  },
+  "shadowverse:CheckmatePower": {
+    "NAME": "체크메이트",
+    "DESCRIPTIONS": [
+      "희귀 카드를 사용하면 피해를 #b",
+      " 받고 이 효과를 잃습니다."
+    ]
+  },
+  "shadowverse:GeassPower": {
+    "NAME": "기아스",
+    "DESCRIPTIONS": [
+      "턴 종료시 기아스 1장을 뽑을 카드더미에 넣습니다."
+    ]
+  },
+  "shadowverse:CurseOfGeass": {
+    "NAME": "기아스의 저주",
+    "DESCRIPTIONS": [
+      "죽으려고 할때, 모든 디버프를 없애고 체력을 1 회복한 다음, 힘과 민첩을 5 얻고 턴 종료시 방어도를 25 얻습니다."
+    ]
+  },
+  "shadowverse:CommanderPower": {
+    "NAME": "Tactical Command",
+    "DESCRIPTIONS": [
+      "At the end of turn, activate the following effects in order: NL 1. All enemies gain #b1 #yArtifact NL 2. All enemies gain #b1 #yStrength NL 3. All enemies gain #b3 #yPlated #yArmor NL 4. Apply #b2 #yWeak."
+    ]
+  },
+  "shadowverse:TaketsumiPower": {
+    "NAME": "대거미의 힘",
+    "DESCRIPTIONS": [
+      "소멸될때 타케츠미의 최대 HP를 80 줄인다."
+    ]
+  },
+  "shadowverse:HeroOfTheHuntPower": {
+    "NAME": "호기로운 검놀림",
+    "DESCRIPTIONS": [
+      "받는 피해가 #b",
+      " 감소합니다."
+    ]
+  },
+  "shadowverse:Cemetery": {
+    "NAME": "묘지",
+    "DESCRIPTIONS": [
+      "카드를 사용하거나 몇몇 효과를 발동할때 증가합니다. 사령술을 사용할 때 소모됩니다."
+    ]
+  },
+  "shadowverse:ImperialSaintPower": {
+    "NAME": "임페리얼 세인트",
+    "DESCRIPTIONS": [
+      "이 다음 죽으려고 할때 체력을 50% 회복하고 추가 턴을 얻습니다."
+    ]
+  },
+  "shadowverse:GuiltyShieldPower": {
+    "NAME": "길티 실드",
+    "DESCRIPTIONS": [
+      " #b5 이상의 피해를 #b4 로 줄여받습니다. 앞으로 #b",
+      " 턴간 지속됩니다."
+    ]
+  },
+  "shadowverse:JudgementSpearPower": {
+    "NAME": "저지먼트 스피어",
+    "DESCRIPTIONS": [
+      "턴 종료시 무작위 적에게 피해를 #b",
+      " 줍니다. 앞으로 #b",
+      " 턴 지속됩니다. "
+    ]
+  },
+  "shadowverse:EternalDogmaPower": {
+    "NAME": "이터널 도그마",
+    "DESCRIPTIONS": [
+      "턴 시작시, 카드를 #b1 장 더 뽑고,체력을 #b2 회복합니다. 앞으로 #b",
+      " 턴 지속됩니다. "
+    ]
+  },
+  "shadowverse:UltimateBahmutPower": {
+    "NAME": "얼티메이트 바하무트",
+    "DESCRIPTIONS": [
+      "턴 종료시 카운트다운이 #b1 진행됩니다. 카운트다운이 0이 되면, 즉사합니다. "
+    ]
+  },
+  "shadowverse:ShiningValkyriePower": {
+    "NAME": "샤이닝 발키리",
+    "DESCRIPTIONS": [
+      "턴 시작시 요정을 1장 얻습니다. NL 요정을 사용할 때 마다 힘을 2, 민첩을 1 얻습니다."
+    ]
+  },
+  "shadowverse:SevensForceSorcererPower": {
+    "NAME": "세븐 포스 소서러",
+    "DESCRIPTIONS": [
+      "1턴에 스킬 카드를 #b",
+      " 장 쓰면 모든 적을 죽이고 이 효과를 잃습니다."
+    ]
+  },
+  "shadowverse:LegendSwordCommanderPower": {
+    "NAME": "전설의 검",
+    "DESCRIPTIONS": [
+      "전 종료시 방어도를 #b",
+      " 얻습니다. 공격 카드를 사용할 때마다 모든 적에게 피해를  #b",
+      " 줍니다."
+    ]
+  },
+  "shadowverse:betterExplosionPower": {
+    "NAME": "유린의 촉수:유언",
+    "DESCRIPTIONS": [
+      "죽으면 피해를  #b",
+      " 주고 마나의 힘을 줍니다."
+    ]
+  },
+  "shadowverse:MaiserPower": {
+    "NAME": "음속질주의 영웅 마이저",
+    "DESCRIPTIONS": [
+      "스킬 카드를 사용할 때마다 모든 적에게 피해를 5 줍니다."
+    ]
+  }
+}

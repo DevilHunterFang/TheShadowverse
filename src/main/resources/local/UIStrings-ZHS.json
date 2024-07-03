@@ -1,0 +1,56 @@
+{
+  "shadowverse:Burial": {
+    "TEXT": [
+      "葬送"
+    ]
+  },
+  "shadowverse:applyEffect": {
+    "TEXT": [
+      "选择一张牌赋予效果"
+    ]
+  },
+  "shadowverse:EnergyPanelTip": {
+    "TEXT": [
+      "敌人当前的能量。打出卡牌需要能量。"
+    ],
+    "EXTRA_TEXT": [
+      "能量"
+    ]
+  },
+  "shadowverse:Exhaust": {
+    "TEXT": [
+      "消耗"
+    ]
+  },
+  "shadowverse:Ethereal": {
+    "TEXT": [
+      "虚无"
+    ]
+  },
+  "shadowverse:Retain": {
+    "TEXT": [
+      "保留"
+    ]
+  },
+  "shadowverse:Rivayle": {
+    "TEXT": [
+      "勒比卢",
+      "",
+      "一道次元 #b裂缝 出现在前进的道路上，看来是时候追击 @管理者@ 了。继续往上攀登，还是向着未知的世界出发，是时候做出 #g抉择 了。",
+      "进入勒比卢。"
+    ]
+  },
+  "shadowverse:WhispersOfPurgation": {
+    "TEXT": [
+      "次元裂隙",
+      "",
+      " @管理者@ 向不同世界派出了侵略者。是时候 #g支援 世界，打倒 #b肃清 的爪牙，夺回未来了。",
+      "进入次元裂缝。"
+    ]
+  },
+  "shadowverse:CetusAction": {
+    "TEXT": [
+      "返回手牌"
+    ]
+  }
+}

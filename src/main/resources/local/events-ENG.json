@@ -1,0 +1,77 @@
+{
+  "shadowverse:LelouchCollaboration": {
+    "NAME": "CODE GEASS Lelouch of the Rebellion Collaboration",
+    "DESCRIPTIONS": [
+      "You ignore the event, but somehow Lelouch casts #rGeass on you!",
+      "#r@Ambush!@ NL Your enemies are not just Lelouch but also Suzaku operating Lancelot, appearing out of nowhere!",
+      "The Campaign #b~Lelouch~ #b~of~ #b~the~ #b~Rebellion~ is in progress. NL The time limited boss Lelouch is waiting for you! NL You have no interest in attending, but as soon as you try to leave, a strange desire in your heart drives you to #b~Challenge~ Lelouch..."
+    ],
+    "OPTIONS": [
+      "[Challenge] #rChallenge #rthe #rBOSS.",
+      "[Ignore]  Ignore the event",
+      " #rBecome #rCursed #r- #rGeass.",
+      "[Fight]",
+      "[Leave]"
+    ]
+  },
+  "shadowverse:SellCard": {
+    "NAME": "Valhorean Dealer",
+    "DESCRIPTIONS": [
+      "You see a girl with purple hair sitting next to a pile of goods. NL ",
+      "'Greetings! ~Welcome~ ~to~ ~Varona's~ ~stall!~ NL Is there anything you would like to sell?'",
+      "You give a card to the dealer. NL NL ",
+      "#r@Bang@ NL She hits you right in the face with her gloved fist. NL 'Do you think I'm stupid?! Get lost!' NL ",
+      "'Do you really think I'll pay for this trash?' NL ",
+      "'Well... It's better than nothing, anyway. Here, take this.' NL ",
+      "'I've never seen this before... I'm not sure what the value is. ~How~ ~about~ ~this~ ~much?~' NL ",
+      "'Wow, this one looks great! Give it to me!' NL ",
+      "'Wow! This is some grade-A goods! ... No refunds! ' NL ",
+      "'Oops, ~looks~ ~like~ ~you~ ~have~ ~nothing~ ~to~ ~sell.~ ~Move~ ~along~ ~then.~' NL ",
+      "The War Merchant Alyaska speaks with her. 'Magnificent! NL You truly are a shining example of a Valhorean Association merchant. Selling weapons at cut-rate prices has created fertile ground for the seeds of war to grow. NL See for yourself—a profusion of fiery blooms as far as the eye can see.' NL 'I'm sorry! Please forgive me!' NL "
+    ],
+    "OPTIONS": [
+      "[Continue]",
+      "[Sell] Choose a card from your deck to sell.",
+      "[Arrest] Gain a special Relic.",
+      "[Lock] Needs a copy of either #yAlyaska .",
+      "[Leave]",
+      "Choose 1 card to sell"
+    ]
+  },
+  "Crossover": {
+    "NAME": "Storms Cross Craft",
+    "DESCRIPTIONS": [
+      "In pursuit of your coveted animated Grandmaster deck sleeves, there is an event taking place. As you come closer, you notice that it's the Omen of Storms Cross Craft Cup! ~'Sounds~ ~like~ ~it's~ ~another~ ~competition~ ~of~ #y~Luck~ .' NL #r@'Wait,@ #r@why@ #r@is@ #r@it@ #r@all@ #r@Swordcraft@ #r@and@ #r@Shadowcraft players?!'@ NL NL A man asks you with a smile on his face: NL 'Are you interested in entering the #y~Storms~ #y~Cross~ #y~Craft~ #y~Cup~ ?'",
+      "",
+      "#y'Marvelous!' NL Soon after your reply, the whole arena is shrouded in #p~thick~ #p~black~ #p~smoke~ ... NL NL Just as you're about to win your 4th match and be placed into Group A, your opponent plays Ladica, Verdant Claw and kills your leader on turn 5. NL NL The match is over and you're back in the Spire, but somehow you feel a bit #bAngry .",
+      "'What a disappointment...' NL ~Sooner~ ~or~ ~later~ ~you~ ~will~ ~join~ ~us!'~  NL #r@'Hahaha@ #r@Hahahahaha!'@ NL NL The man disappears, leaving only the disturbing laughter echoing in your ears.",
+      ""
+    ],
+    "OPTIONS": [
+      "[Attend the match] #gGain #gCross #gCraft Relic . #rLose #r",
+      " #rHP.",
+      "[Refuse]",
+      "[Attend the match] #gGain #gCross #gCraft Relic . #rLose #r",
+      "",
+      "[Leave]"
+    ]
+  },
+  "shadowverse:IceschillendrigEvent": {
+    "NAME": "Who is your enemy?",
+    "DESCRIPTIONS": [
+      "After a time of great strife, you will face a #p~turning~ #p~point~. NL The scales will begin to tip, and the world will begin to tremble.",
+      "So choose wisely. Who is your #r~enemy~ ? NL Who will you lay #b~waste~ to?",
+      "I'm afraid you don't have that right. NL ~Not~ ~for~ ~now,~ ~at~ ~least.~",
+      "(No. That can't be right... ~Right?~ )",
+      "~My!~ NL ~Very~ ~well~ ~then.~"
+    ],
+    "OPTIONS": [
+      "[Continue]",
+      "Shoot #rIceschillendrg ",
+      "No one deserves to die",
+      "Shoot #g------ (Requires Mystical Bullet. Good Luck!)",
+      "[Leave]",
+      "Shoot #gFleauesse"
+    ]
+  }
+}

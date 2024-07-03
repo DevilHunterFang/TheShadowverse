@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r7">
+    <folder id="0">
+        <file id="0" name="chushou2B.png" width="1240" height="985" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="chushou2A.png" width="937" height="1466" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="bone_000" type="bone" w="135.603" h="10"/>
+        <animation id="0" name="NewAnimation" length="4000" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="2" key="0"/>
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="999">
+                    <bone_ref id="0" timeline="2" key="1"/>
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="1999">
+                    <bone_ref id="0" timeline="2" key="2"/>
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="3002">
+                    <bone_ref id="0" timeline="2" key="3"/>
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="chushou2A">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="26.810204" y="184.616795" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="1" time="999" spin="0">
+                    <object folder="0" file="1" x="26.810204" y="184.616795" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="2" time="1999" spin="0">
+                    <object folder="0" file="1" x="26.810204" y="184.616795" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="3" time="3002" spin="0">
+                    <object folder="0" file="1" x="26.810204" y="184.616795" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="chushou2B">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="95.63359" y="7.15774" angle="150.865708" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="1" time="999" spin="0">
+                    <object folder="0" file="0" x="95.63359" y="7.15774" angle="150.865708" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="2" time="1999" spin="0">
+                    <object folder="0" file="0" x="95.63359" y="7.15774" angle="150.865708" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="3" time="3002" spin="0">
+                    <object folder="0" file="0" x="95.63359" y="7.15774" angle="150.865708" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="0" name="bone_000" object_type="bone">
+                <key id="0">
+                    <bone x="65.048544" y="382.524272" angle="209.134292"/>
+                </key>
+                <key id="1" time="999" spin="-1">
+                    <bone x="65.048544" y="382.524272" angle="212.810077"/>
+                </key>
+                <key id="2" time="1999" spin="-1">
+                    <bone x="65.048544" y="382.524272" angle="209.134292"/>
+                </key>
+                <key id="3" time="3002">
+                    <bone x="65.048544" y="382.524272" angle="201.586128"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

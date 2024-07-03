@@ -1,0 +1,462 @@
+{
+  "shadowverse:AbsoluteOnePower": {
+    "NAME": "绝对之一",
+    "DESCRIPTIONS": [
+      "因能力受到的伤害变为0。回合开始时将 #b1 张 #y绝对制裁 加入手中。"
+    ]
+  },
+  "shadowverse:AbyssDoomLordPower": {
+    "NAME": "深渊毁灭领主",
+    "DESCRIPTIONS": [
+      " #b",
+      " 回合内，你受到的伤害变为0。"
+    ]
+  },
+  "shadowverse:AncientAmplifierPower": {
+    "NAME": "古代增幅器",
+    "DESCRIPTIONS": [
+      "回合结束时，增加 #b",
+      " 张随机牌到你的抽牌堆中。这个效果回合开始时减少1层。"
+    ]
+  },
+  "shadowverse:LionSanctuaryPower": {
+    "NAME": "狮子的圣域",
+    "DESCRIPTIONS": [
+      "不会受到负面效果影响。受到攻击时，对攻击者造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "shadowverse:DisableEffectDamagePower": {
+    "NAME": "能力伤害无效",
+    "DESCRIPTIONS": [
+      "#b",
+      " 回合内因能力受到的伤害无效。"
+    ]
+  },
+  "shadowverse:BloodyNailPower": {
+    "NAME": "血腥利爪",
+    "DESCRIPTIONS": [
+      "每打出1张 #y攻击牌 ， #y尤里亚斯 将会对你造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "shadowverse:DreadAuraPower": {
+    "NAME": "惊惧气息",
+    "DESCRIPTIONS": [
+      "因自己失去的生命转变为0。"
+    ]
+  },
+  "shadowverse:AlectorPower": {
+    "NAME": "破坏杖·库多拉贾",
+    "DESCRIPTIONS": [
+      "回合结束时，全体敌人获得 #b",
+      " 点 #y力量 。"
+    ]
+  },
+  "shadowverse:ManaBarrier": {
+    "NAME": "马纳屏障",
+    "DESCRIPTIONS": [
+      "受到攻击伤害的为 #b0 。可以使用 #y马纳之力 移除。"
+    ]
+  },
+  "shadowverse:chushouHealPower": {
+    "NAME": "阻断的触手：谢幕曲",
+    "DESCRIPTIONS": [
+      "死亡时，回复 #y贝尔冯特·阿德莱特 #b",
+      " 点生命值。增加1张 #y马纳之力 到手中。"
+    ]
+  },
+  "shadowverse:chushouExplosionPower": {
+    "NAME": "蹂躏的触手：谢幕曲",
+    "DESCRIPTIONS": [
+      "死亡时，造成 #b",
+      " 点伤害。增加1张 #y马纳之力 到手中。"
+    ]
+  },
+  "shadowverse:NahtPower": {
+    "NAME": "暴君的箱庭",
+    "DESCRIPTIONS": [
+      "每回合第一张目标包含此敌人的卡牌将无效并存在箱子中",
+      "，已存卡牌：",
+      "本回合已发动。",
+      "本回合未发动。"
+    ]
+  },
+  "shadowverse:ICPower": {
+    "NAME": "泰坦诅咒",
+    "DESCRIPTIONS": [
+      "每次使用卡牌将在回合结束时对自身造成 #b1 点伤害。当前返还 #b",
+      " 点伤害。"
+    ]
+  },
+  "shadowverse:ICPower2": {
+    "NAME": "诅咒之力",
+    "DESCRIPTIONS": [
+      "受到的伤害将在 #y艾希连德凛克 回合结束时全额返还给玩家，并等额回复 #y艾希连德凛克 的血量。当前返还 #b",
+      " 点伤害。"
+    ]
+  },
+  "shadowverse:NoDamage": {
+    "NAME": "宣判之词：禁止伤害",
+    "DESCRIPTIONS": [
+      "无法造成伤害。"
+    ]
+  },
+  "shadowverse:NoPower": {
+    "NAME": "宣判之词：禁止能力",
+    "DESCRIPTIONS": [
+      "无法打出 #y能力牌 。"
+    ]
+  },
+  "shadowverse:ManaPower": {
+    "NAME": "魔力",
+    "DESCRIPTIONS": [
+      "你可以依靠 #g魔力 来抵御文森特的言语。回合内打出第 #b12 张牌时提高 #b1 层魔力，当你有 #b1 层以上的魔力时，抵御一次文森特的消除能力。"
+    ]
+  },
+  "shadowverse:JudgmentWordPower": {
+    "NAME": "宣判之词",
+    "DESCRIPTIONS": [
+      "回合开始时，轮流获得 #y无法造成伤害 、 #y无法打出能力牌 、 #y邪咒 （一回合） 、 #y无法获得 #y格挡 。(回合结束时如果有剩余能量则获得 #b1 层 #y人工制品 )"
+    ]
+  },
+  "shadowverse:RapidFirePower": {
+    "NAME": "集中火力",
+    "DESCRIPTIONS": [
+      "每打出 #b3 张牌，受到 #b",
+      " 点伤害。"
+    ]
+  },
+  "shadowverse:FreezePower": {
+    "NAME": "冻结",
+    "DESCRIPTIONS": [
+      "你抽到的牌耗能+1。"
+    ]
+  },
+  "shadowverse:KMFPower": {
+    "NAME": "绝对守护领域",
+    "DESCRIPTIONS": [
+      "受到的 #b",
+      " 点以下的伤害将会被无效化。当受到攻击伤害时，当回合将会失效。"
+    ]
+  },
+  "shadowverse:CheckmatePower": {
+    "NAME": "奇迹的条件",
+    "DESCRIPTIONS": [
+      "如果打出 #y稀有牌 则会立即受到 #b",
+      " 点伤害并失去此能力。"
+    ]
+  },
+  "shadowverse:GeassPower": {
+    "NAME": "Geass",
+    "DESCRIPTIONS": [
+      "回合结束时，将1张 #yGeass 加入抽牌堆。"
+    ]
+  },
+  "shadowverse:CurseOfGeass": {
+    "NAME": "Geass的咒缚",
+    "DESCRIPTIONS": [
+      "受到致死伤害时，移除所有负面效果，回复1点生命值并强制结束回合，获得 #b5 点 #y力量 和 #y敏捷 ， #b25 点 #y格挡 。"
+    ]
+  },
+  "shadowverse:CommanderPower": {
+    "NAME": "战术指挥",
+    "DESCRIPTIONS": [
+      "回合结束时轮流执行以下行动：1.全体敌人获得 #b1 层 #y人工制品 、 2.全体敌人获得 #b1 点 #y力量 、 3.全体敌人获得 #b3 点 #y多层护甲 、4.给予 #b2 层 #y虚弱 。"
+    ]
+  },
+  "shadowverse:TaketsumiPower": {
+    "NAME": "大蜘蛛之力",
+    "DESCRIPTIONS": [
+      "造成伤害时，回复 #y武祇 等量生命。死亡时，减少 #y武祇 #b80 点最大生命值。 NL 进入战斗时， #y武祇 获得 #b1 层 #y那塔拉的宝树 。"
+    ]
+  },
+  "shadowverse:HeroOfTheHuntPower": {
+    "NAME": "炫目的崭露",
+    "DESCRIPTIONS": [
+      "受到的伤害减少 #b",
+      " 。"
+    ]
+  },
+  "shadowverse:Cemetery": {
+    "NAME": "墓地",
+    "DESCRIPTIONS": [
+      "使用卡牌以及一些特殊效果会增加。可以消耗墓地来发动 #y死灵术 。"
+    ]
+  },
+  "shadowverse:ImperialSaintPower": {
+    "NAME": "威严圣者",
+    "DESCRIPTIONS": [
+      "无效一次死亡，回复最大生命值 #b50% 的生命并追加 #b1 个额外回合。"
+    ]
+  },
+  "shadowverse:GuiltyShieldPower": {
+    "NAME": "罪恶之盾",
+    "DESCRIPTIONS": [
+      "受到的 #b5 以上的伤害变为 #b4 。 #b",
+      " 回合后时失去这个效果。"
+    ]
+  },
+  "shadowverse:JudgementSpearPower": {
+    "NAME": "裁决之枪",
+    "DESCRIPTIONS": [
+      "回合结束时对随机敌人造成 #b",
+      " 点伤害。 #b",
+      " 回合后失去这个效果。"
+    ]
+  },
+  "shadowverse:EternalDogmaPower": {
+    "NAME": "永恒教义",
+    "DESCRIPTIONS": [
+      "回合开始时额外抽 #b1 张牌，回复 #b2 点生命。 #b",
+      " 回合后失去这个效果。"
+    ]
+  },
+  "shadowverse:UltimateBahmutPower": {
+    "NAME": "究极巴哈姆特",
+    "DESCRIPTIONS": [
+      "每回合结束减少 #b1 倒计时。倒计时结束时死亡。"
+    ]
+  },
+  "shadowverse:ShiningValkyriePower": {
+    "NAME": "闪耀女武神",
+    "DESCRIPTIONS": [
+      "每回合开始增加 #b1 张 #y妖精 到手中。每当打出 #y妖精 时，对随机敌人造成 #b6 点伤害并获得 #b1 点 #y力量 和 #b1 点 #y敏捷 。"
+    ]
+  },
+  "shadowverse:SevensForceSorcererPower": {
+    "NAME": "七彩之力召唤师",
+    "DESCRIPTIONS": [
+      "打出 #b",
+      " 张技能牌后，消灭所有敌人并失去此效果。"
+    ]
+  },
+  "shadowverse:LegendSwordCommanderPower": {
+    "NAME": "传说之剑",
+    "DESCRIPTIONS": [
+      "回合结束时获得 #b",
+      " 点 #y格挡 。打出 #y攻击牌 时对全体敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "shadowverse:betterExplosionPower": {
+    "NAME": "爆炸",
+    "DESCRIPTIONS": [
+      "死亡时，造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "shadowverse:UnseenManaPower": {
+    "NAME": "不可视之线",
+    "DESCRIPTIONS": [
+      "打出 #b",
+      " 张牌后强制结束回合。"
+    ]
+  },
+  "shadowverse:MaiserPower": {
+    "NAME": "音速英雄·麦哲",
+    "DESCRIPTIONS": [
+      "打出 #y技能牌 时，对全体敌人造成 #b5 点伤害。"
+    ]
+  },
+  "shadowverse:ShadowMarkPower": {
+    "NAME": "安宁的侵蚀",
+    "DESCRIPTIONS": [
+      "每当此能力增加时，根据当前层数获得效果。 NL (1)获得 #b2 层 #y易伤 。 NL (2)获得 #b2 层 #y虚弱 。 NL (3)失去 #b1 点 #y力量 。 NL (4)增加 #b3 张 #y眩晕 到弃牌堆中。 NL (5)增加 #b1 张 #y虚空 到抽牌堆中。 NL (6)失去 #b1 点 #y敏捷 并重新计数。"
+    ]
+  },
+  "shadowverse:ShadePower": {
+    "NAME": "虚幻之影",
+    "DESCRIPTIONS": [
+      "受到 #b",
+      " 次伤害后获得 #y无实体 。死亡时，给予敌人 #b1 层 #y安宁的侵蚀 。"
+    ]
+  },
+  "shadowverse:RapidPower": {
+    "NAME": "快速拔枪",
+    "DESCRIPTIONS": [
+      "打出 #b",
+      " 张牌后立刻行动 #b1 次。"
+    ]
+  },
+  "shadowverse:AimedPower": {
+    "NAME": "标记",
+    "DESCRIPTIONS": [
+      "下一次受到的伤害增加 #b",
+      " 点。"
+    ]
+  },
+  "shadowverse:BelphometPower": {
+    "NAME": "喜悦的障壁",
+    "DESCRIPTIONS": [
+      "受到的伤害减少 #b",
+      " 点，随后此能力减少对应层数。回合开始时回复至上限。"
+    ]
+  },
+  "shadowverse:NicolaPower": {
+    "NAME": "禁绝的魔导核",
+    "DESCRIPTIONS": [
+      "对没有 #y格挡 的贝尔冯特造成伤害时，发动 #y死灵术 #bX :额外造成 #bX 点伤害。X为 #y墓地 的数量。 NL 回合结束时，获得最大能量值一半(向上取整)数量的 #y墓地 。"
+    ]
+  },
+  "shadowverse:NaterranWorldTreePower": {
+    "NAME": "那塔拉的宝树",
+    "DESCRIPTIONS": [
+      "每当敌人进入战场时， #y武祇 获得1层此效果。"
+    ]
+  },
+  "shadowverse:TaketsumiPower2": {
+    "NAME": "安乐的狂宴",
+    "DESCRIPTIONS": [
+      "获得 #y那塔拉的宝树 时，如果已有5层以上，全体敌人获得 #b1 点 #y力量 和 #b6 点 #y临时生命 。"
+    ]
+  },
+  "shadowverse:Itsurugi_SlashPower": {
+    "NAME": "斩蛛之法",
+    "DESCRIPTIONS": [
+      "下 #b",
+      " 次对 #y旅笼煤 造成伤害时直接将其消灭。"
+    ]
+  },
+  "shadowverse:FlowerPower": {
+    "NAME": "红之花",
+    "DESCRIPTIONS": [
+      "下 #b",
+      " 次对 #y武祇 造成伤害时升级所有手牌并获得与造成伤害等量的格挡。"
+    ]
+  },
+  "shadowverse:KarulaPower": {
+    "NAME": "武艺至尊·伽尔拉",
+    "DESCRIPTIONS": [
+      "如果本回合结束时有剩余能量，获得 #b",
+      " 点 #y力量 和 #y敏捷 ，给予随机敌人 #b3 层 #y易伤 和 #y虚弱 。"
+    ]
+  },
+  "shadowverse:MaishaPower": {
+    "NAME": "悲哀的帐幕",
+    "DESCRIPTIONS": [
+      "进入战斗时获得 #b3 点 #y力量 。 NL 回合结束时随机使弃牌堆中两张攻击牌变为不能打出状态。 NL 如果因这个效果变为不能攻打出的牌只有1张，对敌人造成 #b8 点伤害，2张则改为 #b12 点。 NL 回合开始时，吸收所有不能打出的牌，如果吸收成功则对敌人造成 #b16 点伤害。 NL 梅希娅每抽1张牌此能力减少 #b1 层。当此能力到达 #b0 层时梅希娅将会败北。",
+      "，已吸收卡牌："
+    ]
+  },
+  "shadowverse:CetusPower": {
+    "NAME": "斩断悲剧的觉悟",
+    "DESCRIPTIONS": [
+      "下回合开始时选择 #b1 张因 #y悲哀的帐幕 变为不能打出的牌回到手牌并使其重新变为可以打出。 NL 如果本回合已打出的卡牌张数为 #g6 以上，改为2张。 NL 每当因 #y悲哀的帐幕 变为不能打出的牌回到手中时，减少 #b15 层 #y悲哀的帐幕 ，回复 #b1 点生命。"
+    ]
+  },
+  "shadowverse:EnTsukuyomiPower": {
+    "NAME": "月读",
+    "DESCRIPTIONS": [
+      "每当受到攻击时，对攻击者造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "shadowverse:EnAmaterasuPower": {
+    "NAME": "天照",
+    "DESCRIPTIONS": [
+      "每当受到攻击时，回复 #b",
+      " 点生命。"
+    ]
+  },
+  "shadowverse:TrueSwordPower": {
+    "NAME": "真实之剑",
+    "DESCRIPTIONS": [
+      "第5回合以上的回合开始时，增加1张 #y真实之剑 到手中。"
+    ]
+  },
+  "shadowverse:MaishaPower2": {
+    "NAME": "肃清的英雄",
+    "DESCRIPTIONS": [
+      "此能力的层数视作BP。 NL 回合结束时+ #b1 BP。 NL 如果有1点以上剩余能量，改为+ #b2 BP且下回合额外抽 #b1 张牌。 NL 梅希娅每回合会从 #y梅希娅的技巧 、 #y梅希娅的秘术 、 #y梅希娅的奥义 中随机选择1张加入行动。 "
+    ]
+  },
+  "shadowverse:SionPower": {
+    "NAME": "水银的断绝",
+    "DESCRIPTIONS": [
+      "下回合开始前受到的伤害无法超过 #b",
+      " 点。"
+    ]
+  },
+  "shadowverse:ElementalBrinkPower": {
+    "NAME": "境界线的生成",
+    "DESCRIPTIONS": [
+      "回合结束时随机敌人失去 #b",
+      " 点 #y力量 和 #y敏捷 。 NL 如果有能量剩余，获得等量 #y力量 和 #y敏捷 "
+    ]
+  },
+  "shadowverse:NexusPower": {
+    "NAME": "愤怒的永劫",
+    "DESCRIPTIONS": [
+      "死亡时， #r消耗 敌人弃牌堆中所有攻击牌，敌人的所有手牌重新加入抽牌堆中洗牌，为敌人回复 #b5 点生命。将此能力的层数设为0。 NL 回合开始时，召唤2个 #y暗影士兵 并立即令其进行行动，随后这些 #y暗影士兵 死亡。 NL 涅克萨斯将会根据本场战斗中已死亡的 #y虚幻之影 数量得到强化。 NL (受到的伤害不会超过 #b",
+      " 点) "
+    ]
+  },
+  "shadowverse:SpectorTitanPower": {
+    "NAME": "共鸣的武力",
+    "DESCRIPTIONS": [
+      "每当打出1张牌时，对随机敌人造成 #b10 点伤害。回合结束时，如果本场战斗已打出 #b10 张牌以上，下1张攻击牌重复打出。"
+    ]
+  },
+  "shadowverse:MaiserTitanPower": {
+    "NAME": "神速的治安",
+    "DESCRIPTIONS": [
+      "回合开始时对非涅克萨斯的随机敌人造成 #b50 点伤害。 NL 回合结束时失去此能力，并获得此能力 #b+1 层的 #y热情的治安 。 NL 如果此能力在回合结束时已有 #g4 层以上，获得 #b2 点 #y力量 和 #y敏捷 。"
+    ]
+  },
+  "shadowverse:SelenaTitanPower": {
+    "NAME": "热情的治安",
+    "DESCRIPTIONS": [
+      "回合开始时对涅克萨斯造成 #b25 点伤害。 NL 回合结束时失去此能力，并获得此能力 #b+1 层的 #y神速的治安 。 NL 如果此能力在回合结束时已有 #g4 层以上，获得 #b2 点 #y力量 和 #y敏捷 。"
+    ]
+  },
+  "shadowverse:DiscardOnStartPower": {
+    "NAME": "涸绝的甘露",
+    "DESCRIPTIONS": [
+      "每当抽牌时，将抽到的牌丢弃。这个效果持续到触发过 #b",
+      " 次。"
+    ]
+  },
+  "shadowverse:NervaPower1": {
+    "NAME": "喜悦的感情",
+    "DESCRIPTIONS": [
+      "#y倒计时 #b",
+      " :失去此效果，获得 #y愤怒的感情 。 NL 受到的伤害不会超过 #b",
+      " 点。回合开始时，如果受到的伤害达到此效果的最大值以上，额外减少 #b1 #y倒计时 。 NL 回合结束时，给予敌人下回合开始抽牌数减少 #b1 效果。"
+    ]
+  },
+  "shadowverse:NervaPower2": {
+    "NAME": "愤怒的感情",
+    "DESCRIPTIONS": [
+      "#y倒计时 #b",
+      " :失去此效果，获得 #y悲哀的感情 。 NL 回合开始时，如果生命值低于最大生命上限，回复至最大生命上限，额外减少 #b1 #y倒计时 。 NL 回合结束时，获得当前回合数的 #y力量 。"
+    ]
+  },
+  "shadowverse:NervaPower3": {
+    "NAME": "悲哀的感情",
+    "DESCRIPTIONS": [
+      "#y倒计时 #b",
+      " :失去此效果，获得 #y安乐的感情 。 NL 敌人打出攻击牌时，那张牌本回合内变为不能打出。 NL 回合开始时，如果触发过上述效果，额外减少 #b1 #y倒计时 。"
+    ]
+  },
+  "shadowverse:NervaPower4": {
+    "NAME": "安乐的感情",
+    "DESCRIPTIONS": [
+      "#y倒计时 #b",
+      " :失去此效果，获得 #y终焉的肃清 。 NL 回合开始时，随机召唤 #b3 只 #y暗影士兵 并赋予其 #y虹吸 并立即令其进行行动，随后这些 #y暗影士兵 死亡。 NL 回合结束时，全体敌人获得 #b1 点 #y力量 和 #b6 点 #y临时生命 。"
+    ]
+  },
+  "shadowverse:NervaPower6": {
+    "NAME": "终焉的肃清",
+    "DESCRIPTIONS": [
+      "回合结束时，对敌人造成 #b",
+      " 点伤害。如果本能力超过4层，涅尔瓦获得游戏胜利。"
+    ]
+  },
+  "shadowverse:MonsterDrainPower": {
+    "NAME": "虹吸",
+    "DESCRIPTIONS": [
+      "回复造成伤害的生命，涅尔瓦同时受到这个效果影响。"
+    ]
+  }
+}

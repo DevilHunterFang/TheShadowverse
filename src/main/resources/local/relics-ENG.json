@@ -1,0 +1,25 @@
+{
+  "shadowverse:GeassRelic": {
+    "NAME": "Geass: Survive",
+    "FLAVOR": "Survive!",
+    "DESCRIPTIONS": [
+      "Once per combat, whenever you would die, heal 1 HP, remove all of your debuffs, gain #b5 #yStrength and #yDexterity, and gain #b25 #yBlock."
+    ]
+  },
+  "shadowverse:Bullet": {
+    "NAME": "Mystical Bullet",
+    "FLAVOR": "Think of it as a good luck charm. Do try to keep it close.",
+    "DESCRIPTIONS": [
+      "Relic with unknown use.",
+      "The world of Rivayle sprang forth from this crucible known as the Lodestone.",
+      "At the start of the 1st, 3rd turn, add 1 #yVerdict #yRendered to hand. NL At the start of the 2nd, 4th turn, add 1 #yAbsolute #yDecree to hand. NL At the start of the 5th turn or after, add 1 that you don't have in hand."
+    ]
+  },
+  "shadowverse:ValhoreanDealer": {
+    "NAME": "Valhorean Dealer",
+    "FLAVOR": "I'm sorry——Forgive me——",
+    "DESCRIPTIONS": [
+      "Right click to spend #b30 gold to redraw any number of your hand."
+    ]
+  }
+}

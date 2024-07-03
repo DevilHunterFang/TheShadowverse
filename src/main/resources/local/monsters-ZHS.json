@@ -1,0 +1,400 @@
+{
+  "shadowverse:Belphomet": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "贝尔冯特·阿德莱特",
+    "DIALOG": [
+      "@哀嚎吧@",
+      "~消失吧！~",
+      "~别抵抗了~ NL @给我屈服！@",
+      "~哈哈！~ NL ~想逃也晚了！~",
+      "~还不懂这是没用的吗？~",
+      "@服从我吧！@"
+    ]
+  },
+  "shadowverse:chushou1": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "蹂躏的触手",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:chushou2": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "阻断的触手",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:WorldEliminator": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "世界消除者",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Iceschillendrig": {
+    "MOVES": [
+      "死亡刑罚"
+    ],
+    "NAME": "艾希连德凛克",
+    "DIALOG": [
+      "@就用千金偿还我的不快吧！！@",
+      "~没用的。~",
+      "~无意义无价值无用无能。~",
+      "~赶紧给我消失吧。~",
+      "~你有那个资格吗？。~",
+      "@你的身体我就收下了！@",
+      "@我将重构世界！@",
+      "~好了，给我跪下吧。~",
+      "~喂，你太不敬了。~",
+      "@被碾碎然后消失吧！@"
+    ]
+  },
+  "shadowverse:MagiTrain": {
+    "MOVES": [
+      "准备",
+      "猛撞",
+      "蒸汽喷射"
+    ],
+    "NAME": "魔导列车",
+    "DIALOG": [
+      "~准备~"
+    ]
+  },
+  "shadowverse:Megaera": {
+    "MOVES": [
+      "击灭炮充能",
+      "击灭炮发射",
+      "击灭炮再填充"
+    ],
+    "NAME": "愤怒女神·墨盖拉",
+    "DIALOG": [
+      "~击灭炮·伊拉力欧，发射准备~"
+    ]
+  },
+  "shadowverse:Tisiphone": {
+    "MOVES": [
+      "杀戮剑·聂拉翁",
+      "杀戮剑再填充"
+    ],
+    "NAME": "杀戮女神·提西福涅",
+    "DIALOG": [
+      "~一之剑噬其羽翼~",
+      "~二之剑落其双脚~",
+      "~三之剑猎其双臂~",
+      "~四之剑取其双目~",
+      "~五之剑斩其首级~",
+      "~六之剑断其心灵~"
+    ]
+  },
+  "shadowverse:VincentBOSS": {
+    "MOVES": [
+    ],
+    "NAME": "文森特",
+    "DIALOG": [
+      "~释之言语，即为世界~",
+      "~静止吧~",
+      "@这话语正是我的枪！@",
+      "~真是没办法呢~",
+      "~吾之双腕，绝对零度~",
+      "~吾足即疾风~",
+      "~吾之吐息显灼热~",
+      "~汝为不言之钢铁，汝为不语之子弹~"
+    ]
+  },
+  "shadowverse:MechaSoldier": {
+    "MOVES": [
+      "排除行动"
+    ],
+    "NAME": "机械步兵",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Alector": {
+    "MOVES": [
+      "破坏杖充能"
+    ],
+    "NAME": "灾乱女神·阿莱克托",
+    "DIALOG": [
+      "~破坏杖·库多拉贾，魔力充填~"
+    ]
+  },
+  "shadowverse:Lelouch": {
+    "MOVES": [
+      "Geass",
+      "准备",
+      "扩散构造相转移炮"
+    ],
+    "NAME": "鲁鲁修·兰佩路奇",
+    "DIALOG": [
+      "@鲁鲁修·V·不列颠尼亚在此命令你，死吧！@",
+      "~目标锁定，射角输入完成~",
+      "~相转移炮，发射！~",
+      "~Zero命令你！~",
+      "~将军了~"
+    ]
+  },
+  "shadowverse:Lancelot": {
+    "MOVES": [
+      "强子炮模式"
+    ],
+    "NAME": "兰斯洛特阿尔比昂",
+    "DIALOG": [
+      "~就是现在！~",
+      "~结束了！~"
+    ]
+  },
+  "shadowverse:Henchman": {
+    "MOVES": [
+      "作战开始"
+    ],
+    "NAME": "娜哈特的私兵",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:KMR": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "莱昂·奥朗什",
+    "DIALOG": [
+      "~我会手下留情的，你能承受得住吗？~",
+      "@你可要好好回应我的期待啊！@",
+      "~我可是神！我可是支配者！我可是人类的顶点！ ~"
+    ]
+  },
+  "shadowverse:Naht": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "娜哈特·娜哈特",
+    "DIALOG": [
+      "@在我的咆哮中粉身碎骨而消逝吧！@",
+      "~咆哮的枪声正是凯歌~",
+      "~路边的石块、滚动的枯草，那就是你哟~",
+      "@这掌中便是你的箱庭@",
+      "@给我垂死挣扎吧！@"
+    ]
+  },
+  "shadowverse:Zecilwenshe": {
+    "MOVES": [
+      "投掷匕首"
+    ],
+    "NAME": "杰锡尔文西",
+    "DIALOG": [
+      "~该来铲除你咯。~",
+      "~我又要赢啦！~",
+      "~此身即为无限之胜利。~",
+      "~反正我会赢到最后啦。~"
+    ]
+  },
+  "shadowverse:Urias": {
+    "MOVES": [
+    ],
+    "NAME": "尤里亚斯·佛尔蒙多",
+    "DIALOG": [
+      "~挣扎吧，来取悦我吧！~"
+    ]
+  },
+  "shadowverse:TaketsumiBOSS": {
+    "MOVES": [
+      "记忆篡改",
+      "炫目崭露",
+      "化生八足斩蛛流",
+      "不可视之线"
+    ],
+    "NAME": "武祇",
+    "DIALOG": [
+      "@此处便是没有痛苦的乐园！@",
+      "~这样就可喜可贺了~",
+      "~是时候露一手了~",
+      "~我的一切将在此开始~",
+      "~梦就是要长久~",
+      "~燃烧殆尽吧！~",
+      "~让乐园持续下去吧~"
+    ]
+  },
+  "shadowverse:WretchMonster": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "异形",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Scoundrel": {
+    "MOVES": [
+      "偷窃"
+    ],
+    "NAME": "流氓",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Shade": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "暗影士兵",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Commander": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "暗影指挥官",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Assault": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "暗影突击者",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Underling": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "艾希的部下",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Deputy": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "勒比卢的保安官辅",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Wretch2": {
+    "MOVES": [
+      "转化"
+    ],
+    "NAME": "异形化勒比卢居民",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Wretch5": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "忠实的仆从",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Ista": {
+    "MOVES": [
+      "蛊惑"
+    ],
+    "NAME": "伊斯塔",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Spider": {
+    "MOVES": [
+      "吐网",
+      ""
+    ],
+    "NAME": "旅笼煤 记忆:",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Maisha": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "梅希娅·拉弗吉",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:General": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "暗影上将",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Nexus": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "涅克萨斯",
+    "DIALOG": [
+      "重置",
+      "重启",
+      "粉碎吧",
+      "吾将带来调和",
+      "@无用!无为!无谋!@",
+      "@愚蠢!@"
+    ]
+  },
+  "shadowverse:Surveyor": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "小型警备用侦察机",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:MegaEnforcer": {
+    "MOVES": [
+      "排除行动",
+      "修复模式"
+    ],
+    "NAME": "大型机械近卫兵",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:OOOGGGG": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "OOOGGGG",
+    "DIALOG": [
+      "——AAAAAaaaaa——!"
+    ]
+  },
+  "shadowverse:Sword": {
+    "MOVES": [
+      "防守架势"
+    ],
+    "NAME": "圣光之剑骑士团的剑士",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Axe": {
+    "MOVES": [
+      "防守架势"
+    ],
+    "NAME": "圣光之剑骑士团的重战士",
+    "DIALOG": [
+      "准备"
+    ]
+  },
+  "shadowverse:Nerva": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "涅尔瓦",
+    "DIALOG": [
+      "我才是真正的人",
+      "命运也能翻覆",
+      "凭你是打倒不了我的",
+      "@我将超越一切！@",
+      "我已经势不可挡了",
+      "自作聪明",
+      "真是对不起啊",
+      "结局是不会改变的"
+    ]
+  }
+}

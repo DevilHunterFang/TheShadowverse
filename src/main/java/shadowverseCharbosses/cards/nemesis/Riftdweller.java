@@ -1,0 +1,99 @@
+package shadowverseCharbosses.cards.nemesis;
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.evacipated.cardcrawl.modthespire.Loader;
+import com.megacrit.cardcrawl.actions.common.GainBlockAction;
+import com.megacrit.cardcrawl.actions.utility.SFXAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import shadowverse.characters.Nemesis;
+import shadowverseCharbosses.actions.common.EnemyMakeTempCardInHandAction;
+import shadowverseCharbosses.cards.AbstractBossCard;
+
+import java.util.ArrayList;
+
+public class Riftdweller extends AbstractBossCard {
+    public static final String ID = "shadowverse:Riftdweller";
+
+    private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("shadowverse:Riftdweller");
+
+    public static final String IMG_PATH = "img/cards/Riftdweller.png";
+    private float rotationTimer;
+    private int previewIndex;
+
+
+    public static ArrayList<AbstractCard> returnChoice() {
+        ArrayList<AbstractCard> list = new ArrayList<>();
+        list.add(new EnBladeOfLight());
+        list.add(new EnBladeOfDark());
+        return list;
+    }
+
+    public Riftdweller() {
+        super(ID, cardStrings.NAME, IMG_PATH, 1, cardStrings.DESCRIPTION, CardType.ATTACK, CardColor.COLORLESS, CardRarity.UNCOMMON, CardTarget.SELF, AbstractMonster.Intent.UNKNOWN);
+        this.baseBlock = 6;
+        if (Loader.isModLoaded("shadowverse")) {
+            this.color = Nemesis.Enums.COLOR_SKY;
+        }
+    }
+
+    public void use(AbstractPlayer p, AbstractMonster m) {
+        addToBot(new SFXAction("Riftdweller"));
+        addToBot(new GainBlockAction(m,this.block));
+        AbstractCard trueStrike = new EnBladeOfLight();
+        AbstractCard falseSlash = new EnBladeOfDark();
+        if (this.upgraded){
+            trueStrike.upgrade();
+            falseSlash.upgrade();
+        }
+        int rnd = AbstractDungeon.cardRandomRng.random(1);
+        if (rnd==0){
+            addToBot(new EnemyMakeTempCardInHandAction(falseSlash));
+        }else {
+            addToBot(new EnemyMakeTempCardInHandAction(trueStrike));
+        }
+    }
+
+    public void upgrade() {
+        if (!this.upgraded) {
+            upgradeName();
+            upgradeBlock(3);
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+            initializeDescription();
+        }
+    }
+
+    public void update() {
+        super.update();
+        if (this.hb.hovered)
+            if (this.rotationTimer <= 0.0F) {
+                this.rotationTimer = 2.0F;
+                this.cardsToPreview = returnChoice().get(previewIndex).makeCopy();
+                if (this.previewIndex == returnChoice().size() - 1) {
+                    this.previewIndex = 0;
+                } else {
+                    this.previewIndex++;
+                }
+                if (this.upgraded)
+                    this.cardsToPreview.upgrade();
+            } else {
+                this.rotationTimer -= Gdx.graphics.getDeltaTime();
+            }
+    }
+
+    @Override
+    public void render(SpriteBatch sb) {
+        super.render(sb);
+        if (this.hov2)
+            renderCardTip(sb);
+    }
+
+    public AbstractCard makeCopy() {
+        return new Riftdweller();
+    }
+}

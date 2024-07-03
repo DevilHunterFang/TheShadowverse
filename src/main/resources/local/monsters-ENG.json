@@ -1,0 +1,227 @@
+{
+  "shadowverse:Belphomet": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Belphomet Ardelyte",
+    "DIALOG": [
+      "@You@ @don't@ @deserve@ @to@ @live!@",
+      "~Scrap...~ ~Mwhaha!~ NL ~All~ ~of~ ~you!~",
+      "~I~ ~grow~ ~weary~ ~of~ ~your~ ~ignorance.~",
+      "Yeah, you? #r@Termination.@",
+      "@Die@ @in@ @obscurity!@",
+      "#r@Obey@ #r@me!@"
+    ]
+  },
+  "shadowverse:chushou1": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Assault Tentacle",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:chushou2": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Armored Tentacle",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:WorldEliminator": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "World Eliminator",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Iceschillendrig": {
+    "MOVES": [
+      "Dead to Rights"
+    ],
+    "NAME": "Iceschillendrig",
+    "DIALOG": [
+      "@You@ @will@ @atone@ @for@ @wasting@ @my@ @time.@",
+      "~Futile.~",
+      "~Useless!~ ~Worthless!~ ~Powerless!~",
+      "~The~ ~sheer~ ~hubris~ ~of~ ~opposing~ ~me!~",
+      "~Do~ ~you~ ~have~ ~what~ ~it~ ~takes?~",
+      "@I@ @take@ @claim@ @of@ @your@ @flesh!@",
+      "@This@ @world@ @will@ @be@ @remade@ @in@ @my@ @image!@",
+      "~Bow~ ~before~ ~your~ ~god!~",
+      "~You~ ~dare~ ~look~ ~me~ ~in~ ~the~ ~eye?~",
+      "@Begone@ @from@ @my@ @sight!@"
+    ]
+  },
+  "shadowverse:MagiTrain": {
+    "MOVES": [
+      "Stand By",
+      "Charge",
+      "Steam Burst"
+    ],
+    "NAME": "Magitrain",
+    "DIALOG": [
+      "~Standing~ ~by...~"
+    ]
+  },
+  "shadowverse:Megaera": {
+    "MOVES": [
+      "Charge Wave Cannon",
+      "Fire Wave Cannon",
+      "Wave Cannon Recharging"
+    ],
+    "NAME": "Megaera, the Indignant",
+    "DIALOG": [
+      "~Charge~ ~complete.~ ~Wave~ ~Cannon~ ~Iraliae,~ ~standby.~"
+    ]
+  },
+  "shadowverse:Tisiphone": {
+    "MOVES": [
+      "Quantum Blade Naelaon",
+      "Quantum Blade Recharging"
+    ],
+    "NAME": "Tisiphone, the Malignant",
+    "DIALOG": [
+      "~My~ ~blade,~ ~cut~ ~first~ ~thy~ ~wings.~",
+      "~Fell~ ~second~ ~thy~ ~legs.~",
+      "~Hunt~ ~third~ ~thy~ ~arms.~",
+      "~Gouge~ ~fourth~ ~thy~ ~eyes.~",
+      "~Sunder~ ~fifth~ ~thy~ ~neck.~",
+      "~Pierce~ ~sixth~ ~thy~ ~heart.~"
+    ]
+  },
+  "shadowverse:VincentBOSS": {
+    "MOVES": [
+    ],
+    "NAME": "Vincent",
+    "DIALOG": [
+      "~I~ ~don't~ ~need~ ~a~ ~gun.~ ~Not~ ~when~ ~I~ ~have~ ~my~ ~words.~",
+      "~You~ ~might~ ~die~ ~from~ ~this.~",
+      "Open yer ears! @Justice@ @himself@ @is@ @speakin'.@",
+      "~Peace~ ~will~ ~embrace~ ~you,~ ~one~ ~way~ ~or~ ~another.~",
+      "~My~ ~arms,~ ~enraptured~ ~with~ ~ice.~",
+      "~My~ ~feet~ ~becometh~ ~as~ ~the~ ~gale.~",
+      "~My~ ~breath~ ~becometh~ ~flame.~",
+      "~I~ ~am~ ~the~ ~immutable~ ~Steel.~ ~The~ ~unsilenceable~ ~Bullet.~"
+    ]
+  },
+  "shadowverse:MechaSoldier": {
+    "MOVES": [
+      "Execution"
+    ],
+    "NAME": "Mechanized Soldier",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Alector": {
+    "MOVES": [
+      "Particle Mace Recharging"
+    ],
+    "NAME": "Alecto, the Dissonant",
+    "DIALOG": [
+      "~Activating~ ~Particle~ ~Mace~ ~Kotaehge.~"
+    ]
+  },
+  "shadowverse:Lelouch": {
+    "MOVES": [
+      "Geass",
+      "Stand By",
+      "Diffusion Structure Phase Transition Cannon"
+    ],
+    "NAME": "Lelouch vi Britannia",
+    "DIALOG": [
+      "I, #yLelouch #yvi #yBritannia ,command you! #r@Die@!",
+      "~Target~ ~locked.~",
+      "~Phase~ ~Transition~ ~Cannon,~ ~Fire!~",
+      "~Zero~ ~commands~ ~you!~",
+      "#r~Checkmate!~"
+    ]
+  },
+  "shadowverse:Lancelot": {
+    "MOVES": [
+      "Hadron Cannon Mode"
+    ],
+    "NAME": "Lancelot",
+    "DIALOG": [
+      "~It's~ ~the~ ~time!~",
+      "~It's~ ~over!~"
+    ]
+  },
+  "shadowverse:Henchman": {
+    "MOVES": [
+      "Operation Begin"
+    ],
+    "NAME": "Naht's Henchman",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:KMR": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Leon Aurenche",
+    "DIALOG": [
+      "~I~ ~apologize~ ~in~ ~advance~ ~if~ ~I~ ~crush~ ~your~ ~spirit.~",
+      "@Do@ @not@ @disappoint@ @me!@",
+      "~I~ ~am~ ~a~ #y~God!~ ~I~ ~am~ #y~Superior!~ ~I~ ~am~ ~the~ #y~Apex~ ~of~ #y~Mankind!~"
+    ]
+  },
+  "shadowverse:Naht": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Nahtnaught",
+    "DIALOG": [
+      "@I@ @love@ @the@ @smell@ @of@ @gunsmoke@ @in@ @the@ @mornin'!@",
+      "~I~ ~need~ ~more~ ~fear,~ ~more~ ~terror!~",
+      "~You~ ~look~ ~'bout~ ~as~ ~tough~ ~as~ ~a~ ~field~ ~mouse!~",
+      "@You'll@ @make@ @a@ @lovely@ @coffin.@",
+      "@How's@ @that?@"
+    ]
+  },
+  "shadowverse:Zecilwenshe": {
+    "MOVES": [
+      "Dagger Spray"
+    ],
+    "NAME": "Zecilwenshe",
+    "DIALOG": [
+      "~The~ ~infesation~ ~evolves!~",
+      "~Yes,~ ~kill~ ~me!~ ~My~ ~future~ ~victory~ ~awaits!~",
+      "~Aw,~ ~are~ ~you~ ~runnin'~ ~out~ ~of~ ~blood~ ~already?~",
+      "~I'll~ ~win~ ~in~ ~the~ ~end!~ ~I~ ~always~ ~do!~"
+    ]
+  },
+  "shadowverse:Urias": {
+    "MOVES": [
+    ],
+    "NAME": "Urias Formonde",
+    "DIALOG": [
+      "~Struggle~ ~all~ ~you~ ~want,~ ~it~ ~matters~ ~not!~"
+    ]
+  },
+  "shadowverse:TaketsumiBOSS": {
+    "MOVES": [
+      "Memory Modification",
+      "Bravado",
+      "The Spider's Dirge"
+    ],
+    "NAME": "Taketsumi",
+    "DIALOG": [
+      "@Time@ @to@ @roll@ @out@ @the@ @red@ @carpet,@ @huh?@",
+      "~It's~ ~curtains~ ~for~ ~you!~",
+      "~Now's~ ~my~ ~time~ ~to~ ~shine!~",
+      "~Time~ ~for~ ~a~ ~little~ ~warm-up.~",
+      "~What~ ~do~ ~you~ ~say~ ~we~ ~liven~ ~things~ ~up?~"
+    ]
+  },
+  "shadowverse:WretchMonster": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Wretch",
+    "DIALOG": [
+    ]
+  }
+}

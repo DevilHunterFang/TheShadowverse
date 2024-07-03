@@ -1,0 +1,35 @@
+{
+  "shadowverse:Burial": {
+    "TEXT": [
+      "葬送する"
+    ]
+  },
+  "shadowverse:applyEffect": {
+    "TEXT": [
+      "カード1枚を選んで付与"
+    ]
+  },
+  "shadowverse:EnergyPanelTip": {
+    "TEXT": [
+      "敵のエナジー。カードをプレイするにはエナジーが必要。"
+    ],
+    "EXTRA_TEXT": [
+      "エナジー"
+    ]
+  },
+  "shadowverse:Exhaust": {
+    "TEXT": [
+      "廃棄"
+    ]
+  },
+  "shadowverse:Ethereal": {
+    "TEXT": [
+      "エセリアル"
+    ]
+  },
+  "shadowverse:Retain": {
+    "TEXT": [
+      "保留"
+    ]
+  }
+}

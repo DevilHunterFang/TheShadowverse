@@ -1,0 +1,35 @@
+{
+  "shadowverse:Burial": {
+    "TEXT": [
+      "Choose a card to Burial Rite"
+    ]
+  },
+  "shadowverse:applyEffect": {
+    "TEXT": [
+      "Choose a card to apply effect"
+    ]
+  },
+  "shadowverse:EnergyPanelTip": {
+    "TEXT": [
+      "Enemy's current Energy. Cards need Energy to be played."
+    ],
+    "EXTRA_TEXT": [
+      "Energy"
+    ]
+  },
+  "shadowverse:Exhaust": {
+    "TEXT": [
+      "Exhaust"
+    ]
+  },
+  "shadowverse:Ethereal": {
+    "TEXT": [
+      "Ethereal"
+    ]
+  },
+  "shadowverse:Retain": {
+    "TEXT": [
+      "Retain"
+    ]
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "shadowverse:AbsoluteOnePower": {
+    "NAME": "アブソリュート・ワン",
+    "DESCRIPTIONS": [
+      "受ける能力によるダメージは #b0 になる。ターン開始時、 #y絶対なる裁き #b1 枚を手札に加える。"
+    ]
+  },
+  "shadowverse:AbyssDoomLordPower": {
+    "NAME": "アビスドゥームロード",
+    "DESCRIPTIONS": [
+      " #b",
+      " ターンの内、受けるダメージは0になる。"
+    ]
+  },
+  "shadowverse:AncientAmplifierPower": {
+    "NAME": "古代の増幅器",
+    "DESCRIPTIONS": [
+      "ターン終了時，ランダムなカードを #b",
+      " 枚の山札に加える。この能力はターン開始時、1下げる。"
+    ]
+  },
+  "shadowverse:LionSanctuaryPower": {
+    "NAME": "獅子の聖域",
+    "DESCRIPTIONS": [
+      "デバフを受けない。攻撃される時、 #b",
+      " 反撃ダメージ。"
+    ]
+  },
+  "shadowverse:DisableEffectDamagePower": {
+    "NAME": "能力によるダメージは無効",
+    "DESCRIPTIONS": [
+      "#b",
+      " ターン以内に受ける能力によるダメージは0になる。"
+    ]
+  },
+  "shadowverse:BloodyNailPower": {
+    "NAME": "ブラッディーネイル",
+    "DESCRIPTIONS": [
+      "アタックをプレイする度、 #yユリアス はプレイヤーに #b",
+      " ダメージを与える。"
+    ]
+  },
+  "shadowverse:DreadAuraPower": {
+    "NAME": "ドレッドオーラ",
+    "DESCRIPTIONS": [
+      "自分によって失うHPは0になる。"
+    ]
+  },
+  "shadowverse:AlectorPower": {
+    "NAME": "破壊杖・クトラジャ",
+    "DESCRIPTIONS": [
+      "ターン終了時，すべての敵は #b",
+      " の #y筋力 を得る。"
+    ]
+  },
+  "shadowverse:ManaBarrier": {
+    "NAME": "マナの障壁",
+    "DESCRIPTIONS": [
+      "受けるアタックダメージは #b0 になる。 #yマナの力 で除去可能。"
+    ]
+  },
+  "shadowverse:chushouHealPower": {
+    "NAME": "遮断の触手：ラスワード",
+    "DESCRIPTIONS": [
+      "死亡した時、 #yベルフォメット のHPを #b",
+      " 回復する。 #yマナの力 1枚を手札に加える。"
+    ]
+  },
+  "shadowverse:chushouExplosionPower": {
+    "NAME": "蹂躙の触手：ラスワード",
+    "DESCRIPTIONS": [
+      "死亡した時、 #b",
+      " ダメージをプレイヤーに与える。 #yマナの力 1枚を手札に加える。"
+    ]
+  },
+  "shadowverse:NahtPower": {
+    "NAME": "タイラントの箱",
+    "DESCRIPTIONS": [
+      "ターンごとに1回、 #yナハト・ナハト をターゲットとするカードは箱詰めにして無効化される",
+      "。箱に入っているカード：",
+      "カードが無効化されることはない。",
+      "無効化できるカードは1枚。"
+    ]
+  },
+  "shadowverse:ICPower": {
+    "NAME": "タイタンの呪い",
+    "DESCRIPTIONS": [
+      "ターン終了時、 #b",
+      " ダメージを受ける。カードをプレイする度、ダメージは+1される。"
+    ]
+  },
+  "shadowverse:ICPower2": {
+    "NAME": "呪いの力",
+    "DESCRIPTIONS": [
+      "#yアイシィレンドリング がターン中に受けたダメージをそのターンが終わる時にすべてプレイヤーに与える。さらに #yアイシィレンドリング はその分のHPを回復する。プレイヤーに #b",
+      " ダメージを与える。"
+    ]
+  },
+  "shadowverse:NoDamage": {
+    "NAME": "ジャッジメントワード：ダメージ禁止",
+    "DESCRIPTIONS": [
+      "ダメージを与えることができない。"
+    ]
+  },
+  "shadowverse:NoPower": {
+    "NAME": "ジャッジメントワード：パワー禁止",
+    "DESCRIPTIONS": [
+      " #yパワー をプレイできない。"
+    ]
+  },
+  "shadowverse:ManaPower": {
+    "NAME": "魔力",
+    "DESCRIPTIONS": [
+      " #g魔力 でヴィンセントの言葉を抵抗できる。1ターンに #b12 枚のカードをプレイしたら、これの数を #b1 上げる。これの数が #b1 以上なら、ヴィンセントのバフ除去を1回だけ無視する。"
+    ]
+  },
+  "shadowverse:JudgmentWordPower": {
+    "NAME": "ジャッジメントワード",
+    "DESCRIPTIONS": [
+      "ターン開始時、順に #yダメージ禁止 、 #yパワー禁止 、 #y呪詛 （1ターンのみ） 、 #yブロック不可能 を得る。(ターン終了時、残りエナジーがあるなら、 #yアーティファクト を #b1 得る)"
+    ]
+  },
+  "shadowverse:RapidFirePower": {
+    "NAME": "集中射撃",
+    "DESCRIPTIONS": [
+      "カードを #b3 枚プレイする度、 #b",
+      " ダメージを受ける。"
+    ]
+  },
+  "shadowverse:FreezePower": {
+    "NAME": "凍り付け",
+    "DESCRIPTIONS": [
+      "引いたカードのコストは+1される。"
+    ]
+  },
+  "shadowverse:KMFPower": {
+    "NAME": "絶対守護領域",
+    "DESCRIPTIONS": [
+      "受ける #b",
+      " 以下のダメージは0になる。ダメージを受けていたターン、この効果は無効になる。"
+    ]
+  },
+  "shadowverse:CheckmatePower": {
+    "NAME": "奇跡の条件",
+    "DESCRIPTIONS": [
+      " #yレア カードをプレイしたら、 #b",
+      " ダメージを受け、この能力を失う。"
+    ]
+  },
+  "shadowverse:GeassPower": {
+    "NAME": "ギアス",
+    "DESCRIPTIONS": [
+      "ターン終了時、 #yギアス 1枚を山札に加える。"
+    ]
+  },
+  "shadowverse:CurseOfGeass": {
+    "NAME": "ギアスの呪い",
+    "DESCRIPTIONS": [
+      "致命的なダメージを受ける場合、すべてのデバフを除去し、HPを1回復し、 #y筋力 と #y敏捷性 を #b5 得、 #b25 #yブロック を得る。敵にこの能力を持つなら、さらにプレイヤーのターンを終了させる。"
+    ]
+  },
+  "shadowverse:CommanderPower": {
+    "NAME": "戦術指揮",
+    "DESCRIPTIONS": [
+      "ターン終了時、順に敵全体に下記のバフを与える：1. #b1 の #yアーティファクト 、 2. #b1 の #y筋力 、 3. #b3 の #yプラットアーマー 、4.プレイヤーに #b2 の #y脱力 。"
+    ]
+  },
+  "shadowverse:TaketsumiPower": {
+    "NAME": "大蜘蛛の力",
+    "DESCRIPTIONS": [
+      "ダメージを与える度、 #yタケツミ に同じ分のHPを回復させる。消滅された時、 #yタケツミ の最大HPを #b80 減らす。"
+    ]
+  },
+  "shadowverse:HeroOfTheHuntPower": {
+    "NAME": "伊達の大見得",
+    "DESCRIPTIONS": [
+      "受けるダメージを- #b",
+      " する。"
+    ]
+  },
+  "shadowverse:Cemetery": {
+    "NAME": "墓場",
+    "DESCRIPTIONS": [
+      "カードをプレイし、また特別な能力で増やす。これを消費して #yネクロマンス を発動できる。"
+    ]
+  },
+  "shadowverse:ImperialSaintPower": {
+    "NAME": "インペリアルセイント",
+    "DESCRIPTIONS": [
+      "死を1回だけ無効にし、HPを最大値の #b50% を回復する。 #b1 ターンを追加する。"
+    ]
+  },
+  "shadowverse:GuiltyShieldPower": {
+    "NAME": "ギルティ・シールド",
+    "DESCRIPTIONS": [
+      "自分への #b5 以上のダメージは #b4 になる。あと #b",
+      " ターン続く。"
+    ]
+  },
+  "shadowverse:JudgementSpearPower": {
+    "NAME": "ジャッジメント・スピア",
+    "DESCRIPTIONS": [
+      "ターン終了時にランダムな敵に #b",
+      " ダメージを与える。あと #b",
+      " ターン続く。"
+    ]
+  },
+  "shadowverse:EternalDogmaPower": {
+    "NAME": "エターナル・ドグマ",
+    "DESCRIPTIONS": [
+      "ターン開始時、追加でカードを #b1 引き、HPを #b2 回復する。あと #b",
+      " ターン続く。"
+    ]
+  },
+  "shadowverse:UltimateBahmutPower": {
+    "NAME": "アルティメットバハムート",
+    "DESCRIPTIONS": [
+      "ターン終了時にカウントダウンを #b1 進める。カウントダウンが0になる時、即死する。"
+    ]
+  },
+  "shadowverse:ShiningValkyriePower": {
+    "NAME": "シャイニングヴァルキリー",
+    "DESCRIPTIONS": [
+      "ターン開始時、 #yフェアリー を #b1枚手札に加える。 #yフェアリー をプレイしする度、ランダムな敵に #b6 ダメージを与え、 筋力 #b1 と 敏捷性  #b1 を得る。"
+    ]
+  },
+  "shadowverse:SevensForceSorcererPower": {
+    "NAME": "セブンズフォースソーサラー",
+    "DESCRIPTIONS": [
+      " #b",
+      " 枚のスキルをプレイした後、すべての敵を即死させ、この能力を失う。"
+    ]
+  },
+  "shadowverse:LegendSwordCommanderPower": {
+    "NAME": "伝説の剣",
+    "DESCRIPTIONS": [
+      "ターン終了時に #b",
+      " ブロックを得る。アタックをプレイする度、敵全体に #b",
+      " ダメージを与える。"
+    ]
+  },
+  "shadowverse:betterExplosionPower": {
+    "NAME": "自爆",
+    "DESCRIPTIONS": [
+      "死亡した時、 #b",
+      " ダメージをプレイヤーに与える。"
+    ]
+  },
+  "shadowverse:UnseenManaPower": {
+    "NAME": "不可視の糸",
+    "DESCRIPTIONS": [
+      "カードを #b",
+      " 枚プレイした後、ターンを強制終了させる。"
+    ]
+  },
+  "shadowverse:MaiserPower": {
+    "NAME": "フォーミュラーヒーロー・マイザー",
+    "DESCRIPTIONS": [
+      "#yスキル をプレイする時、敵全体に #b5 ダメージを与える。"
+    ]
+  },
+  "shadowverse:ShadowMarkPower": {
+    "NAME": "安寧の侵食",
+    "DESCRIPTIONS": [
+      "これの数が上がる度、カウントによって効果が働く。 NL (1) #y弱体化 #b2 を得る。 NL (2) #y脱力 #b2 を得る。 NL (3) #y筋力 #b1 を失う。 NL (4) #y目まい #b3 枚を捨札に加える。 NL (5) #y空虚 #b1 枚を山札に加える。 NL (6) #y敏捷性 #b1 を失う。カウントをリセットする。"
+    ]
+  },
+  "shadowverse:ShadePower": {
+    "NAME": "虚の影",
+    "DESCRIPTIONS": [
+      "ダメージ #b",
+      " 回受けると、 #y無形 を得る。消滅する時、敵に #y安寧の侵食 #b1 を与える。"
+    ]
+  }
+}
