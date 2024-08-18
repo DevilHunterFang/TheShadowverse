@@ -65,6 +65,14 @@ public class Erika_Story extends CustomCard {
             if (abstractPlayer instanceof Royal){
                 AbstractDungeon.actionManager.addToBottom(new MinionSummonAction(new Quickblader()));
                 AbstractDungeon.actionManager.addToBottom(new MinionSummonAction(new Quickblader()));
+            }else {
+                for (int i = 0 ; i < 2; i++){
+                    AbstractCreature m = AbstractDungeon.getRandomMonster();
+                    if (m != null) {
+                        addToBot(new ApplyPowerAction(m, abstractPlayer, new VulnerablePower(m, 1, false), 1));
+                        addToBot(new DamageAction(m,new DamageInfo(abstractPlayer,this.damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+                    }
+                }
             }
             if (rally() >= 10){
                 addToBot(new ApplyPowerAction(abstractPlayer,abstractPlayer,new StrengthPower(abstractPlayer,2),2));
@@ -107,7 +115,7 @@ public class Erika_Story extends CustomCard {
     @Override
     public void applyPowers() {
         super.applyPowers();
-        this.rawDescription += cardStrings.EXTENDED_DESCRIPTION[0] + rally() + cardStrings.EXTENDED_DESCRIPTION[1];
+        this.rawDescription =cardStrings.DESCRIPTION + cardStrings.EXTENDED_DESCRIPTION[0] + rally() + cardStrings.EXTENDED_DESCRIPTION[1];
         this.initializeDescription();
     }
 

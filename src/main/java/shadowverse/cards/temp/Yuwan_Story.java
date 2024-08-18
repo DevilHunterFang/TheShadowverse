@@ -2,6 +2,8 @@ package shadowverse.cards.temp;
 
 
 import basemod.abstracts.CustomCard;
+import com.evacipated.cardcrawl.mod.stslib.actions.tempHp.RemoveAllTemporaryHPAction;
+import com.evacipated.cardcrawl.mod.stslib.patches.core.AbstractCreature.TempHPField;
 import com.evacipated.cardcrawl.modthespire.Loader;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
@@ -54,9 +56,11 @@ public class Yuwan_Story extends CustomCard {
         }
         if (abstractPlayer.drawPile.group.size() % 2 == 0){
             for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters){
-                if (!mo.hasPower(MinionPower.POWER_ID)){
+                if (!mo.hasPower(MinionPower.POWER_ID) && !mo.isDeadOrEscaped()){
                     addToBot(new VFXAction(abstractPlayer, new MindblastEffect(abstractPlayer.dialogX, abstractPlayer.dialogY, abstractPlayer.flipHorizontal), 0.1F));
                     addToBot(new DamageAction(mo,new DamageInfo(abstractPlayer,this.damage, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.NONE));
+                }else if (mo.isDeadOrEscaped()){
+                    TempHPField.tempHp.set(mo, 0);
                 }
             }
         }

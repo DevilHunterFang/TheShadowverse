@@ -54,9 +54,9 @@ public class Rivayle extends CustomDungeon {
         rareRelicChance = 17;
         colorlessRareChance = 0.3F;
         if (AbstractDungeon.ascensionLevel >= 12) {
-            cardUpgradedChance = 0.125F;
+            cardUpgradedChance = 0.15F;
         } else {
-            cardUpgradedChance = 0.25F;
+            cardUpgradedChance = 0.3F;
         }
     }
 

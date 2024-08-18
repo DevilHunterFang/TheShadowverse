@@ -83,7 +83,7 @@ public class MaishaPower extends AbstractPower {
         if (!isPlayer){
             ArrayList<AbstractCard> list = new ArrayList<>();
             for (AbstractCard c : AbstractDungeon.player.discardPile.group){
-                if (CardLibrary.getCard(c.cardID).type == AbstractCard.CardType.ATTACK || c.type == AbstractCard.CardType.ATTACK){
+                if (c.type == AbstractCard.CardType.ATTACK || (CardLibrary.getCard(c.cardID) != null && CardLibrary.getCard(c.cardID).type == AbstractCard.CardType.ATTACK)){
                     list.add(c);
                 }
             }

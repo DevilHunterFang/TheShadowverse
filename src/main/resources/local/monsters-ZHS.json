@@ -396,5 +396,14 @@
       "真是对不起啊",
       "结局是不会改变的"
     ]
+  },
+  "shadowverse:slashEffect": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "",
+    "DIALOG": [
+      ""
+    ]
   }
 }

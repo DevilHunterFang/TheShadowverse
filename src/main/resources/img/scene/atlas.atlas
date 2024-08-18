@@ -167,6 +167,19 @@ mod/Barracks
   offset: 0, 50
   index: -1
 
+Spatialdistortion.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mod/Spatialdistortion
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 50
+  index: -1
+
 scene2.jpg
 size: 2048,2048
 format: RGBA8888

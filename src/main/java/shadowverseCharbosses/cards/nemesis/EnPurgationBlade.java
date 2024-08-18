@@ -34,7 +34,7 @@ public class EnPurgationBlade extends AbstractBossCard {
         super(ID, cardStrings.NAME, IMG_PATH, 3, cardStrings.DESCRIPTION, CardType.SKILL, CardColor.COLORLESS, CardRarity.SPECIAL, CardTarget.ENEMY, AbstractMonster.Intent.ATTACK);
         if (AbstractDungeon.player != null){
             if (AbstractDungeon.actionManager.turn > 4){
-                this.baseDamage = AbstractDungeon.player.maxHealth;
+                this.baseDamage = AbstractDungeon.player.maxHealth / 2;
             }else {
                 for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters){
                     if (mo.hasPower(MaishaPower.POWER_ID)){
@@ -54,7 +54,7 @@ public class EnPurgationBlade extends AbstractBossCard {
         super.applyPowers();
         if (AbstractDungeon.player != null){
             if (AbstractDungeon.actionManager.turn > 4){
-                this.baseDamage = AbstractDungeon.player.maxHealth;
+                this.baseDamage = AbstractDungeon.player.maxHealth / 2;
             }else {
                 for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters){
                     if (mo.hasPower(MaishaPower.POWER_ID)){

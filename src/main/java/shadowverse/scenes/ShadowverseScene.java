@@ -5,6 +5,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.MathUtils;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.rooms.CampfireUI;
@@ -85,6 +86,9 @@ public class ShadowverseScene extends AbstractScene {
             }
         } else {
             this.bg = this.atlas.findRegion("mod/Rivayle");
+        }
+        if (AbstractDungeon.actNum == 4){
+            this.bg = this.atlas.findRegion("mod/Spatialdistortion");
         }
         fadeInAmbiance();
     }

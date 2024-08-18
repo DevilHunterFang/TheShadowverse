@@ -68,8 +68,8 @@ public class VincentBOSS extends CustomMonster implements SpriteCreature {
         if (AbstractDungeon.ascensionLevel >= 19) {
             this.debuffAmt = 3;
             this.blockAmt = 24;
-            this.aDmg = 18;
-            this.bDmg = 10;
+            this.aDmg = 17;
+            this.bDmg = 9;
             this.strAmt = 2;
             this.fireDmg = 3;
             this.fireAmt = 4;
@@ -77,8 +77,8 @@ public class VincentBOSS extends CustomMonster implements SpriteCreature {
         } else if (AbstractDungeon.ascensionLevel >= 4) {
             this.debuffAmt = 2;
             this.blockAmt = 22;
-            this.aDmg = 17;
-            this.bDmg = 9;
+            this.aDmg = 16;
+            this.bDmg = 8;
             this.fireDmg = 2;
             this.fireAmt = 4;
             this.strAmt = 1;
@@ -86,8 +86,8 @@ public class VincentBOSS extends CustomMonster implements SpriteCreature {
         } else {
             this.debuffAmt = 2;
             this.blockAmt = 20;
-            this.aDmg = 16;
-            this.bDmg = 8;
+            this.aDmg = 15;
+            this.bDmg = 7;
             this.fireDmg = 2;
             this.fireAmt = 3;
             this.strAmt = 1;

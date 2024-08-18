@@ -1,6 +1,7 @@
 package shadowverse.patch;
 
 import basemod.ReflectionHacks;
+import com.evacipated.cardcrawl.modthespire.Loader;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePostfixPatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePrefixPatch;
@@ -16,6 +17,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import shadowverse.cards.Neutral.Temp.VictoryCard;
 import shadowverse.cards.curse.Death;
 import shadowverse.monsters.Nerva;
 
@@ -28,8 +30,9 @@ public class NervaPatch {
                 if (_inst.target instanceof Nerva) {
                     (AbstractDungeon.getCurrRoom()).cannotLose = true;
                     AbstractDungeon.actionManager.addToBottom(new SFXAction("Nerva_Victory"));
-                    AbstractDungeon.actionManager.addToBottom(new TalkAction(_inst.target, ((AbstractMonster) _inst.target).DIALOG[6]));
-                    return SpireReturn.Return(null);
+                    AbstractDungeon.actionManager.addToBottom(new TalkAction(_inst.target, Nerva.DIALOG[6]));
+                    _inst.isDone = true;
+                    return SpireReturn.Return();
                 }
             }
             return SpireReturn.Continue();
@@ -42,8 +45,8 @@ public class NervaPatch {
         public static SpireReturn Prefix(AbstractCreature target) {
             if (target instanceof Nerva) {
                 AbstractDungeon.actionManager.addToBottom(new SFXAction("Nerva_MaxHP"));
-                AbstractDungeon.actionManager.addToBottom(new TalkAction(target, ((AbstractMonster) target).DIALOG[5]));
-                return SpireReturn.Return(null);
+                AbstractDungeon.actionManager.addToBottom(new TalkAction(target, Nerva.DIALOG[5]));
+                return SpireReturn.Return();
             }
             return SpireReturn.Continue();
         }
@@ -57,8 +60,9 @@ public class NervaPatch {
             if (m instanceof Nerva) {
                 (AbstractDungeon.getCurrRoom()).cannotLose = true;
                 AbstractDungeon.actionManager.addToBottom(new SFXAction("Nerva_Victory"));
-                AbstractDungeon.actionManager.addToBottom(new TalkAction(m, m.DIALOG[6]));
-                return SpireReturn.Return(null);
+                AbstractDungeon.actionManager.addToBottom(new TalkAction(m, Nerva.DIALOG[6]));
+                _inst.isDone = true;
+                return SpireReturn.Return();
             }
             return SpireReturn.Continue();
         }
@@ -70,9 +74,13 @@ public class NervaPatch {
         public static void Postfix(AbstractGameAction _inst, AbstractCard card, int amount, boolean randomSpot, boolean autoPosition, boolean toBottom, float cardX, float cardY) {
             for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters){
                 if (mo instanceof Nerva){
-                    AbstractDungeon.actionManager.addToBottom(new SFXAction("Nerva_VictoryCard"));
-                    AbstractDungeon.actionManager.addToBottom(new TalkAction(mo, mo.DIALOG[7]));
-                    card = new Death();
+                    if (Loader.isModLoaded("shadowverse")){
+                        if (card instanceof VictoryCard){
+                            AbstractDungeon.actionManager.addToBottom(new SFXAction("Nerva_VictoryCard"));
+                            AbstractDungeon.actionManager.addToBottom(new TalkAction(mo, Nerva.DIALOG[7]));
+                            ReflectionHacks.setPrivate(_inst,MakeTempCardInDrawPileAction.class,"cardToMake",new Death());;
+                        }
+                    }
                 }
             }
         }

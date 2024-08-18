@@ -34,9 +34,9 @@ public class General extends CustomMonster {
     public General(float x, float y) {
         super(NAME, ID, 160, -5.0F, -20.0F, 145.0F, 500.0F, "img/monsters/Shadows/General.png", x, y);
         if (AbstractDungeon.ascensionLevel >= 7) {
-            setHp(180);
+            setHp(170);
         } else {
-            setHp(160);
+            setHp(150);
         }
         if (AbstractDungeon.ascensionLevel >= 2) {
             this.attackDamage = 7;

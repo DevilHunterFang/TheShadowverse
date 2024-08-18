@@ -2,6 +2,7 @@ package shadowverse.cards.temp;
 
 
 import basemod.abstracts.CustomCard;
+import com.evacipated.cardcrawl.mod.stslib.patches.core.AbstractCreature.TempHPField;
 import com.evacipated.cardcrawl.modthespire.Loader;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
@@ -52,8 +53,10 @@ public class Urias_Story extends CustomCard {
             addToBot(new JudgementAction(abstractMonster,9999));
         }
         for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters){
-            if (!mo.hasPower(MinionPower.POWER_ID)){
+            if (!mo.hasPower(MinionPower.POWER_ID) && !mo.isDeadOrEscaped()){
                 addToBot(new DamageAction(mo,new DamageInfo(abstractPlayer,this.damage, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+            }else if (mo.isDeadOrEscaped()){
+                TempHPField.tempHp.set(mo, 0);
             }
         }
         addToBot(new HealAction(abstractPlayer,abstractPlayer,3));

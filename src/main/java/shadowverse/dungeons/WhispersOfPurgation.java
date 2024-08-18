@@ -59,9 +59,9 @@ public class WhispersOfPurgation extends CustomDungeon {
         rareRelicChance = 17;
         colorlessRareChance = 0.3F;
         if (AbstractDungeon.ascensionLevel >= 12) {
-            cardUpgradedChance = 0.25F;
+            cardUpgradedChance = 0.3F;
         } else {
-            cardUpgradedChance = 0.5F;
+            cardUpgradedChance = 0.55F;
         }
     }
 
@@ -142,12 +142,13 @@ public class WhispersOfPurgation extends CustomDungeon {
     }
 
     protected void initializeEventList() {
-        shrineList.add("Match and Keep!");
-        shrineList.add("Wheel of Change");
-        shrineList.add("Golden Shrine");
-        shrineList.add("Transmorgrifier");
-        shrineList.add("Purifier");
-        shrineList.add("Upgrade Shrine");
+        eventList.add("Falling");
+        eventList.add("MindBloom");
+        eventList.add("The Moai Head");
+        eventList.add("Mysterious Sphere");
+        eventList.add("SensoryStone");
+        eventList.add("Tomb of Lord Red Mask");
+        eventList.add("Winding Halls");
     }
 
 }

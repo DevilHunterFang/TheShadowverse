@@ -14,6 +14,8 @@ public class AfterRivaylePatch {
         public static void Post(GetForked forked, boolean afterdoor) {
             if (AbstractDungeon.actNum == 2){
                 forked.imageEventText.loadImage("img/event/WhispersOfPurgation.png");
+            }else if (AbstractDungeon.actNum == 3){
+                forked.imageEventText.loadImage("img/event/FinalPurgation.png");
             }
         }
     }

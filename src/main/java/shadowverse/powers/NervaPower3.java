@@ -41,6 +41,9 @@
      public void atStartOfTurn() {
        if (this.boxed.size() > 0){
            this.amount -= 2;
+           for (AbstractCard c : boxed){
+               c.isLocked = false;
+           }
            this.boxed.clear();
        }else {
            this.amount--;
@@ -58,18 +61,9 @@
 
      @Override
      public void onUseCard(AbstractCard card, UseCardAction action) {
-         if (card.type == AbstractCard.CardType.ATTACK || CardLibrary.getCard(card.cardID).type == AbstractCard.CardType.ATTACK){
+         if (card.type == AbstractCard.CardType.ATTACK || (CardLibrary.getCard(card.cardID) != null && CardLibrary.getCard(card.cardID).type == AbstractCard.CardType.ATTACK)){
              card.setLocked();
              boxed.add(card);
-         }
-     }
-
-     @Override
-     public void atEndOfTurn(boolean isPlayer) {
-         if (!isPlayer){
-             for (AbstractCard c : boxed){
-                 c.isLocked = false;
-             }
          }
      }
  }

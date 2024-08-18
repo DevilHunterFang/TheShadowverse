@@ -19,6 +19,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import shadowverse.cards.curse.*;
 import shadowverse.cards.temp.*;
+import shadowverse.dungeons.FinalPurgation;
 import shadowverse.dungeons.Rivayle;
 import shadowverse.dungeons.WhispersOfPurgation;
 import shadowverse.events.GemFortune;
@@ -104,6 +105,10 @@ public class TheShadowverseMod implements PostInitializeSubscriber, EditCardsSub
         BaseMod.addCard(new Isabelle_Story());
         BaseMod.addCard(new EndOfPurgation());
         BaseMod.addCard(new NervaStatus());
+        BaseMod.addCard(new Pleasure());
+        BaseMod.addCard(new Anger());
+        BaseMod.addCard(new Sorrow());
+        BaseMod.addCard(new Joy());
     }
 
     @Override
@@ -161,7 +166,7 @@ public class TheShadowverseMod implements PostInitializeSubscriber, EditCardsSub
         BaseMod.addMonster("shadowverse:Unturned","Unturned",() -> new MonsterGroup(new AbstractMonster[] { new Wretch2(-465.0F, -30.0F), new Wretch4(-130.0F, -30.0F), new Wretch3(200.0F, -30.0F) }));
         BaseMod.addMonster("shadowverse:Underling_Ista","Underling_Ista",() -> new MonsterGroup(new AbstractMonster[] { new Underling(-130.0F, -30.0F), new Ista(200.0F, -30.0F) }));
         BaseMod.addMonster("shadowverse:2_Henchman","2_Henchman",() -> new MonsterGroup(new AbstractMonster[] { new Henchman(-130.0F, -30.0F), new Henchman2(200.0F, -30.0F) }));
-        BaseMod.addMonster("shadowverse:Rivayle_Mix","Rivayle_Mix",() -> new MonsterGroup(new AbstractMonster[] { new Henchman(-465.0F, -30.0F), new Deputy(-130.0F, -30.0F), new Underling3(200.0F, -30.0F) }));
+        BaseMod.addMonster("shadowverse:Rivayle_Mix","Rivayle_Mix",() -> new MonsterGroup(new AbstractMonster[] { new Henchman(-465.0F, -30.0F), new Underling3(200.0F, -30.0F) ,new Deputy(-130.0F, -30.0F)}));
         BaseMod.addMonster("shadowverse:3_Mechas","3_Mechas",() -> new MonsterGroup(new AbstractMonster[] { new Surveyor(-400.0F, -30.0F), new MechaSoldier(-130.0F, -30.0F), new Surveyor(170.0F, -30.0F) }));
         BaseMod.addMonster("shadowverse:Strong_Mechas","Strong_Mechas",() -> new MonsterGroup(new AbstractMonster[] { new Surveyor(-130.0F, -30.0F), new MegaEnforcer(200.0F, -30.0F) }));
         BaseMod.addMonster("shadowverse:3_OOOGGGG","3_OOOGGGG",() -> new MonsterGroup(new AbstractMonster[] { new OOOGGGG(-400.0F, -30.0F), new OOOGGGG(-130.0F, -30.0F), new OOOGGGG(170.0F, -30.0F) }));
@@ -182,6 +187,12 @@ public class TheShadowverseMod implements PostInitializeSubscriber, EditCardsSub
         whispersOfPurgation.addBoss(Nexus.ID,() -> new Nexus(), "img/monsters/UI/Nexus.png", "img/monsters/UI/Nexus_Outline.png");
         BaseMod.addMonster(Lelouch.ID, Lelouch::new);
         whispersOfPurgation.addAct("TheBeyond");
+        CustomDungeon.addAct(4,new FinalPurgation());
+        BaseMod.addMonster(Nerva.ID,Nerva::new);
+        BaseMod.addBoss(FinalPurgation.ID, Nerva.ID, "img/monsters/UI/Nerva.png", "img/monsters/UI/Nerva_Outline.png");
+        BaseMod.addBoss(FinalPurgation.ID, Nerva.ID, "img/monsters/UI/Nerva.png", "img/monsters/UI/Nerva_Outline.png");
+        BaseMod.addBoss(FinalPurgation.ID, Nerva.ID, "img/monsters/UI/Nerva.png", "img/monsters/UI/Nerva_Outline.png");
+
         /**
         BaseMod.addMonster(KMR.ID, KMR::new);
 
@@ -368,10 +379,10 @@ public class TheShadowverseMod implements PostInitializeSubscriber, EditCardsSub
         reflectedMap.put("NervaPower5", new Sfx(voicePath + "NervaPower5.wav"));
         reflectedMap.put("NervaPower6_Eff", new Sfx(voicePath + "NervaPower6_Eff.wav"));
         reflectedMap.put("Nerva_End", new Sfx(voicePath + "Nerva_End.wav"));
-        reflectedMap.put("NervaHP", new Sfx(voicePath + "NervaHP.wav"));
-        reflectedMap.put("NervaMaxHP", new Sfx(voicePath + "NervaMaxHP.wav"));
-        reflectedMap.put("NervaVictory", new Sfx(voicePath + "NervaVictory.wav"));
-        reflectedMap.put("NervaVictoryCard", new Sfx(voicePath + "NervaVictoryCard.wav"));
+        reflectedMap.put("Nerva_HP", new Sfx(voicePath + "Nerva_HP.wav"));
+        reflectedMap.put("Nerva_MaxHP", new Sfx(voicePath + "Nerva_MaxHP.wav"));
+        reflectedMap.put("Nerva_Victory", new Sfx(voicePath + "Nerva_Victory.wav"));
+        reflectedMap.put("Nerva_VictoryCard", new Sfx(voicePath + "Nerva_VictoryCard.wav"));
         reflectedMap.put("Arisa_Story", new Sfx(voicePath + "Arisa_Story.wav"));
         reflectedMap.put("Yuwan_Story", new Sfx(voicePath + "Yuwan_Story.wav"));
         reflectedMap.put("Urias_Story", new Sfx(voicePath + "Urias_Story.wav"));

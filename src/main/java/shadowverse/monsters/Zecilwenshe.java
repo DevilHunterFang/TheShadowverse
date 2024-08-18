@@ -218,11 +218,14 @@ public class Zecilwenshe extends CustomMonster {
         super.damage(info);
         if (this.currentHealth <= 0 && !this.halfDead) {
             this.halfDead = true;
-            for (AbstractPower p : this.powers)
+            for (AbstractPower p : this.powers){
                 p.onDeath();
+                if (p.type == AbstractPower.PowerType.DEBUFF){
+                    this.powers.remove(p);
+                }
+            }
             for (AbstractRelic r : AbstractDungeon.player.relics)
                 r.onMonsterDeath(this);
-            powers.clear();
             deathCount++;
             int life = 2;
             if (AbstractDungeon.getCurrRoom().monsters.monsters.stream().anyMatch(abstractMonster -> abstractMonster instanceof Iceschillendrig))

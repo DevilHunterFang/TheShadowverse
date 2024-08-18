@@ -23,10 +23,7 @@ import com.megacrit.cardcrawl.powers.*;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 import com.megacrit.cardcrawl.vfx.BorderFlashEffect;
 import com.megacrit.cardcrawl.vfx.StarBounceEffect;
-import com.megacrit.cardcrawl.vfx.combat.HeartBuffEffect;
-import com.megacrit.cardcrawl.vfx.combat.HeartMegaDebuffEffect;
-import com.megacrit.cardcrawl.vfx.combat.InflameEffect;
-import com.megacrit.cardcrawl.vfx.combat.ViolentAttackEffect;
+import com.megacrit.cardcrawl.vfx.combat.*;
 import shadowverse.action.ChangeSpriteAction;
 import shadowverse.cards.temp.*;
 import shadowverse.powers.*;
@@ -55,6 +52,8 @@ public class Nerva extends CustomMonster implements SpriteCreature {
     public float spawnX = -100.0F;
     private boolean isFirstMove = true;
     private int turnCount;
+    private boolean firstTimeHP;
+    private boolean firstEnd;
 
     public HashMap<Integer, AbstractMonster> enemySlots = new HashMap<>();
 
@@ -86,11 +85,11 @@ public class Nerva extends CustomMonster implements SpriteCreature {
     }
 
     public Nerva() {
-        super(NAME, ID, 1000, 0.0F, -30F, 340.0F, 460.0F, "img/monsters/Nerva/class_500061-idle_000.png", 180.0F, 0.0F);
-        //if (Settings.MAX_FPS > 30){
-           // this.animation = new SpriterAnimation("img/monsters/Nerva/Nerva.scml");
-            //extra = new SpriterAnimation("img/monsters/Nerva/extra/extra.scml");
-       // }
+        super(NAME, ID, 1000, -50.0F, -30F, 340.0F, 500.0F, "img/monsters/Nerva/class_500061-idle_000.png", 180.0F, 0.0F);
+        if (Settings.MAX_FPS > 30){
+            this.animation = new SpriterAnimation("img/monsters/Nerva/Nerva.scml");
+            extra = new SpriterAnimation("img/monsters/Nerva/extra/extra.scml");
+        }
         this.dialogX = -100.0F * Settings.scale;
         this.dialogY = 10.0F * Settings.scale;
         this.type = EnemyType.BOSS;
@@ -133,9 +132,9 @@ public class Nerva extends CustomMonster implements SpriteCreature {
         (AbstractDungeon.getCurrRoom()).cannotLose = true;
         addToBot(new SFXAction("Nerva_Start"));
         addToBot(new ShoutAction(this, DIALOG[0], 1.0F, 2.0F));
-        //if (Settings.MAX_FPS > 30){
-         //   AbstractDungeon.actionManager.addToBottom(new ChangeSpriteAction(extra, this, 3.2F));
-        //}
+        if (Settings.MAX_FPS > 30){
+            AbstractDungeon.actionManager.addToBottom(new ChangeSpriteAction(extra, this, 2.1F));
+        }
         addToBot(new ApplyPowerAction(this,this,new NervaPower1(this,200)));
         addToBot(new MakeTempCardInHandAction(returnChoice().get(0)));
         turnCount++;
@@ -180,11 +179,12 @@ public class Nerva extends CustomMonster implements SpriteCreature {
                         }
                     }
                 }
-                addToBot(new MakeTempCardInDrawPileAction(new NervaStatus(),2,true,false,false));
-                addToBot(new MakeTempCardInDiscardAction(new EndOfPurgation(),1));
+                addToBot(new MakeTempCardInDrawPileAction(new EndOfPurgation(),1,true,false,false));
+                addToBot(new MakeTempCardInDiscardAction(new NervaStatus(),2));
                 break;
             case 2:
                 addToBot(new SFXAction("Nerva_A1"));
+                AbstractDungeon.actionManager.addToBottom(new TalkAction(this, Nerva.DIALOG[1]));
                 AbstractDungeon.actionManager.addToBottom(new VFXAction(new HeartMegaDebuffEffect()));
                 AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, this, new VulnerablePower(AbstractDungeon.player, 2, true), 2));
                 AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, this, new WeakPower(AbstractDungeon.player, 2, true), 2));
@@ -201,11 +201,31 @@ public class Nerva extends CustomMonster implements SpriteCreature {
                 }else if (this.hasPower(NervaPower4.POWER_ID)){
                     addToBot(new ApplyPowerAction(this,this,new RegenerateMonsterPower(this,this.regenAmt),this.regenAmt));
                 }else if (this.hasPower(NervaPower6.POWER_ID)){
-                    addToBot(new ApplyPowerAction(this,this,this.getPower(NervaPower6.POWER_ID)));
+                    if (firstEnd){
+                        addToBot(new ApplyPowerAction(this,this,this.getPower(NervaPower6.POWER_ID)));
+                    }else {
+                        firstEnd = true;
+                    }
+                }
+                int rnd = AbstractDungeon.cardRandomRng.random(0,3);
+                switch (rnd){
+                    case 0:
+                        addToBot(new MakeTempCardInDrawPileAction(new Pleasure(),1,true,true));
+                        break;
+                    case 1:
+                        addToBot(new MakeTempCardInDrawPileAction(new Anger(),1,true,true));
+                        break;
+                    case 2:
+                        addToBot(new MakeTempCardInDrawPileAction(new Sorrow(),1,true,true));
+                        break;
+                    case 3:
+                        addToBot(new MakeTempCardInDrawPileAction(new Joy(),1,true,true));
+                        break;
                 }
                 break;
             case 3:
                 addToBot(new SFXAction("Nerva_A2"));
+                AbstractDungeon.actionManager.addToBottom(new TalkAction(this, Nerva.DIALOG[2]));
                 addToBot(new VFXAction(new ViolentAttackEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, Color.BLUE), 1.0F));
                 for (int i = 0; i < this.bloodHitCount; i++){
                     addToBot(new VFXAction(new StarBounceEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY)));
@@ -215,10 +235,16 @@ public class Nerva extends CustomMonster implements SpriteCreature {
                 addToBot(new MakeTempCardInDrawPileAction(new NervaStatus(),1,true,false,false));
                 break;
             case 4:
+                addToBot(new VFXAction(new ViceCrushEffect(AbstractDungeon.player.hb.x,AbstractDungeon.player.hb.y)));
                 AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, this.damage
                         .get(0), AbstractGameAction.AttackEffect.BLUNT_HEAVY));
                 addToBot(new GainBlockAction(this,this.damage.get(0).output));
                 break;
+        }
+        if (this.hasPower(NervaPower6.POWER_ID)){
+            addToBot(new SFXAction("NervaPower6_Eff"));
+            AbstractDungeon.actionManager.addToBottom(new VFXAction(new LaserBeamEffect(this.hb.cX, this.hb.cY + 60.0F * Settings.scale), 1.5F));
+            addToBot(new DamageAction(AbstractDungeon.player, new DamageInfo(this, ((NervaPower6)this.getPower(NervaPower6.POWER_ID)).amount2 * this.getPower(NervaPower6.POWER_ID).amount, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.NONE));
         }
         AbstractDungeon.actionManager.addToBottom(new RollMoveAction(this));
     }
@@ -247,41 +273,55 @@ public class Nerva extends CustomMonster implements SpriteCreature {
     }
 
     public void damage(DamageInfo info) {
-        if (info.output > this.currentBlock + this.currentHealth + TempHPField.tempHp.get(this)){
-            AbstractDungeon.actionManager.addToBottom(new SFXAction("Nerva_HP"));
-            AbstractDungeon.actionManager.addToBottom(new TalkAction(this, DIALOG[4]));
-            info.output = this.currentBlock + this.currentHealth + TempHPField.tempHp.get(this)-1;
-        }
-        super.damage(info);
-        if (this.currentHealth <= 0) {
-            if ((AbstractDungeon.getCurrRoom()).cannotLose) {
-                for (AbstractPower p : this.powers)
-                    p.onDeath();
-                for (AbstractRelic r : AbstractDungeon.player.relics)
-                    r.onMonsterDeath(this);
-                addToTop(new ClearCardQueueAction());
-                AbstractDungeon.actionManager.addToBottom(new SFXAction("Nerva_HP"));
-                AbstractDungeon.actionManager.addToBottom(new TalkAction(this, DIALOG[4]));
-                AbstractDungeon.actionManager.addToBottom(new HealAction(this, this, 1));
+        if (info.output >= this.currentBlock + this.currentHealth + TempHPField.tempHp.get(this)){
+            if ((AbstractDungeon.getCurrRoom()).cannotLose){
+                if (!firstTimeHP){
+                    AbstractDungeon.actionManager.addToBottom(new SFXAction("Nerva_HP"));
+                    AbstractDungeon.actionManager.addToBottom(new TalkAction(this, DIALOG[4]));
+                    firstTimeHP = true;
+                }
+                info.output = this.currentBlock + this.currentHealth + TempHPField.tempHp.get(this)-1;
             }
         }
+        super.damage(info);
     }
 
     @Override
     public void die() {
-        super.die();
-        useFastShakeAnimation(5.0F);
-        CardCrawlGame.screenShake.rumble(4.0F);
-        for (AbstractMonster m : (AbstractDungeon.getCurrRoom()).monsters.monsters) {
-            if (m.isDying || m.isDead) {
-                continue;
+        if (!(AbstractDungeon.getCurrRoom()).cannotLose) {
+            super.die();
+            useFastShakeAnimation(5.0F);
+            CardCrawlGame.screenShake.rumble(4.0F);
+            for (AbstractMonster m : (AbstractDungeon.getCurrRoom()).monsters.monsters) {
+                if (m.isDying || m.isDead) {
+                    continue;
+                }
+                AbstractDungeon.actionManager.addToTop(new HideHealthBarAction(m));
+                AbstractDungeon.actionManager.addToTop(new SuicideAction(m));
+                AbstractDungeon.actionManager.addToTop(new VFXAction(m, new InflameEffect(m), 0.2F));
             }
-            AbstractDungeon.actionManager.addToTop(new HideHealthBarAction(m));
-            AbstractDungeon.actionManager.addToTop(new SuicideAction(m));
-            AbstractDungeon.actionManager.addToTop(new VFXAction(m, new InflameEffect(m), 0.2F));
+            onBossVictoryLogic();
+            onFinalBossVictoryLogic();
+            CardCrawlGame.stopClock = true;
+        }else {
+            if (this.currentHealth <= 0 && !this.halfDead) {
+                    this.halfDead = true;
+                    for (AbstractPower p : this.powers)
+                        p.onDeath();
+                    for (AbstractRelic r : AbstractDungeon.player.relics)
+                        r.onMonsterDeath(this);
+                    addToTop(new ClearCardQueueAction());
+                    AbstractDungeon.actionManager.addToBottom(new AbstractGameAction() {
+                        @Override
+                        public void update() {
+                            Nerva.this.halfDead = false;
+                            this.isDone = true;
+                        }
+                    });
+                    AbstractDungeon.actionManager.addToBottom(new SFXAction("Nerva_HP"));
+                    AbstractDungeon.actionManager.addToBottom(new TalkAction(this, DIALOG[4]));
+                    AbstractDungeon.actionManager.addToBottom(new HealAction(this, this, 1));
+            }
         }
-        onBossVictoryLogic();
-        onFinalBossVictoryLogic();
-        CardCrawlGame.stopClock = true;
     }
 }

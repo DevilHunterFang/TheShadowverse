@@ -28,7 +28,7 @@ public class ReanimateAction extends AbstractGameAction {
     @Override
     public void update() {
         for (AbstractCard c : AbstractDungeon.actionManager.cardsPlayedThisCombat) {
-            if (((CardLibrary.getCard(c.cardID) != null && CardLibrary.getCard(c.cardID).type == AbstractCard.CardType.ATTACK) || c.type == AbstractCard.CardType.ATTACK) && c.cost <= this.amount) {
+            if (!c.isLocked&&((CardLibrary.getCard(c.cardID) != null && CardLibrary.getCard(c.cardID).type == AbstractCard.CardType.ATTACK) || c.type == AbstractCard.CardType.ATTACK) && c.cost <= this.amount) {
                 AbstractCard tmp = c.makeSameInstanceOf();
                 tmp.resetAttributes();
                 list.add(tmp);

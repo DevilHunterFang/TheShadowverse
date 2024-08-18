@@ -59,7 +59,7 @@ public class Lelouch extends CustomMonster {
     public Lelouch() {
         super(NAME, ID, 270, 0.0F, -30F, 230.0F, 450.0F, null, 80.0F, -30.0F);
         this.animation = new SpriterAnimation("img/monsters/Lelouch/Lelouch.scml");
-        this.type = EnemyType.BOSS;
+        this.type = EnemyType.NORMAL;
         if (AbstractDungeon.ascensionLevel >= 8) {
             setHp(300, 300);
         } else {

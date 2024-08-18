@@ -30,7 +30,7 @@ public class NervaStatus extends CustomCard {
 
 
     public NervaStatus() {
-        super(ID, NAME, IMG_PATH, -1, DESCRIPTION, CardType.STATUS, CardColor.COLORLESS, CardRarity.COMMON, CardTarget.NONE);
+        super(ID, NAME, IMG_PATH, -2, DESCRIPTION, CardType.STATUS, CardColor.COLORLESS, CardRarity.COMMON, CardTarget.NONE);
         this.isEthereal = true;
     }
 
@@ -91,6 +91,7 @@ public class NervaStatus extends CustomCard {
                                 }
                                 addToBot(new ApplyPowerAction(m, nerva, new BarricadePower(m)));
                                 addToBot(new GainBlockAction(m, 40));
+                                
                                 nerva.enemySlots.put(i, m);
                             }
                         }
@@ -99,12 +100,14 @@ public class NervaStatus extends CustomCard {
                         if (nerva.enemySlots.get(i) == null) {
                             addToBot(new SpawnMonsterAction(m, true));
                             m.usePreBattleAction();
+                            
                             nerva.enemySlots.put(i, m);
                         } else {
                             if (nerva.enemySlots.get(i).isDying) {
                                 nerva.enemySlots.remove(i);
                                 addToBot(new SpawnMonsterAction(m, true));
                                 m.usePreBattleAction();
+                                
                                 nerva.enemySlots.put(i, m);
                             }
                         }
@@ -113,12 +116,14 @@ public class NervaStatus extends CustomCard {
                         if (nerva.enemySlots.get(i) == null) {
                             addToBot(new SpawnMonsterAction(m, true));
                             m.usePreBattleAction();
+                            
                             nerva.enemySlots.put(i, m);
                         } else {
                             if (nerva.enemySlots.get(i).isDying) {
                                 nerva.enemySlots.remove(i);
                                 addToBot(new SpawnMonsterAction(m, true));
                                 m.usePreBattleAction();
+                                
                                 nerva.enemySlots.put(i, m);
                             }
                         }
@@ -127,12 +132,14 @@ public class NervaStatus extends CustomCard {
                         if (nerva.enemySlots.get(i) == null) {
                             addToBot(new SpawnMonsterAction(m, true));
                             m.usePreBattleAction();
+                            
                             nerva.enemySlots.put(i, m);
                         } else {
                             if (nerva.enemySlots.get(i).isDying) {
                                 nerva.enemySlots.remove(i);
                                 addToBot(new SpawnMonsterAction(m, true));
                                 m.usePreBattleAction();
+                                
                                 nerva.enemySlots.put(i, m);
                             }
                         }

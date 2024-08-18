@@ -4,6 +4,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.evacipated.cardcrawl.mod.stslib.patches.NeutralPowertypePatch;
 import com.evacipated.cardcrawl.mod.stslib.powers.abstracts.TwoAmountPower;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.animations.TalkAction;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.utility.SFXAction;
@@ -16,6 +17,9 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.screens.DeathScreen;
 import com.megacrit.cardcrawl.vfx.combat.HbBlockBrokenEffect;
 import com.megacrit.cardcrawl.vfx.combat.MindblastEffect;
+import shadowverse.action.ChangeSpriteAction;
+import shadowverse.monsters.Nerva;
+import shadowverseCharbosses.actions.RealWaitAction;
 
 public class NervaPower6 extends TwoAmountPower {
     public static final String POWER_ID = "shadowverse:NervaPower6";
@@ -39,14 +43,20 @@ public class NervaPower6 extends TwoAmountPower {
     }
 
     public void playApplyPowerSfx() {
-        CardCrawlGame.sound.play("NervaPower5", 0.05F);
+        if (this.amount < 8){
+            CardCrawlGame.sound.play("NervaPower5", 0.05F);
+        }else {
+            CardCrawlGame.sound.play("Nerva_End", 0.05F);
+        }
     }
 
     public void stackPower(int stackAmount) {
         this.fontScale = 8.0F;
         this.amount += stackAmount;
-        if (this.amount >= 4) {
-            addToBot(new SFXAction("Nerva_End"));
+        if (this.amount >= 8) {
+            AbstractDungeon.actionManager.addToBottom(new TalkAction(this.owner, Nerva.DIALOG[6]));
+            AbstractDungeon.actionManager.addToBottom(new ChangeSpriteAction(((Nerva)this.owner).extra, (Nerva)this.owner, 2.1F));
+            addToBot(new RealWaitAction(3.0f));
             AbstractDungeon.actionManager.addToBottom(new DamageAction(AbstractDungeon.player, new DamageInfo(AbstractDungeon.player, 99999999, DamageInfo.DamageType.HP_LOSS), AbstractGameAction.AttackEffect.SLASH_HEAVY));
             AbstractDungeon.player.isDead = true;
             AbstractDungeon.deathScreen = new DeathScreen(AbstractDungeon.getMonsters());
@@ -58,13 +68,4 @@ public class NervaPower6 extends TwoAmountPower {
         }
     }
 
-
-    @Override
-    public void atEndOfTurn(boolean isPlayer) {
-        if (!isPlayer) {
-            addToBot(new SFXAction("NervaPower6_Eff"));
-            addToBot(new VFXAction(this.owner, new MindblastEffect(this.owner.dialogX, this.owner.dialogY, this.owner.flipHorizontal), 0.1F));
-            addToBot(new DamageAction(AbstractDungeon.player, new DamageInfo(this.owner, this.amount2 * this.amount, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.NONE));
-        }
-    }
 }

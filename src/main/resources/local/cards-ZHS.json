@@ -404,7 +404,7 @@
   },
   "shadowverse:EnPurgationBlade": {
     "NAME": "肃清的一刀",
-    "DESCRIPTION": "返还所有因 *悲哀的帐幕 吸收的卡。 NL 造成吸收的卡数量的伤害并获得3点能量。 NL 如果为第5回合以后，改为造成玩家生命上限的伤害。"
+    "DESCRIPTION": "返还所有因 *悲哀的帐幕 吸收的卡。 NL 造成吸收的卡数量的伤害并获得3点能量。 NL 如果为第5回合以后，改为造成玩家生命上限一半的伤害。"
   },
   "shadowverse:EnUnnamedDetermination": {
     "NAME": "无名的决意",
@@ -508,7 +508,7 @@
   },
   "shadowverse:Isabelle_Story": {
     "NAME": "撕裂肃清的魔法",
-    "DESCRIPTION": "保留 NL 造成 !D! × !M! 点伤害。 NL 魔力增幅 :使X增加1。 NL 消耗 。"
+    "DESCRIPTION": "保留 NL 对全体敌人造成 !D! × !M! 点伤害。 NL 魔力增幅 :使X增加1。 NL 消耗 。"
   },
   "shadowverse:Erika_Story": {
     "NAME": "斩断肃清的剑闪",
@@ -541,11 +541,14 @@
   },
   "shadowverse:Arisa_Story": {
     "NAME": "贯穿肃清的意志",
-    "DESCRIPTION": "保留 NL 抽1张牌。 NL 对全体敌人造成 !D!  NL 消耗 。"
+    "DESCRIPTION": "保留 NL 抽1张牌。 NL 对全体敌人造成 !D! 点伤害 × X点伤害。 NL X为手牌数 。 NL 消耗 。"
   },
   "shadowverse:Elena_Story": {
     "NAME": "因果之剑",
-    "DESCRIPTION": "保留 NL 斩断肃清的因果。 NL 消耗 。"
+    "DESCRIPTION": "保留 NL 斩断 *「肃清」 的因果。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (只有在终焉的肃清状态下涅尔瓦的生命值为1，且打出过所有本场战斗赋予的衍生牌后才能打出)"
+    ]
   },
   "shadowverse:NervaStatus": {
     "NAME": "肃清的侵略",
@@ -554,5 +557,21 @@
   "shadowverse:EndOfPurgation": {
     "NAME": "终焉的肃清",
     "DESCRIPTION": "进入弃牌堆或打出时，增加1层涅尔瓦的 *终焉的肃清 。 NL 消耗 。"
+  },
+  "shadowverse:Pleasure": {
+    "NAME": "喜",
+    "DESCRIPTION": "你不能连续打出相同类型的牌。 NL 虚无 。"
+  },
+  "shadowverse:Anger": {
+    "NAME": "怒",
+    "DESCRIPTION": "每当打出牌时，将弃牌堆重新洗牌。 NL 虚无 。"
+  },
+  "shadowverse:Sorrow": {
+    "NAME": "哀",
+    "DESCRIPTION": "被消耗时，增加1张 *虚空 到抽牌堆。 NL 虚无 。"
+  },
+  "shadowverse:Joy": {
+    "NAME": "乐",
+    "DESCRIPTION": "被抽到时，获得1层 无实体 ，且本回合不能从卡牌中获得 格挡 。 NL 虚无 。"
   }
 }

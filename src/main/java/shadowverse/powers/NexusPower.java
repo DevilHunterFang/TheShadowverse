@@ -52,7 +52,7 @@ public class NexusPower extends AbstractPower {
     public float atDamageFinalReceive(float damage, DamageInfo.DamageType type) {
         if (damage > this.owner.maxHealth - this.amount*25)
             damage = this.owner.maxHealth - this.amount*25;
-        if (damage <= 25.0F){
+        if (damage <= 25.0F && this.amount*25 >= this.owner.maxHealth){
             damage = 25.0F;
         }
         return damage;

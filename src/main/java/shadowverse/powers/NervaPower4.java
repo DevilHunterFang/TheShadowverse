@@ -13,8 +13,6 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import shadowverse.action.SummonDrainStormShadeAction;
-import shadowverse.action.SummonStormShadeAction;
-
 
 public class NervaPower4 extends AbstractPower {
     public static final String POWER_ID = "shadowverse:NervaPower4";
@@ -22,7 +20,7 @@ public class NervaPower4 extends AbstractPower {
     public static final String NAME = powerStrings.NAME;
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
     public AbstractMonster[] shades = new AbstractMonster[3];
-    public float[] POSX;
+    public float[] POSX = new float[3];
 
     public NervaPower4(AbstractCreature owner) {
         this.name = NAME;

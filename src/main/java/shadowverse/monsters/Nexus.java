@@ -20,6 +20,7 @@ import com.megacrit.cardcrawl.cards.status.Dazed;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.localization.MonsterStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
@@ -304,7 +305,7 @@ public class Nexus extends CustomMonster {
                 AbstractDungeon.actionManager.addToBottom(new ShoutAction(this, DIALOG[0]));
                 AbstractDungeon.actionManager.addToBottom(new SFXAction("Reset"));
                 for (AbstractCard c : AbstractDungeon.player.discardPile.group){
-                    if (c.type == AbstractCard.CardType.ATTACK){
+                    if (c.type == AbstractCard.CardType.ATTACK || (CardLibrary.getCard(c.cardID)!=null && CardLibrary.getCard(c.cardID).type == AbstractCard.CardType.ATTACK)){
                         addToBot(new ExhaustSpecificCardAction(c,AbstractDungeon.player.discardPile));
                     }
                 }
