@@ -150,6 +150,7 @@ public class Rivayle extends CustomDungeon {
         eventList.add("Back to Basics");
         eventList.add("Beggar");
         eventList.add("Colosseum");
+        eventList.add("Cursed Tome");
         eventList.add("Drug Dealer");
         eventList.add("Forgotten Altar");
         eventList.add("Ghosts");

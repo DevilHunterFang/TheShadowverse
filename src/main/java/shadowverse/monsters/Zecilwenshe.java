@@ -220,10 +220,8 @@ public class Zecilwenshe extends CustomMonster {
             this.halfDead = true;
             for (AbstractPower p : this.powers){
                 p.onDeath();
-                if (p.type == AbstractPower.PowerType.DEBUFF){
-                    this.powers.remove(p);
-                }
             }
+            AbstractDungeon.actionManager.addToBottom(new RemoveDebuffsAction(this));
             for (AbstractRelic r : AbstractDungeon.player.relics)
                 r.onMonsterDeath(this);
             deathCount++;

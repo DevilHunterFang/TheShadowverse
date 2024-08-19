@@ -61,7 +61,7 @@ public class VincentBOSS extends CustomMonster implements SpriteCreature {
         this.dialogY = 20.0F * Settings.scale;
         this.type = EnemyType.BOSS;
         if (AbstractDungeon.ascensionLevel >= 8) {
-            setHp(400, 400);
+            setHp(380, 380);
         } else {
             setHp(350, 350);
         }
