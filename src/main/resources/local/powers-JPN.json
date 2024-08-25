@@ -271,5 +271,192 @@
       "ダメージ #b",
       " 回受けると、 #y無形 を得る。消滅する時、敵に #y安寧の侵食 #b1 を与える。"
     ]
+  },
+  "shadowverse:RapidPower": {
+    "NAME": "早撃ち",
+    "DESCRIPTIONS": [
+      "あと #b",
+      " 枚プレイしたら、 すぐに行動する。"
+    ]
+  },
+  "shadowverse:AimedPower": {
+    "NAME": "照準マーク",
+    "DESCRIPTIONS": [
+      "次に受けるダメージは+ #b",
+      " される。"
+    ]
+  },
+  "shadowverse:BelphometPower": {
+    "NAME": "喜悦の障壁",
+    "DESCRIPTIONS": [
+      "受けるダメージを‐ #b",
+      " する。それと同じ分だけこの能力の数は‐される。ターン開始時、この能力の数を上限まで回復する。"
+    ]
+  },
+  "shadowverse:NicolaPower": {
+    "NAME": "禁絶の魔導核",
+    "DESCRIPTIONS": [
+      "#yブロック を持たないベルフォメットにダメージを与える時、 #yネクロマンス #bX :さらに #bX ダメージを与える。Xは #y墓場 の数。 NL ターン終了時、最大エナジーの半分(端数切り上げ)の #y墓場 を得る。"
+    ]
+  },
+  "shadowverse:NaterranWorldTreePower": {
+    "NAME": "ナテラの宝樹",
+    "DESCRIPTIONS": [
+      "敵が場に出た時、この能力の数を #b1 増やす。"
+    ]
+  },
+  "shadowverse:TaketsumiPower2": {
+    "NAME": "安楽の狂宴",
+    "DESCRIPTIONS": [
+      "#yナテラの宝樹 の数が上がる時、それが5以上なら、敵全体に #b1 の #y筋力 と #b6 の #y仮HP を得る。"
+    ]
+  },
+  "shadowverse:Itsurugi_SlashPower": {
+    "NAME": "蜘蛛切り作法",
+    "DESCRIPTIONS": [
+      "次の #b",
+      " 回に #y旅籠煤 にダメージを与える時、それを即死させる。"
+    ]
+  },
+  "shadowverse:FlowerPower": {
+    "NAME": "紅の花",
+    "DESCRIPTIONS": [
+      "次の #b",
+      " 回に #yタケツミ にダメージを与える時、手札全てを アップグレード し、与えたダメージ分のブロックを得る。"
+    ]
+  },
+  "shadowverse:KarulaPower": {
+    "NAME": "アーツマスター・カルラ",
+    "DESCRIPTIONS": [
+      "ターン終了時、残りエナジーがあるなら、 #b",
+      " の #y筋力 と #y敏捷性 を得、ランダムな敵に #y弱体 と #y脱力 #b3 を得る。"
+    ]
+  },
+  "shadowverse:MaishaPower": {
+    "NAME": "悲哀の帳",
+    "DESCRIPTIONS": [
+      "戦闘開始時、 #y筋力 #b3 を得る 。 NL ターン終了時、捨て札からランダムなアタック2枚をプレイ不能にする。 NL これによってプレイ不能になったカードが1枚しかないなら、敵に #b8 ダメージを与える。2枚なら、 #b12 ダメージ。 NL ターン開始時、プレイ不能のカードを全て吸収する。カードを吸収したら、敵に #b16 ダメージを与える。 NL カードを引く度、この能力の数を‐ #b1 する。この能力の数が #b0 になった時、敗北となる。",
+      "吸収したカード："
+    ]
+  },
+  "shadowverse:CetusPower": {
+    "NAME": "悲劇を断ち切る覚悟",
+    "DESCRIPTIONS": [
+      "次のターン開始時、 #y悲哀の帳 によってプレイ不能になったカード #b1 枚を手札に戻し、それをプレイ可能にする。 NL このターン中にプレイしていたカードの枚数が #g6 以上なら、1枚ではなく2枚。 NL これによって手札に戻したカード1枚につき、 #y悲哀の帳 を-15してHPを #b1 回復する。"
+    ]
+  },
+  "shadowverse:EnTsukuyomiPower": {
+    "NAME": "ツクヨミ",
+    "DESCRIPTIONS": [
+      "攻撃を受ける度、反撃ダメージ #b",
+      " を与える。"
+    ]
+  },
+  "shadowverse:EnAmaterasuPower": {
+    "NAME": "アマテラス",
+    "DESCRIPTIONS": [
+      "攻撃を受ける度、HPを #b",
+      " 回復する。"
+    ]
+  },
+  "shadowverse:TrueSwordPower": {
+    "NAME": "真実の剣",
+    "DESCRIPTIONS": [
+      "5ターン目以降なら、 #y真実の剣 1枚を手札に加える。"
+    ]
+  },
+  "shadowverse:MaishaPower2": {
+    "NAME": "粛清の英雄",
+    "DESCRIPTIONS": [
+      "この能力の数はBPとして扱う。 NL ターン終了時、BPを+ #b1 する。 NL 残りエナジーがあれば、1ではなく+ #b2 する。次のターン開始時、追加で #b1 枚を引く。 NL ターンごとに、 #yメイシアの技巧 、 #yメイシアの秘術 、 #yメイシアの奥義 からランダムな1枚をプレイする。 "
+    ]
+  },
+  "shadowverse:SionPower": {
+    "NAME": "水銀の断絶",
+    "DESCRIPTIONS": [
+      "次のターンになるまで、受けれるダメージは #b",
+      " 。"
+    ]
+  },
+  "shadowverse:ElementalBrinkPower": {
+    "NAME": "狭間の生成",
+    "DESCRIPTIONS": [
+      "ターン終了時、敵は #b",
+      " の #y筋力 と #y敏捷性 を失う。 NL 残りエナジーがあれば、それと同じ数だけ #y筋力 と #y敏捷性 を得る。"
+    ]
+  },
+  "shadowverse:NexusPower": {
+    "NAME": "憤怒の永劫",
+    "DESCRIPTIONS": [
+      "死亡時、敵の捨て札にあるアタックを全て #r廃棄 し、手札のアタックを山札に戻してシャッフルする。敵のHPを #b5 回復させ、この能力の数を0にする。 NL ターン開始時、 #yシャドウソルジャー を2体出し、それを直ぐに行動させ、行動した後即死させる。 NL ネクサスはこの戦闘中に死亡した #y虚ろの影 によって強化される。 NL (一度に受けるダメージは #b",
+      " を超えない) "
+    ]
+  },
+  "shadowverse:SpectorTitanPower": {
+    "NAME": "共鳴する武力",
+    "DESCRIPTIONS": [
+      "カードをプレイする度、ランダムな敵に #b10 ダメージを与える。ターン終了時、この戦闘中にプレイしていたカードの枚数が #b10 以上なら、次のアタックは2回プレイされる。"
+    ]
+  },
+  "shadowverse:MaiserTitanPower": {
+    "NAME": "神速の治安",
+    "DESCRIPTIONS": [
+      "ターン開始時、ネクサス以外のランダムな敵に #b50 ダメージを与える。 NL ターン終了時、この効果を失い、これの数+1の #y熱情の治安 を得る。 NL これの数がターン終了時に4以上なら、 #y筋力 と #y敏捷性 #b2 を得る。"
+    ]
+  },
+  "shadowverse:SelenaTitanPower": {
+    "NAME": "熱情の治安",
+    "DESCRIPTIONS": [
+      "ターン開始時、ネクサスに #b25 ダメージを与える。 NL ターン終了時、この効果を失い、これの数+1の #y神速の治安 を得る。 NL これの数がターン終了時に4以上なら、 #y筋力 と #y敏捷性 #b2 を得る。"
+    ]
+  },
+  "shadowverse:DiscardOnStartPower": {
+    "NAME": "干絶の甘露",
+    "DESCRIPTIONS": [
+      "カードを引く度、それを捨てる。あと #b",
+      " 働ける。"
+    ]
+  },
+  "shadowverse:NervaPower1": {
+    "NAME": "喜悦の感情",
+    "DESCRIPTIONS": [
+      "#yカウント #b",
+      " :これを失い、 #y憤怒の感情 を得る。 NL 受ける最大ダメージは #b",
+      " まで。ターン開始時、受けたダメージがこれの最大値を上回ったなら、さらに #yカウントダウン #b1 進める。 NL ターン終了時、ドロー減少 #b1 を与える。"
+    ]
+  },
+  "shadowverse:NervaPower2": {
+    "NAME": "憤怒の感情",
+    "DESCRIPTIONS": [
+      "#yカウント #b",
+      " :これを失い、 #y悲哀の感情 を得る。 NL ターン開始時、HPが最大値より低いなら、最大値まで回復し、 #yカウントダウン #b1 進める。 NL ターン終了時、ターン数と同じだけ、 #y筋力 を得る。"
+    ]
+  },
+  "shadowverse:NervaPower3": {
+    "NAME": "悲哀の感情",
+    "DESCRIPTIONS": [
+      "#yカウント #b",
+      " :これを失い、 #y安楽の感情 を得る。 NL 敵がアタックをプレイ時、そのカードは次のターンになるまでプレイ不能になる。 NL ターン開始時、上記の能力が働いたなら、さらに #yカウントダウン #b1 進める。"
+    ]
+  },
+  "shadowverse:NervaPower4": {
+    "NAME": "安楽の感情",
+    "DESCRIPTIONS": [
+      "#yカウント #b",
+      " :これを失い、 #y終焉の粛清 を得る。 NL ターン開始時、 #yドレイン を持つ #yシャドウソルジャー 3体出し、それを直ぐに行動させ、行動した後即死させる。 NL ターン終了時、敵全体は #y筋力 #b1 と #y仮HP #b6 を得る。"
+    ]
+  },
+  "shadowverse:NervaPower6": {
+    "NAME": "終焉の粛清",
+    "DESCRIPTIONS": [
+      "ターン終了時、プレイヤーに #b",
+      " ダメージを与える。これの数が8以上に達したら、ネルヴァはゲームに勝利する。"
+    ]
+  },
+  "shadowverse:MonsterDrainPower": {
+    "NAME": "ドレイン",
+    "DESCRIPTIONS": [
+      "与えたダメージ分HPを回復する。ネルヴァも同時にその分を回復させる。"
+    ]
   }
 }

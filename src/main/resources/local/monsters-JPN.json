@@ -258,5 +258,135 @@
     "NAME": "アイシィの部下",
     "DIALOG": [
     ]
+  },
+  "shadowverse:Deputy": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "レヴィールの保安官輔",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Wretch2": {
+    "MOVES": [
+      "儀式"
+    ],
+    "NAME": "異形となったレヴィールの住民",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Wretch5": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "忠実なる従僕",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Ista": {
+    "MOVES": [
+      "欺く"
+    ],
+    "NAME": "イスター",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Spider": {
+    "MOVES": [
+      "絡めとる",
+      ""
+    ],
+    "NAME": "旅籠煤 記憶:",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Maisha": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "メイシア・ラフォージ",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:General": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "シャドウジェネラル",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Nexus": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "ネクサス",
+    "DIALOG": [
+      "リセット",
+      "リスタート",
+      "砕け散れ",
+      "調和をもたらす",
+      "@無駄!無為!無謀!@",
+      "@愚か!@"
+    ]
+  },
+  "shadowverse:Surveyor": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "小型警備用ドローン",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:MegaEnforcer": {
+    "MOVES": [
+      "排除行動",
+      "リペアモード"
+    ],
+    "NAME": "大型機械兵",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:OOOGGGG": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "OOOGGGG",
+    "DIALOG": [
+      "——AAAAAaaaaa——!"
+    ]
+  },
+  "shadowverse:Sword": {
+    "MOVES": [
+      "防御の構え"
+    ],
+    "NAME": "ブレイドライト騎士団の剣士",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Axe": {
+    "MOVES": [
+      "防御の構え"
+    ],
+    "NAME": "ブレイドライト騎士団の重戦士",
+    "DIALOG": [
+      "行動準備"
+    ]
+  },
+  "shadowverse:Nerva": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "ネルヴァ",
+    "DIALOG": [
+      "私こそ真なる人",
+      "運命すら覆してあげる",
+      "お前では届かない",
+      "@私は全てを越える‼@",
+      "私は止められない",
+      "小賢しい",
+      "ごめんなさいね",
+      "結末は変わらない"
+    ]
   }
 }

@@ -26,7 +26,7 @@
   },
   "shadowverse:EnDarkPriest": {
     "NAME": "ダークプリースト",
-    "DESCRIPTION": "!B! ブロック を得る。 NL 弱体 と 脆弱化 を !M! 与える。"
+    "DESCRIPTION": "!B! ブロック を得る。 NL 弱体 と 脆弱化化 を !M! 与える。"
   },
   "shadowverse:EnThemisDecree": {
     "NAME": "テミスの審判",
@@ -166,7 +166,7 @@
   },
   "shadowverse:EnBlackenedScripture": {
     "NAME": "漆黒の法典",
-    "DESCRIPTION": " 脱力 と 脆弱化 を !M! 与える。"
+    "DESCRIPTION": " 脱力 と 脆弱化化 を !M! 与える。"
   },
   "shadowverse:EnMoonAlmiraj": {
     "NAME": "ムーンアルミラージ",
@@ -198,7 +198,7 @@
   },
   "shadowverse:EnProtectArtifact": {
     "NAME": "プロテクトアーティファクト",
-    "DESCRIPTION": "AF 。 NL !B! ブロック を得る。 NL 敵に 脆弱化 を !M! 与える。 NL 廃棄 。"
+    "DESCRIPTION": "AF 。 NL !B! ブロック を得る。 NL 敵に 脆弱化化 を !M! 与える。 NL 廃棄 。"
   },
   "shadowverse:GuardArtifact": {
     "NAME": "ガードアーティファクト",
@@ -372,5 +372,202 @@
   "shadowverse:BelphometStatus": {
     "NAME": "支配者の弾圧",
     "DESCRIPTION": "保留 。 NL 機械 。 NL 自分に4ダメージを与える。 NL 保留 される時、手札のこのカード以外の *支配者の弾圧 の数だけ自分に !M! ダメージを与える。"
+  },
+  "shadowverse:Itsurugi_Slash": {
+    "NAME": "蜘蛛切り作法",
+    "DESCRIPTION": "手札1枚を捨てる。 NL 次の !M! 回に *旅籠煤 にダメージを与える時、それを即死させる。 NL 廃棄 。"
+  },
+  "shadowverse:GarnetFlower": {
+    "NAME": "紅の花",
+    "DESCRIPTION": "*拘束 全てを失う。 NL 次の !M! 回に *タケツミ にダメージを与える時、手札全てを アップグレード し、与えたダメージ分の ブロック を得る。 NL 廃棄 。"
+  },
+  "shadowverse:FalseSword": {
+    "NAME": "噓の剣",
+    "DESCRIPTION": "敵全体に !D! ダメージを与える。 NL 廃棄 。"
+  },
+  "shadowverse:FalseSlash": {
+    "NAME": "偽りの一閃",
+    "DESCRIPTION": "弱体化 、 脱力 、 脆弱化 2を与える。 NL 廃棄 。"
+  },
+  "shadowverse:TrueStrike": {
+    "NAME": "真なる斬撃",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 廃棄 。"
+  },
+  "shadowverse:DualSwords": {
+    "NAME": "宿願の二刀",
+    "DESCRIPTION": "チョイス : NL *偽りの一閃 NL *真なる斬撃 NL チョイス したカードをプレイする。",
+    "UPGRADE_DESCRIPTION":"チョイス : NL *偽りの一閃+ NL *真なる斬撃+ NL チョイス したカードをプレイする。"
+  },
+  "shadowverse:EnPurgationBlade": {
+    "NAME": "粛清の一刀",
+    "DESCRIPTION": "*悲哀の帳 によって吸収したカードを全て戻す。 NL 吸収したカード分のダメージを与え、エナジー3を得る。 NL 5ターン目以降なら、代わりに敵のHP最大値の半分のダメージを与える。"
+  },
+  "shadowverse:EnUnnamedDetermination": {
+    "NAME": "名もなき決意",
+    "DESCRIPTION": "次のターン開始時、エナジー1を得、追加でカード !M! 枚を引く。"
+  },
+  "shadowverse:EnRukina": {
+    "NAME": "レジスタンスの指導者・ルキナ",
+    "DESCRIPTION": "!B! ブロック を得る。 NL アーティファクト 1を得る。"
+  },
+  "shadowverse:Karula": {
+    "NAME": "アーツマスター・カルラ",
+    "DESCRIPTION": "!B! ブロック を得る。 NL エンハンス 2 *EP と *奇跡 それぞれ1枚を手札に加える。 NL ターン終了時、残りエナジーがあるなら、 筋力 と 敏捷性 を !M! 得、ランダムな敵に 弱体 と 脱力 3を与える。"
+  },
+  "shadowverse:EnAmaterasu": {
+    "NAME": "アマテラス",
+    "DESCRIPTION": "!B! ブロック を得る。 NL このターン、攻撃を受ける度、HPを !M! 回復する。 NL 廃棄 。"
+  },
+  "shadowverse:EnTsukuyomi": {
+    "NAME": "ツクヨミ",
+    "DESCRIPTION": "!B! ブロック を得る。 NL このターン、攻撃を受ける度、反撃ダメージ !M! を与える。 NL 廃棄 。"
+  },
+  "shadowverse:EnMoonAndSun": {
+    "NAME": "月と太陽",
+    "DESCRIPTION": "チョイス : NL *アマテラス NL *ツクヨミ NL チョイス したカードをプレイする。",
+    "UPGRADE_DESCRIPTION":"チョイス : NL *アマテラス+ NL *ツクヨミ+ NL チョイス したカードをプレイする。"
+  },
+  "shadowverse:EnBladeOfLight": {
+    "NAME": "閃光の剣",
+    "DESCRIPTION": "次のターン開始時、追加でカード !M! 枚を引く。 NL 廃棄 。"
+  },
+  "shadowverse:EnBladeOfDark": {
+    "NAME": "常闇の剣",
+    "DESCRIPTION": "ドロー減少 !M! を与える。 NL 廃棄 。"
+  },
+  "shadowverse:Riftdweller": {
+    "NAME": "境界の内包者",
+    "DESCRIPTION": "!B! ブロック を得る。 NL チョイス : NL *閃光の剣 NL *常闇の剣 NL チョイス したカードをプレイする。",
+    "UPGRADE_DESCRIPTION":"!B! ブロック を得る。 NL チョイス : NL *閃光の剣+ NL *常闇の剣+ NL チョイス したカードをプレイする。"
+  },
+  "shadowverse:Victoria": {
+    "NAME": "ヴィクトリア",
+    "DESCRIPTION": "!D! ダメージを2回与える。 NL 廃棄 。"
+  },
+  "shadowverse:Roid": {
+    "NAME": "ロイド",
+    "DESCRIPTION": "!B! ブロック を得る。 NL 廃棄 。"
+  },
+  "shadowverse:HeartlessBattle": {
+    "NAME": "心無き決闘",
+    "DESCRIPTION": "チョイス : *ロイド か *ヴィクトリア から1枚をプレイする。 NL *操り人形 をプレイする。",
+    "UPGRADE_DESCRIPTION": "チョイス : *ロイド+ か *ヴィクトリア+ から1枚をプレイする。 NL *操り人形+ をプレイする。"
+  },
+  "shadowverse:Puppet": {
+    "NAME": "操り人形",
+    "DESCRIPTION": "!D! ダメージを与える。 NL エセリアル 。 NL 廃棄 。"
+  },
+  "shadowverse:EnRavenousSweetness": {
+    "NAME": "干絶の甘露",
+    "DESCRIPTION": "!D! ダメージを与える。 NL HPを5回復する。 NL ターン開始時、追加でカード5枚を引く。 NL 敵は引いたカードを捨てなければならない(5回まで)。 NL 廃棄 。"
+  },
+  "shadowverse:EnOmenOfCraving": {
+    "NAME": "干絶の飢餓・ギルネリーゼ",
+    "DESCRIPTION": "!D! ダメージを与え、与えたダメージ分HPを回復する。 NL 筋力 2を得、 敏捷性 2を失う。 NL 直接召喚 :ターン開始時、それが5ターン目以降なら、これを山札からプレイする。 *干絶の甘露 1枚を手札に加える。"
+  },
+  "shadowverse:MaishaSkill": {
+    "NAME": "メイシアの技巧",
+    "DESCRIPTION": "!D! ダメージを与える。 NL ＢＰ1を得る。"
+  },
+  "shadowverse:MaishaSpell": {
+    "NAME": "メイシアの秘術",
+    "DESCRIPTION": "[E] を得る。"
+  },
+  "shadowverse:MaishaUltimate": {
+    "NAME": "メイシアの奥義",
+    "DESCRIPTION": "ＢＰXを失い、 筋力 Xを得る。 NL Xが10以上なら、このターン中に与えるダメージを倍にする。 NL XはＢＰ数。"
+  },
+  "shadowverse:TrueSword": {
+    "NAME": "真実の剣",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 5ターン目以降なら、ターン開始時、これの *複製品 1枚を手札に加える。 NL 廃棄 。"
+  },
+  "shadowverse:EnSion": {
+    "NAME": "永久の盾・シオン",
+    "DESCRIPTION": "!B! ブロック を得る。 NL 能力によるダメージは無効 1を得る 。 NL *水銀の断絶 をプレイする。",
+    "UPGRADE_DESCRIPTION":"!B! ブロック を得る。 NL 能力によるダメージは無効 1を得る 。 NL *水銀の断絶+ をプレイする。"
+  },
+  "shadowverse:MercurialMight": {
+    "NAME": "水銀の断絶",
+    "DESCRIPTION": "このターン中に受けるダメージは最大 !M! 点までになる。 NL 廃棄 。"
+  },
+  "shadowverse:ElementalBrink": {
+    "NAME": "狭間の生成",
+    "DESCRIPTION": "ターン終了時、ランダムな敵は 筋力 と 敏捷性 !M! 失う。 NL 残りエナジーがあれば、 筋力 と 敏捷性 !M! を得る。"
+  },
+  "shadowverse:MaiserTitan": {
+    "NAME": "神速の治安",
+    "DESCRIPTION": "ターン開始時、ネクサス以外のランダムな敵に50ダメージを与える。 NL ターン終了時、この効果を失い、これの数+1の *熱情の治安 を得る。 NL これの数がターン終了時に4以上なら、 筋力 と 敏捷性 2を得る。"
+  },
+  "shadowverse:SpectorTitan": {
+    "NAME": "共鳴する武力",
+    "DESCRIPTION": "カードをプレイする度、ランダムな敵に10ダメージを与える。 NL ターン終了時、この戦闘中にプレイしていたカードが10枚以上なら、次のアタックは2回プレイされる。"
+  },
+  "shadowverse:Isabelle_Story": {
+    "NAME": "粛清を裂く魔術",
+    "DESCRIPTION": "保留 NL 敵全体に !D! × !M! ダメージを与える。 NL スペルブースト :Xを+1する。 NL 廃棄 。"
+  },
+  "shadowverse:Erika_Story": {
+    "NAME": "粛清を斬る剣閃",
+    "DESCRIPTION": "保留 NL ランダムな敵に !D! ダメージを与え、 弱体化 を与える。これを2回行う。 NL ロイヤルクラスなら、代わりに *クイックブレイダー 2体を出す。 NL 連携 10 : 筋力 と 敏捷性 2を得る。フォロワー全て+2/+2する。 NL 廃棄 。",
+    "EXTENDED_DESCRIPTION": [
+      "（連携数:",
+      ")"
+    ]
+  },
+  "shadowverse:Rowen_Story": {
+    "NAME": "粛清を砕く爪牙",
+    "DESCRIPTION": "保留 NL ターン開始時、追加でエナジー1を得る。 NL シャドウバースプレイヤーなら、代わりに 覚醒ポイント3を得る 。 NL 覚醒 なら、このターンだけ 筋力 !M! を得る。 NL 廃棄 。"
+  },
+  "shadowverse:Iris_Story": {
+    "NAME": "粛清を阻む心願",
+    "DESCRIPTION": "保留 NL HP最大値を5増やす。 NL カード !M! 枚を引く。 NL 廃棄 。"
+  },
+  "shadowverse:Luna_Story": {
+    "NAME": "粛清を拒む激情",
+    "DESCRIPTION": "保留 NL リアニメイト 2、 リアニメイト 1、 リアニメイト 0。 NL ネクロマンス 6:手札1枚を アップグレード する。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "保留 NL リアニメイト 2、 リアニメイト 1、 リアニメイト 0。 NL ネクロマンス 6:手札全てを アップグレード する。 NL 廃棄 。"
+  },
+  "shadowverse:Urias_Story": {
+    "NAME": "粛清を壊す本能",
+    "DESCRIPTION": "保留 NL 対象ミニオンを即死させる。 NL ネルヴァに !D! ダメージを与え、HPを3回復する。 NL 廃棄 。"
+  },
+  "shadowverse:Yuwan_Story": {
+    "NAME": "粛清を超す才気",
+    "DESCRIPTION": "保留 NL 対象ミニオンを即死させる。 NL デッキの枚数が偶数なら、ネルヴァに !D! ダメージを与える。 NL 廃棄 。"
+  },
+  "shadowverse:Arisa_Story": {
+    "NAME": "粛清を穿つ意志",
+    "DESCRIPTION": "保留 NL カード1枚を引く。 NL 敵全体に !D! × Xダメージを与える。 NL Xは手札の枚数。 NL 廃棄 。"
+  },
+  "shadowverse:Elena_Story": {
+    "NAME": "因果の剣",
+    "DESCRIPTION": "保留 NL *《粛清》 の因果を断ち切る。 NL 廃棄 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (HPが1、終焉の粛清状態になったネルヴァを対象に、この戦闘中に手札に加えられたトークン全てをプレイしていたならプレイできる)"
+    ]
+  },
+  "shadowverse:NervaStatus": {
+    "NAME": "粛清の侵略",
+    "DESCRIPTION": "これが引かれた時、ネルヴァの感情によってミニオンを場に出す。 NL ミニオンが既に3体以上なら、代わりに4ダメージを受け、敵全体を強化する。 NL エセリアル 。"
+  },
+  "shadowverse:EndOfPurgation": {
+    "NAME": "終焉の粛清",
+    "DESCRIPTION": "捨て札に送られ、またはプレイされる時、ネルヴァの *終焉の粛清 を1増やす。 NL 廃棄 。"
+  },
+  "shadowverse:Pleasure": {
+    "NAME": "喜",
+    "DESCRIPTION": "同じタイプのカードを連続でプレイできなくなる。 NL エセリアル 。"
+  },
+  "shadowverse:Anger": {
+    "NAME": "怒",
+    "DESCRIPTION": "カードをプレイする度、捨て札のカードを山札に戻してシャッフルする。 NL エセリアル 。"
+  },
+  "shadowverse:Sorrow": {
+    "NAME": "哀",
+    "DESCRIPTION": "これが 廃棄 される時、 *空虚 1枚を山札に加える。 NL エセリアル 。"
+  },
+  "shadowverse:Joy": {
+    "NAME": "楽",
+    "DESCRIPTION": "これが引かれた時、 無形 1を得る。このターン、カードから ブロック を得ることができない。 NL エセリアル 。"
   }
 }

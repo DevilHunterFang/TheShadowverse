@@ -84,6 +84,7 @@ public class EnPurgationBlade extends AbstractBossCard {
                 break;
             }
         }
+        ((MaishaPower)m.getPower(MaishaPower.POWER_ID)).boxed.clear();
     }
 
     public void upgrade() {
