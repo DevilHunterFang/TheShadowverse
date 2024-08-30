@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3b766f6c-a243-4b15-a2e5-209602a87b5d" name="Changes" comment="0.0.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/monsters/Nerva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowverse/monsters/Nerva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverseCharbosses/cards/nemesis/EnPurgationBlade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowverseCharbosses/cards/nemesis/EnPurgationBlade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/local/UIStrings-JPN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/UIStrings-JPN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/local/cards-JPN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/cards-JPN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/local/monsters-JPN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/monsters-JPN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/local/monsters-ZHS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/monsters-ZHS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/powers/NervaPower2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowverse/powers/NervaPower2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/local/powers-JPN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/powers-JPN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/local/powers-ZHS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/powers-ZHS.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -53,7 +53,7 @@
      @Override
      public void atEndOfTurn(boolean isPlayer) {
          if (!isPlayer){
-             addToBot(new ApplyPowerAction(this.owner,this.owner,new StrengthPower(this.owner,AbstractDungeon.actionManager.turn),AbstractDungeon.actionManager.turn));
+             addToBot(new ApplyPowerAction(this.owner,this.owner,new StrengthPower(this.owner, (int) (AbstractDungeon.actionManager.turn*0.5)),(int)(AbstractDungeon.actionManager.turn*0.5)));
          }
      }
  }
