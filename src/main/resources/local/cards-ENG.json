@@ -376,6 +376,203 @@
   "shadowverse:BelphometStatus": {
     "NAME": "Tyrannical Force",
     "DESCRIPTION": "Retain. NL Machina. NL Take 4 damage. NL Whenever this card is Retained, take !M! damage for every *Tyrannical *Force (excluding the first) in your hand."
+  },
+  "shadowverse:Itsurugi_Slash": {
+    "NAME": "Spider-Cutting Technique",
+    "DESCRIPTION": "Discard one card from your hand. NL The next !M! time(s) damage is dealt to a *Sootspawn, it is instantly killed. NL Exhaust."
+  },
+  "shadowverse:GarnetFlower": {
+    "NAME": "Garnet Flower",
+    "DESCRIPTION": "Become *Entangled. NL The next !M! time(s) you deal damage to *Taketsumi, upgrade ALL cards in your hand and gain Block equal to the damage dealt. NL Exhaust."
+  },
+  "shadowverse:FalseSword": {
+    "NAME": "False Sword",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Exhaust."
+  },
+  "shadowverse:FalseSlash": {
+    "NAME": "False Slash",
+    "DESCRIPTION": "Apply 1 Weak and 2 Vulnerable. NL Exhaust."
+  },
+  "shadowverse:TrueStrike": {
+    "NAME": "True Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust."
+  },
+  "shadowverse:DualSwords": {
+    "NAME": "Dual Swords of Longing",
+    "DESCRIPTION": "Choose: Play this card as either NL *False *Slash or NL *True *Strike.",
+    "UPGRADE_DESCRIPTION": "Choose: Play this card as either NL *False *Slash+ or NL *True *Strike+."
+  },
+  "shadowverse:EnPurgationBlade": {
+    "NAME": "Purgation's Blade",
+    "DESCRIPTION": "Return ALL cards Exhausted by *Sorrow. NL Deal damage equal to the number of Exhausted cards. NL Gain 3 Energy. NL If it's the 5th turn or later, deal damage equal to half the enemy's Max HP instead."
+  },
+  "shadowverse:EnUnnamedDetermination": {
+    "NAME": "Unnamed Determination",
+    "DESCRIPTION": "Gain 1 Energy and draw !M! cards next turn."
+  },
+  "shadowverse:EnRukina": {
+    "NAME": "Rukina of the Resistance",
+    "DESCRIPTION": "Gain !B! Block. NL Gain 1 Artifact."
+  },
+  "shadowverse:Karula": {
+    "NAME": "Karula, Arts Master",
+    "DESCRIPTION": "Gain !B! Block. NL Enhance 2: Add 1 *Evolution *Point and *Miracle each to your hand. NL If you have any Energy left at the end of your turn, gain !M! Strength and Dexterity, then apply 3 Weak and Vulnerable to a random enemy."
+  },
+  "shadowverse:EnAmaterasu": {
+    "NAME": "Amaterasu",
+    "DESCRIPTION": "Gain !B! Block. NL When you are attacked this turn, heal !M! HP. NL Exhaust."
+  },
+  "shadowverse:EnTsukuyomi": {
+    "NAME": "Tsukuyomi",
+    "DESCRIPTION": "Gain !B! Block. NL When you are attacked this turn, deal !M! damage back. NL Exhaust."
+  },
+  "shadowverse:EnMoonAndSun": {
+    "NAME": "Moon and Sun",
+    "DESCRIPTION": "Choose: Play this card as either NL *Amaterasu or NL *Tsukuyomi.",
+    "UPGRADE_DESCRIPTION":"Choose: Play this card as either NL *Amaterasu+ or NL *Tsukuyomi+."
+  },
+  "shadowverse:EnBladeOfLight": {
+    "NAME": "Blade of Light",
+    "DESCRIPTION": "Draw !M! card(s) next turn. NL Exhaust."
+  },
+  "shadowverse:EnBladeOfDark": {
+    "NAME": "Blade of Dark",
+    "DESCRIPTION": "Enemy gains !M! Draw Reduction. NL Exhaust."
+  },
+  "shadowverse:Riftdweller": {
+    "NAME": "Riftdweller",
+    "DESCRIPTION": "Gain !B! Block. NL Choose: Play this card as either NL *Blade *of *Light or NL *Blade *of *Dark.",
+    "UPGRADE_DESCRIPTION":"Gain !B! Block. NL Choose: Play this card as either NL *Blade *of *Light+ or NL *Blade *of *Dark+."
+  },
+  "shadowverse:Victoria": {
+    "NAME": "Victoria",
+    "DESCRIPTION": "Deal !D! damage twice. NL Exhaust."
+  },
+  "shadowverse:Roid": {
+    "NAME": "Lloyd the Android",
+    "DESCRIPTION": "Gain !B! Block. NL Exhaust."
+  },
+  "shadowverse:HeartlessBattle": {
+    "NAME": "Heartless Battle",
+    "DESCRIPTION": "Choose: Play this card as either NL *Lloyd *the *Android or *Victoria. Add 1 *Puppet to your hand.",
+    "UPGRADE_DESCRIPTION": "Choose: Play this card as either NL *Lloyd *the *Android+ or *Victoria+. Add 1 *Puppet+ to your hand."
+  },
+  "shadowverse:Puppet": {
+    "NAME": "Puppet",
+    "DESCRIPTION": "Deal !D! damage. NL Ethereal. NL Exhaust."
+  },
+  "shadowverse:EnRavenousSweetness": {
+    "NAME": "Ravenous Sweetness",
+    "DESCRIPTION": "Deal !D! damage. NL Heal 5 HP. NL Draw 5 cards next turn. NL Enemy randomly discards a card they drew (max. 5) NL Exhaust."
+  },
+  "shadowverse:EnOmenOfCraving": {
+    "NAME": "干絶の飢餓・ギルネリーゼ",
+    "DESCRIPTION": "!D! ダメージを与え、与えたダメージ分HPを回復する。 NL 筋力 2を得、 敏捷性 2を失う。 NL 直接召喚 :ターン開始時、それが5ターン目以降なら、これを山札からプレイする。 *干絶の甘露 1枚を手札に加える。"
+  },
+  "shadowverse:MaishaSkill": {
+    "NAME": "メイシアの技巧",
+    "DESCRIPTION": "!D! ダメージを与える。 NL ＢＰ1を得る。"
+  },
+  "shadowverse:MaishaSpell": {
+    "NAME": "メイシアの秘術",
+    "DESCRIPTION": "[E] を得る。"
+  },
+  "shadowverse:MaishaUltimate": {
+    "NAME": "メイシアの奥義",
+    "DESCRIPTION": "ＢＰXを失い、 筋力 Xを得る。 NL Xが10以上なら、このターン中に与えるダメージを倍にする。 NL XはＢＰ数。"
+  },
+  "shadowverse:TrueSword": {
+    "NAME": "真実の剣",
+    "DESCRIPTION": "!D! ダメージを与える。 NL 5ターン目以降なら、ターン開始時、これの *複製品 1枚を手札に加える。 NL 廃棄 。"
+  },
+  "shadowverse:EnSion": {
+    "NAME": "永久の盾・シオン",
+    "DESCRIPTION": "!B! ブロック を得る。 NL 能力によるダメージは無効 1を得る 。 NL *水銀の断絶 をプレイする。",
+    "UPGRADE_DESCRIPTION":"!B! ブロック を得る。 NL 能力によるダメージは無効 1を得る 。 NL *水銀の断絶+ をプレイする。"
+  },
+  "shadowverse:MercurialMight": {
+    "NAME": "水銀の断絶",
+    "DESCRIPTION": "このターン中に受けるダメージは最大 !M! 点までになる。 NL 廃棄 。"
+  },
+  "shadowverse:ElementalBrink": {
+    "NAME": "狭間の生成",
+    "DESCRIPTION": "ターン終了時、ランダムな敵は 筋力 と 敏捷性 !M! 失う。 NL 残りエナジーがあれば、 筋力 と 敏捷性 !M! を得る。"
+  },
+  "shadowverse:MaiserTitan": {
+    "NAME": "神速の治安",
+    "DESCRIPTION": "ターン開始時、ネクサス以外のランダムな敵に50ダメージを与える。 NL ターン終了時、この効果を失い、これの数+1の *熱情の治安 を得る。 NL これの数がターン終了時に4以上なら、 筋力 と 敏捷性 2を得る。"
+  },
+  "shadowverse:SpectorTitan": {
+    "NAME": "共鳴する武力",
+    "DESCRIPTION": "カードをプレイする度、ランダムな敵に10ダメージを与える。 NL ターン終了時、この戦闘中にプレイしていたカードが10枚以上なら、次のアタックは2回プレイされる。"
+  },
+  "shadowverse:Isabelle_Story": {
+    "NAME": "粛清を裂く魔術",
+    "DESCRIPTION": "保留 NL 敵全体に !D! × !M! ダメージを与える。 NL スペルブースト :Xを+1する。 NL 廃棄 。"
+  },
+  "shadowverse:Erika_Story": {
+    "NAME": "粛清を斬る剣閃",
+    "DESCRIPTION": "保留 NL ランダムな敵に !D! ダメージを与え、 弱体化 を与える。これを2回行う。 NL ロイヤルクラスなら、代わりに *クイックブレイダー 2体を出す。 NL 連携 10 : 筋力 と 敏捷性 2を得る。フォロワー全て+2/+2する。 NL 廃棄 。",
+    "EXTENDED_DESCRIPTION": [
+      "（連携数:",
+      ")"
+    ]
+  },
+  "shadowverse:Rowen_Story": {
+    "NAME": "粛清を砕く爪牙",
+    "DESCRIPTION": "保留 NL ターン開始時、追加でエナジー1を得る。 NL シャドウバースプレイヤーなら、代わりに 覚醒ポイント3を得る 。 NL 覚醒 なら、このターンだけ 筋力 !M! を得る。 NL 廃棄 。"
+  },
+  "shadowverse:Iris_Story": {
+    "NAME": "粛清を阻む心願",
+    "DESCRIPTION": "保留 NL HP最大値を5増やす。 NL カード !M! 枚を引く。 NL 廃棄 。"
+  },
+  "shadowverse:Luna_Story": {
+    "NAME": "粛清を拒む激情",
+    "DESCRIPTION": "保留 NL リアニメイト 2、 リアニメイト 1、 リアニメイト 0。 NL ネクロマンス 6:手札1枚を アップグレード する。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "保留 NL リアニメイト 2、 リアニメイト 1、 リアニメイト 0。 NL ネクロマンス 6:手札全てを アップグレード する。 NL 廃棄 。"
+  },
+  "shadowverse:Urias_Story": {
+    "NAME": "粛清を壊す本能",
+    "DESCRIPTION": "保留 NL 対象ミニオンを即死させる。 NL ネルヴァに !D! ダメージを与え、HPを3回復する。 NL 廃棄 。"
+  },
+  "shadowverse:Yuwan_Story": {
+    "NAME": "粛清を超す才気",
+    "DESCRIPTION": "保留 NL 対象ミニオンを即死させる。 NL デッキの枚数が偶数なら、ネルヴァに !D! ダメージを与える。 NL 廃棄 。"
+  },
+  "shadowverse:Arisa_Story": {
+    "NAME": "粛清を穿つ意志",
+    "DESCRIPTION": "保留 NL カード1枚を引く。 NL 敵全体に !D! × Xダメージを与える。 NL Xは手札の枚数。 NL 廃棄 。"
+  },
+  "shadowverse:Elena_Story": {
+    "NAME": "因果の剣",
+    "DESCRIPTION": "保留 NL *《粛清》 の因果を断ち切る。 NL 廃棄 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (HPが1、終焉の粛清状態になったネルヴァを対象に、この戦闘中に手札に加えられたトークン全てをプレイしていたならプレイできる)"
+    ]
+  },
+  "shadowverse:NervaStatus": {
+    "NAME": "粛清の侵略",
+    "DESCRIPTION": "これが引かれた時、ネルヴァの感情によってミニオンを場に出す。 NL ミニオンが既に3体以上なら、代わりに4ダメージを受け、敵全体を強化する。 NL エセリアル 。"
+  },
+  "shadowverse:EndOfPurgation": {
+    "NAME": "終焉の粛清",
+    "DESCRIPTION": "捨て札に送られ、またはプレイされる時、ネルヴァの *終焉の粛清 を1増やす。 NL 廃棄 。"
+  },
+  "shadowverse:Pleasure": {
+    "NAME": "喜",
+    "DESCRIPTION": "同じタイプのカードを連続でプレイできなくなる。 NL エセリアル 。"
+  },
+  "shadowverse:Anger": {
+    "NAME": "怒",
+    "DESCRIPTION": "カードをプレイする度、捨て札のカードを山札に戻してシャッフルする。 NL エセリアル 。"
+  },
+  "shadowverse:Sorrow": {
+    "NAME": "哀",
+    "DESCRIPTION": "これが 廃棄 される時、 *空虚 1枚を山札に加える。 NL エセリアル 。"
+  },
+  "shadowverse:Joy": {
+    "NAME": "楽",
+    "DESCRIPTION": "これが引かれた時、 無形 1を得る。このターン、カードから ブロック を得ることができない。 NL エセリアル 。"
   }
 }
 
