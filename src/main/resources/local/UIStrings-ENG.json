@@ -31,5 +31,34 @@
     "TEXT": [
       "Retain"
     ]
+  },
+  "shadowverse:Rivayle": {
+    "TEXT": [
+      "Rivayle",
+      "",
+      "A dimensional #brift appears in front of the path forward, it seems it is time to chase it;s @Keeper@. It's time to #gchoose whether to keep climbing or set off towards the unknown realm.",
+      "Enter Rivayle."
+    ]
+  },
+  "shadowverse:WhispersOfPurgation": {
+    "TEXT": [
+      "Dimensional Rift",
+      "",
+      "A @Keeper@ has sent invaders to different worlds. The time has come to #ghelp this plane, defeat the minions of #bPurgation and take back its future.",
+      "Enter the dimensional rift."
+    ]
+  },
+  "shadowverse:CetusAction": {
+    "TEXT": [
+      "Return it to your hand."
+    ]
+  },
+  "shadowverse:FinalPurgation": {
+    "TEXT": [
+      "Beyond Destiny",
+      "",
+      "It's time to break the cycle of @Purgation@!",
+      "Go Beyond Destiny."
+    ]
   }
 }
