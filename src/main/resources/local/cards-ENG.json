@@ -466,37 +466,37 @@
     "DESCRIPTION": "Deal !D! damage. NL Heal 5 HP. NL Draw 5 cards next turn. NL Enemy randomly discards a card they drew (max. 5) NL Exhaust."
   },
   "shadowverse:EnOmenOfCraving": {
-    "NAME": "干絶の飢餓・ギルネリーゼ",
-    "DESCRIPTION": "!D! ダメージを与え、与えたダメージ分HPを回復する。 NL 筋力 2を得、 敏捷性 2を失う。 NL 直接召喚 :ターン開始時、それが5ターン目以降なら、これを山札からプレイする。 *干絶の甘露 1枚を手札に加える。"
+    "NAME": "Gilnelise, Ravenous Craving",
+    "DESCRIPTION": "Deal !D! damage and heal 6 HP. NL Gain 2 Strength and lose 2 Dexterity. NL Invocation: If it is your 5th turn or later, play this card and add 1 *Ravenous *Sweetness to your hand."
   },
   "shadowverse:MaishaSkill": {
-    "NAME": "メイシアの技巧",
-    "DESCRIPTION": "!D! ダメージを与える。 NL ＢＰ1を得る。"
+    "NAME": "Maisha's Technique",
+    "DESCRIPTION": "Deal !D! Damage. Gain 1 Valor."
   },
   "shadowverse:MaishaSpell": {
-    "NAME": "メイシアの秘術",
-    "DESCRIPTION": "[E] を得る。"
+    "NAME": "Maisha's Skill",
+    "DESCRIPTION": "Gain [E]."
   },
   "shadowverse:MaishaUltimate": {
-    "NAME": "メイシアの奥義",
-    "DESCRIPTION": "ＢＰXを失い、 筋力 Xを得る。 NL Xが10以上なら、このターン中に与えるダメージを倍にする。 NL XはＢＰ数。"
+    "NAME": "Maisha's Ultimate",
+    "DESCRIPTION": "Lose X Valor. Gain X Strength. NL If X is 10 or more, all Attacks deal double damage this turn. X equals your Valor."
   },
   "shadowverse:TrueSword": {
-    "NAME": "真実の剣",
-    "DESCRIPTION": "!D! ダメージを与える。 NL 5ターン目以降なら、ターン開始時、これの *複製品 1枚を手札に加える。 NL 廃棄 。"
+    "NAME": "True Sword",
+    "DESCRIPTION": "Deal !D! damage. NL If it's your 5th turn or later, at the start of your turn add 1 *True *Sword to your hand. NL Exhaust."
   },
   "shadowverse:EnSion": {
-    "NAME": "永久の盾・シオン",
-    "DESCRIPTION": "!B! ブロック を得る。 NL 能力によるダメージは無効 1を得る 。 NL *水銀の断絶 をプレイする。",
-    "UPGRADE_DESCRIPTION":"!B! ブロック を得る。 NL 能力によるダメージは無効 1を得る 。 NL *水銀の断絶+ をプレイする。"
+    "NAME": "Shion, Immortal Aegis",
+    "DESCRIPTION": "Gain !B! Block. NL Gain 1 Power_Damage_Immune. Add 1 *Mercurial *Might to your hand.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain 1 Power_Damage_Immune. Add 1 *Mercurial *Might+ to your hand."
   },
   "shadowverse:MercurialMight": {
-    "NAME": "水銀の断絶",
-    "DESCRIPTION": "このターン中に受けるダメージは最大 !M! 点までになる。 NL 廃棄 。"
+    "NAME": "Mercurial Might",
+    "DESCRIPTION": "You do not take more than !M! damage this turn. NL Exhaust."
   },
   "shadowverse:ElementalBrink": {
-    "NAME": "狭間の生成",
-    "DESCRIPTION": "ターン終了時、ランダムな敵は 筋力 と 敏捷性 !M! 失う。 NL 残りエナジーがあれば、 筋力 と 敏捷性 !M! を得る。"
+    "NAME": "Elemental Brink",
+    "DESCRIPTION": "At the end of your turn, a random enemy loses !M! Strength and Dexterity. NL If you have any Energy remaining at the end of your turn, gain !M! Strength and Dexterity."
   },
   "shadowverse:MaiserTitan": {
     "NAME": "神速の治安",
