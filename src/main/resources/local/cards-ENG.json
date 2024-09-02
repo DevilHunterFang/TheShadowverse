@@ -482,8 +482,8 @@
     "DESCRIPTION": "Lose X Valor. Gain X Strength. NL If X is 10 or more, all Attacks deal double damage this turn. X equals your Valor."
   },
   "shadowverse:TrueSword": {
-    "NAME": "True Sword",
-    "DESCRIPTION": "Deal !D! damage. NL If it's your 5th turn or later, at the start of your turn add 1 *True *Sword to your hand. NL Exhaust."
+    "NAME": "Blade of Truth",
+    "DESCRIPTION": "Deal !D! damage. NL If it's your 5th turn or later, at the start of your turn add 1 *Blade *of *Truth to your hand. NL Exhaust."
   },
   "shadowverse:EnSion": {
     "NAME": "Shion, Immortal Aegis",
