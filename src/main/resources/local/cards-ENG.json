@@ -500,7 +500,7 @@
   },
   "shadowverse:MaiserTitan": {
     "NAME": "神速の治安",
-    "DESCRIPTION": "ターン開始時、ネクサス以外のランダムな敵に50ダメージを与える。 NL ターン終了時、この効果を失い、これの数+1の *熱情の治安 を得る。 NL これの数がターン終了時に4以上なら、 筋力 と 敏捷性 2を得る。"
+    "DESCRIPTION": "At the start of your turn, deal 50 damage to a random enemy EXCEPT Nexus. NL Lose this effect at the end of the turn and gain *熱情の治安 equal to this number plus 1. NL If this number is 4 or more, gain 2 Strength and Dexterity at the end of your turn."
   },
   "shadowverse:SpectorTitan": {
     "NAME": "共鳴する武力",
