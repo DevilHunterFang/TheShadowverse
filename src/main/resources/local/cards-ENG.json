@@ -500,11 +500,11 @@
   },
   "shadowverse:MaiserTitan": {
     "NAME": "神速の治安",
-    "DESCRIPTION": "At the start of your turn, deal 50 damage to a random enemy EXCEPT Nexus. NL Lose this effect at the end of the turn and gain *熱情の治安 equal to this number plus 1. NL If this number is 4 or more, gain 2 Strength and Dexterity at the end of your turn."
+    "DESCRIPTION": "At the start of your turn, deal 50 damage to a random enemy EXCEPT Nexus. NL Lose this effect at the end of the turn and add *熱情の治安 to your hand equal to the number you played plus 1. NL If this number is 4 or more, gain 2 Strength and Dexterity at the end of your turn."
   },
   "shadowverse:SpectorTitan": {
-    "NAME": "共鳴する武力",
-    "DESCRIPTION": "カードをプレイする度、ランダムな敵に10ダメージを与える。 NL ターン終了時、この戦闘中にプレイしていたカードが10枚以上なら、次のアタックは2回プレイされる。"
+    "NAME": "Synchronized Force",
+    "DESCRIPTION": "Whenever you play a card, deal 10 damage to a random enemy. NL At the end of your turn, if 10 or more cards were played this combat, the next Attack you play is played twice."
   },
   "shadowverse:Isabelle_Story": {
     "NAME": "粛清を裂く魔術",
