@@ -540,19 +540,19 @@
     "DESCRIPTION": "Retain. If the enemy is a Minion, set their HP to 0. NL If there are an even number of cards in your draw pile, deal !D! damage to Nerva. NL Exhaust."
   },
   "shadowverse:Arisa_Story": {
-    "NAME": "粛清を穿つ意志",
-    "DESCRIPTION": "保留 NL カード1枚を引く。 NL 敵全体に !D! × Xダメージを与える。 NL Xは手札の枚数。 NL 廃棄 。"
+    "NAME": "Purgation-Piercing Will",
+    "DESCRIPTION": "Retain. NL Draw 1 card. NL Deal !D! damage to ALL enemies multiplied by X. NL X equals the number of other cards in your hand. NL Exhaust."
   },
   "shadowverse:Elena_Story": {
-    "NAME": "因果の剣",
-    "DESCRIPTION": "保留 NL *《粛清》 の因果を断ち切る。 NL 廃棄 。",
+    "NAME": "Blade of Destiny",
+    "DESCRIPTION": "Retain NL. Sever Nerva's hold over destiny! NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
-      " NL (HPが1、終焉の粛清状態になったネルヴァを対象に、この戦闘中に手札に加えられたトークン全てをプレイしていたならプレイできる)"
+      " NL (Can only be played if ALL 8 Purgation Skills added to your hand were played this combat, targeting Nerva with 1 HP and in the final Purgation state.)"
     ]
   },
   "shadowverse:NervaStatus": {
-    "NAME": "粛清の侵略",
-    "DESCRIPTION": "これが引かれた時、ネルヴァの感情によってミニオンを場に出す。 NL ミニオンが既に3体以上なら、代わりに4ダメージを受け、敵全体を強化する。 NL エセリアル 。"
+    "NAME": "Purgation's Invasion",
+    "DESCRIPTION": "When this card is drawn, Nerva's Emotion Powers summon a Minion. NL If 3 or more Minions are already in play, take 4 damage instead and buff ALL enemies. NL Ethereal."
   },
   "shadowverse:EndOfPurgation": {
     "NAME": "Purgation's Endgame",
