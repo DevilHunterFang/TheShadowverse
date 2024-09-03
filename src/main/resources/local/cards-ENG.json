@@ -527,13 +527,13 @@
     "DESCRIPTION": "Retain. NL Increase your Max HP by 5. NL Draw !M! cards. NL Exhaust."
   },
   "shadowverse:Luna_Story": {
-    "NAME": "粛清を拒む激情",
-    "DESCRIPTION": "保留 NL リアニメイト 2、 リアニメイト 1、 リアニメイト 0。 NL ネクロマンス 6:手札1枚を アップグレード する。 NL 廃棄 。",
-    "UPGRADE_DESCRIPTION": "保留 NL リアニメイト 2、 リアニメイト 1、 リアニメイト 0。 NL ネクロマンス 6:手札全てを アップグレード する。 NL 廃棄 。"
+    "NAME": "Purgation-Rejecting Outburst",
+    "DESCRIPTION": "Retain. NL Reanimate 2, Reanimate 1 and Reanimate 0. NL Necromancy 6: Upgrade a card in your hand for the rest of combat. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Reanimate 2, Reanimate 1 and Reanimate 0. NL Necromancy 6: Upgrade ALL cards in your hand for the rest of combat. NL Exhaust."
   },
   "shadowverse:Urias_Story": {
-    "NAME": "粛清を壊す本能",
-    "DESCRIPTION": "保留 NL 対象ミニオンを即死させる。 NL ネルヴァに !D! ダメージを与え、HPを3回復する。 NL 廃棄 。"
+    "NAME": "Purgation-Destroying Instinct",
+    "DESCRIPTION": "Retain. NL If the enemy is a Minion, set their HP to 0. NL Deal !D! damage to Nerva. NL Heal 3 HP. NL Exhaust."
   },
   "shadowverse:Yuwan_Story": {
     "NAME": "粛清を超す才気",
