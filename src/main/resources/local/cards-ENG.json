@@ -511,16 +511,16 @@
     "DESCRIPTION": "Retain. NL Deal !D! damage multiplied by !M! to ALL enemies. NL Spellboost: Deal damage multiplied by !M! more. NL Exhaust."
   },
   "shadowverse:Erika_Story": {
-    "NAME": "粛清を斬る剣閃",
-    "DESCRIPTION": "保留 NL ランダムな敵に !D! ダメージを与え、 弱体化 を与える。これを2回行う。 NL ロイヤルクラスなら、代わりに *クイックブレイダー 2体を出す。 NL 連携 10 : 筋力 と 敏捷性 2を得る。フォロワー全て+2/+2する。 NL 廃棄 。",
+    "NAME": "Purgation-Sweeping Blade",
+    "DESCRIPTION": "Retain. NL Deal !D! damage and apply 1 Vulnerable to a random enemy twice. NL If you are Swordcraft, summon 2 *Quickbladers instead. NL Rally 10: Gain 2 Strength. Gain 2 Dexterity. Give all Followers +2/+2. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
-      "（連携数:",
-      ")"
+      "（Rally Count:",
+      " )"
     ]
   },
   "shadowverse:Rowen_Story": {
-    "NAME": "粛清を砕く爪牙",
-    "DESCRIPTION": "保留 NL ターン開始時、追加でエナジー1を得る。 NL シャドウバースプレイヤーなら、代わりに 覚醒ポイント3を得る 。 NL 覚醒 なら、このターンだけ 筋力 !M! を得る。 NL 廃棄 。"
+    "NAME": "Purgation-Crushing Fangs",
+    "DESCRIPTION": "Retain. NL Gain [E] at the start of your turn. NL If you are any of the 8 Shadowverse classes, gain 3 Overflow Points instead. NL If Overflow is active, gain !M! Strength until the end of the turn NL Exhaust."
   },
   "shadowverse:Iris_Story": {
     "NAME": "粛清を阻む心願",
@@ -563,16 +563,16 @@
     "DESCRIPTION": "同じタイプのカードを連続でプレイできなくなる。 NL エセリアル 。"
   },
   "shadowverse:Anger": {
-    "NAME": "怒",
-    "DESCRIPTION": "カードをプレイする度、捨て札のカードを山札に戻してシャッフルする。 NL エセリアル 。"
+    "NAME": "Fury",
+    "DESCRIPTION": "Whenever you play a card, shuffle all of your cards into your draw pile. NL Ethereal."
   },
   "shadowverse:Sorrow": {
     "NAME": "哀",
     "DESCRIPTION": "これが 廃棄 される時、 *空虚 1枚を山札に加える。 NL エセリアル 。"
   },
   "shadowverse:Joy": {
-    "NAME": "楽",
-    "DESCRIPTION": "これが引かれた時、 無形 1を得る。このターン、カードから ブロック を得ることができない。 NL エセリアル 。"
+    "NAME": "Joy",
+    "DESCRIPTION": "When this card is drawn, gain 1 Intangible. You cannot gain Block from cards this turn. NL Ethereal."
   }
 }
 
