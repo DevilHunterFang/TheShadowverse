@@ -523,8 +523,8 @@
     "DESCRIPTION": "Retain. NL Gain [E] at the start of your turn. NL If you are any of the 8 Shadowverse classes, gain 3 Overflow Points instead. NL If Overflow is active, gain !M! Strength until the end of the turn NL Exhaust."
   },
   "shadowverse:Iris_Story": {
-    "NAME": "粛清を阻む心願",
-    "DESCRIPTION": "保留 NL HP最大値を5増やす。 NL カード !M! 枚を引く。 NL 廃棄 。"
+    "NAME": "Purgation-Thwarting Faith",
+    "DESCRIPTION": "Retain. NL Increase your Max HP by 5. NL Draw !M! cards. NL Exhaust."
   },
   "shadowverse:Luna_Story": {
     "NAME": "粛清を拒む激情",
@@ -567,8 +567,8 @@
     "DESCRIPTION": "Whenever you play a card, shuffle all of your cards into your draw pile. NL Ethereal."
   },
   "shadowverse:Sorrow": {
-    "NAME": "哀",
-    "DESCRIPTION": "これが 廃棄 される時、 *空虚 1枚を山札に加える。 NL エセリアル 。"
+    "NAME": "Sorrow",
+    "DESCRIPTION": "If this card is discarded from your hand, add 1 *Void to your draw pile. NL Ethereal."
   },
   "shadowverse:Joy": {
     "NAME": "Joy",
