@@ -536,8 +536,8 @@
     "DESCRIPTION": "Retain. NL If the enemy is a Minion, set their HP to 0. NL Deal !D! damage to Nerva. NL Heal 3 HP. NL Exhaust."
   },
   "shadowverse:Yuwan_Story": {
-    "NAME": "粛清を超す才気",
-    "DESCRIPTION": "保留 NL 対象ミニオンを即死させる。 NL デッキの枚数が偶数なら、ネルヴァに !D! ダメージを与える。 NL 廃棄 。"
+    "NAME": "Purgation-Surpassing Wit",
+    "DESCRIPTION": "Retain. If the enemy is a Minion, set their HP to 0. NL If there are an even number of cards in your draw pile, deal !D! damage to Nerva. NL Exhaust."
   },
   "shadowverse:Arisa_Story": {
     "NAME": "粛清を穿つ意志",
@@ -555,12 +555,12 @@
     "DESCRIPTION": "これが引かれた時、ネルヴァの感情によってミニオンを場に出す。 NL ミニオンが既に3体以上なら、代わりに4ダメージを受け、敵全体を強化する。 NL エセリアル 。"
   },
   "shadowverse:EndOfPurgation": {
-    "NAME": "終焉の粛清",
-    "DESCRIPTION": "捨て札に送られ、またはプレイされる時、ネルヴァの *終焉の粛清 を1増やす。 NL 廃棄 。"
+    "NAME": "Purgation's Endgame",
+    "DESCRIPTION": "When this card is played or discarded, Nerva gains 1 *Purgation's *End. NL Exhaust."
   },
   "shadowverse:Pleasure": {
-    "NAME": "喜",
-    "DESCRIPTION": "同じタイプのカードを連続でプレイできなくなる。 NL エセリアル 。"
+    "NAME": "Bliss",
+    "DESCRIPTION": "You can no longer play the same card consecutively. NL Ethereal."
   },
   "shadowverse:Anger": {
     "NAME": "Fury",
