@@ -499,8 +499,8 @@
     "DESCRIPTION": "At the end of your turn, a random enemy loses !M! Strength and Dexterity. NL If you have any Energy remaining at the end of your turn, gain !M! Strength and Dexterity."
   },
   "shadowverse:MaiserTitan": {
-    "NAME": "神速の治安",
-    "DESCRIPTION": "At the start of your turn, deal 50 damage to a random enemy EXCEPT Nexus. NL Lose this effect at the end of the turn and add *熱情の治安 to your hand equal to the number you played plus 1. NL If this number is 4 or more, gain 2 Strength and Dexterity at the end of your turn."
+    "NAME": "Accelerated Order",
+    "DESCRIPTION": "At the start of your turn, deal 50 damage to a random enemy EXCEPT Nexus. NL Lose this effect at the end of the turn and add *Searing *Order to your hand equal to the number you played plus 1. NL If at least 4 of either card was played, gain 2 Strength and Dexterity at the end of your turn."
   },
   "shadowverse:SpectorTitan": {
     "NAME": "Synchronized Force",
