@@ -508,7 +508,7 @@
   },
   "shadowverse:Isabelle_Story": {
     "NAME": "Purgation-Rending Magic",
-    "DESCRIPTION": "Retain NL Deal !D! damage multiplied by !M! to ALL enemies. NL Spellboost: Increase X by 1. NL Exhaust."
+    "DESCRIPTION": "Retain. NL Deal !D! damage multiplied by !M! to ALL enemies. NL Spellboost: Deal damage multiplied by !M! more. NL Exhaust."
   },
   "shadowverse:Erika_Story": {
     "NAME": "粛清を斬る剣閃",
