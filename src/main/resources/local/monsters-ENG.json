@@ -222,6 +222,168 @@
     ],
     "NAME": "Wretch",
     "DIALOG": [
+    ] 
+  },
+  "shadowverse:Shade": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Shadow Soldier",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Commander": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Shadow Commander",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Assault": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Shadow Berserker",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Underling": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Icey's Underling",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Deputy": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Rivaylian Deputy",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Wretch2": {
+    "MOVES": [
+      "Rite"
+    ],
+    "NAME": "Rivaylian Wretch",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Wretch5": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "忠実なる従僕",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Ista": {
+    "MOVES": [
+      "Deceive"
+    ],
+    "NAME": "Istar",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Spider": {
+    "MOVES": [
+      "Entwine",
+      ""
+    ],
+    "NAME": "Sootspawn",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Maisha": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Maisha Laforge",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:General": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Shadow General",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Nexus": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Nexus",
+    "DIALOG": [
+      "Reset",
+      "Restart",
+      "Shatter",
+      "Accept Harmony",
+      "@Feckless! Witless! Hopeless!@",
+      "@Foolish!@"
+    ]
+  },
+  "shadowverse:Surveyor": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Surveyor",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:MegaEnforcer": {
+    "MOVES": [
+      "Termination Protocol",
+      "Repair Mode"
+    ],
+    "NAME": "Mega Enforcer",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:OOOGGGG": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Mutant",
+    "DIALOG": [
+      "——AAAAAaaaaa——!"
+    ]
+  },
+  "shadowverse:Sword": {
+    "MOVES": [
+      "Defensive Stance"
+    ],
+    "NAME": "Bladerights Knight",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Axe": {
+    "MOVES": [
+      "Defensive Stance"
+    ],
+    "NAME": "Bladerights Heavy Knight",
+    "DIALOG": [
+      "Ready"
+    ]
+  },
+  "shadowverse:Nerva": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Nerva",
+    "DIALOG": [
+      "私こそ真なる人",
+      "運命すら覆してあげる",
+      "お前では届かない",
+      "@私は全てを越える‼@",
+      "私は止められない",
+      "小賢しい",
+      "ごめんなさいね",
+      "結末は変わらない"
     ]
   }
 }
