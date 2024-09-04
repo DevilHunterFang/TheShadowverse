@@ -78,8 +78,8 @@
     "DESCRIPTIONS": [
       "The first card played in each turn that target this enemy will be invalid and deposited in the box",
       ". Boxed cards:",
-      "triggered in this turn.",
-      "not triggered in this turn."
+      "triggered this turn.",
+      "not triggered this turn."
     ]
   },
   "shadowverse:ICPower": {
@@ -250,6 +250,212 @@
     "NAME": "Maiser, Accelerated Hero",
     "DESCRIPTIONS": [
       "Whenever you play a #ySkill card, deal #b5 damage to all enemies."
+    ]
+  },
+  "shadowverse:UnseenManaPower": {
+    "NAME": "Unseen Threads",
+    "DESCRIPTIONS": [
+      "Whenever you play #b",
+      " cards, ends your turn."
+    ]
+  },
+  "shadowverse:ShadowMarkPower": {
+    "NAME": "Advent of Peace",
+    "DESCRIPTIONS": [
+      "When this number increases apply the following effects based on the count: NL (1) Gain #b2 #yVulnerable. NL (2) Gain #b2 #yWeak. NL (3) Lose #b1 #yStrength. NL (4) Add #b3 #yDazed to the discard pile. NL (5) Add #b1 #yVoid to the draw pile. NL (6) Lose #b1 #yDexterity. Reset the count."
+    ]
+  },
+  "shadowverse:ShadePower": {
+    "NAME": "Shade",
+    "DESCRIPTIONS": [
+      "Upon taking damage #b ",
+      " Times, gain #yIntangible. On death, apply #b1 #yAdvent #yof #yPeace to the player."
+    ]
+  },
+  "shadowverse:RapidPower": {
+    "NAME": "Rapid",
+    "DESCRIPTIONS": [
+      "After playing #b ",
+      " card, take an extra turn after this one."
+    ]
+  },
+  "shadowverse:AimedPower": {
+    "NAME": "Aimed",
+    "DESCRIPTIONS": [
+      "Increase next damage taken by #b"
+    ]
+  },
+  "shadowverse:BelphometPower": {
+    "NAME": "Barrier of Joy",
+    "DESCRIPTIONS": [
+      "Take #b ",
+      " less damage. Reduce this by the same amount of damage taken. Restore this effect at the start of the turn."
+    ]
+  },
+  "shadowverse:NicolaPower": {
+    "NAME": "Forbidden Core",
+    "DESCRIPTIONS": [
+      "If #yBelphomet has no #yBlock and damage is dealt, perform #yNecromancy X: Deal #bX additional damage. X equals your Shadows. NL Gain #yShadows equal to half your Max Energy (rounded up) at the end of your turn."
+    ]
+  },
+  "shadowverse:NaterranWorldTreePower": {
+    "NAME": "Naterran World Tree",
+    "DESCRIPTIONS": [
+      "Increases by #b1 when an enemy is summoned."
+    ]
+  },
+  "shadowverse:TaketsumiPower2": {
+    "NAME": "Blissful Revelry",
+    "DESCRIPTIONS": [
+      "Whenever #yNaterran #yGreat #yTree is increased, if there are 5 or more, ALL enemies gain #b1 Strength and #b6 Temporary HP."
+    ]
+  },
+  "shadowverse:Itsurugi_SlashPower": {
+    "NAME": "Itsurugi Slash",
+    "DESCRIPTIONS": [
+      "The next #b ",
+      " times damage is dealt to #ySootspawn, set it's HP to 0."
+    ]
+  },
+  "shadowverse:FlowerPower": {
+    "NAME": "Crimson Flower",
+    "DESCRIPTIONS": [
+      "The next #b ",
+      " times damage is dealt to #yTaketsumi, upgrade ALL cards in your hand and gain Block equal to the damage dealt."
+    ]
+  },
+  "shadowverse:KarulaPower": {
+    "NAME": "Karula, Arts Master",
+    "DESCRIPTIONS": [
+      "At the end of the turn if #b ",
+      " Energy is remaining, Gain 1 #yStrength and #yDexterity, and apply #b3 #yWeak and #yVulnerable to a random enemy."
+    ]
+  },
+  "shadowverse:MaishaPower": {
+    "NAME": "Veil of Sorrow",
+    "DESCRIPTIONS": [
+      "At the start of combat, gain #b3 #yStrength. NL At the end of the turn, make 2 random Attacks in the discard pile Unplayable. NL If only 1 card is made Unplayable, deal #b8 damage to the enemy, if there are 2 cards, deal #b12 damage. NL At the start of the turn, Absorb ALL Unplayable cards and deal #b16 damage. NL Reduce the effect by #b1 each time you draw a card. NL Die when this effect is reduced to #b0",
+      "Absorbed Card："
+    ]
+  },
+  "shadowverse:CetusPower": {
+    "NAME": "Sorrow's Bane",
+    "DESCRIPTIONS": [
+      "At the start of your turn, return #b1 card made Unplayable by #yVeil #yof #ySorrow to your hand. It becomes playable. NL If at least #g6 cards were played this turn, return 2 cards instead. NL For each card returned to your hand by this effect, reduce #yVeil #yof #ySorrow's effect by 15 and heal #b1 HP."
+    ]
+  },
+  "shadowverse:EnTsukuyomiPower": {
+    "NAME": "Tsukuyomi",
+    "DESCRIPTIONS": [
+      "Whenever you are attacked, deal #b ",
+      " damage back."
+    ]
+  },
+  "shadowverse:EnAmaterasuPower": {
+    "NAME": "Amaterasu",
+    "DESCRIPTIONS": [
+      "Whenever you are attacked, heal #b",
+      " HP."
+    ]
+  },
+  "shadowverse:TrueSwordPower": {
+    "NAME": "True Sword",
+    "DESCRIPTIONS": [
+      "If it's the 5th turn or later, add 1 #yBlade #yof #yTruth to your hand."
+    ]
+  },
+  "shadowverse:MaishaPower2": {
+    "NAME": "Hero of Purgation",
+    "DESCRIPTIONS": [
+      "This number is treated as Valor. NL Gain #b1 Valor at the end of the turn. NL Gain #b2 Valor instead any Energy was remaining. Draw #b1 additional card next turn. NL Each turn, randomly play a #yMaisha's #yTechnique, #yMaisha's #ySkill or #yMaisha's #yUltimate."
+    ]
+  },
+  "shadowverse:SionPower": {
+    "NAME": "Mercurial Might",
+    "DESCRIPTIONS": [
+      "Until the next turn the damage you take becomes #b",
+      " or less."
+    ]
+  },
+  "shadowverse:ElementalBrinkPower": {
+    "NAME": "Elemental Brink",
+    "DESCRIPTIONS": [
+      "At the end of the next #b",
+      " turns, enemy loses #yStrength and #yDexterity. NL If you have any Energy remaining, gain the same #yStrength and #yDexterity."
+    ]
+  },
+  "shadowverse:NexusPower": {
+    "NAME": "Eternal Fury",
+    "DESCRIPTIONS": [
+      "Whenever you would die, #rExhaust ALL attacks in the enemy's discard pile, shuffle ALL Attacks in the enemy's hand into their draw pile. Enemy heals #b5 HP and reduce this effect to 0. NL At the start of your turn, summon 2 #yShadow #ySoldiers and make them act immediately. Set their HP to 0 afterward. NL #yNexus is strengthened for each #yHollow #yShadow defeated this combat. NL (Damage taken cannot exceed #b",
+      " ) "
+    ]
+  },
+  "shadowverse:SpectorTitanPower": {
+    "NAME": "Synchronized Force",
+    "DESCRIPTIONS": [
+      "Whenever you play a card, deal #b10 damage to a random enemy. At the end of your turn, if at least #b10 cards were played this combat, your next Attack card is played twice."
+    ]
+  },
+  "shadowverse:MaiserTitanPower": {
+    "NAME": "Accelerated Order",
+    "DESCRIPTIONS": [
+      "At the start of the turn, deal #b50 damage to a random enemy other than #yNexus. NL At the end of the turn, lose this effect and gain the same amount of #ySearing #yOrder +1. NL If this amount is 4 or more, gain #b2 #yStrength and #yDexterity."
+    ]
+  },
+  "shadowverse:SelenaTitanPower": {
+    "NAME": "Searing Order",
+    "DESCRIPTIONS": [
+      "At the start of your turn, deal #b25 damage to Nexus. NL At the end of the turn, lose this effect and gain the same amount of #yAccelerating #yOrder +1. NL If this amount is 4 or more, gain #b2 #yStrength and #yDexterity."
+    ]
+  },
+  "shadowverse:DiscardOnStartPower": {
+    "NAME": "Discard",
+    "DESCRIPTIONS": [
+      "カードを引く度、それを捨てる。あと #b",
+      " 働ける。"
+    ]
+  },
+  "shadowverse:NervaPower1": {
+    "NAME": "喜悦の感情",
+    "DESCRIPTIONS": [
+      "#yカウント #b",
+      " :これを失い、 #y憤怒の感情 を得る。 NL 受ける最大ダメージは #b",
+      " まで。ターン開始時、受けたダメージがこれの最大値を上回ったなら、さらに #yカウントダウン #b1 進める。 NL ターン終了時、ドロー減少 #b1 を与える。"
+    ]
+  },
+  "shadowverse:NervaPower2": {
+    "NAME": "憤怒の感情",
+    "DESCRIPTIONS": [
+      "#yカウント #b",
+      " :これを失い、 #y悲哀の感情 を得る。 NL ターン開始時、HPが最大値より低いなら、最大値まで回復し、 #yカウントダウン #b1 進める。 NL ターン終了時、ターン数の半分だけ、 #y筋力 を得る。"
+    ]
+  },
+  "shadowverse:NervaPower3": {
+    "NAME": "悲哀の感情",
+    "DESCRIPTIONS": [
+      "#yカウント #b",
+      " :これを失い、 #y安楽の感情 を得る。 NL 敵がアタックをプレイ時、そのカードは次のターンになるまでプレイ不能になる。 NL ターン開始時、上記の能力が働いたなら、さらに #yカウントダウン #b1 進める。"
+    ]
+  },
+  "shadowverse:NervaPower4": {
+    "NAME": "安楽の感情",
+    "DESCRIPTIONS": [
+      "#yカウント #b",
+      " :これを失い、 #y終焉の粛清 を得る。 NL ターン開始時、 #yドレイン を持つ #yシャドウソルジャー 3体出し、それを直ぐに行動させ、行動した後即死させる。 NL ターン終了時、敵全体は #y筋力 #b1 と #y仮HP #b6 を得る。"
+    ]
+  },
+  "shadowverse:NervaPower6": {
+    "NAME": "終焉の粛清",
+    "DESCRIPTIONS": [
+      "ターン終了時、プレイヤーに #b",
+      " ダメージを与える。これの数が8以上に達したら、ネルヴァはゲームに勝利する。"
+    ]
+  },
+  "shadowverse:MonsterDrainPower": {
+    "NAME": "ドレイン",
+    "DESCRIPTIONS": [
+      "与えたダメージ分HPを回復する。ネルヴァも同時にその分を回復させる。"
     ]
   }
 }
