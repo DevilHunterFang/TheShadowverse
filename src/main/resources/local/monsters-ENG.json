@@ -276,7 +276,7 @@
     "MOVES": [
       ""
     ],
-    "NAME": "忠実なる従僕",
+    "NAME": "Hollow Wretch",
     "DIALOG": [
     ]
   },
@@ -376,14 +376,14 @@
     ],
     "NAME": "Nerva",
     "DIALOG": [
-      "私こそ真なる人",
-      "運命すら覆してあげる",
-      "お前では届かない",
-      "@私は全てを越える‼@",
-      "私は止められない",
-      "小賢しい",
-      "ごめんなさいね",
-      "結末は変わらない"
+      "I have surpassed human AND Keeper",
+      "Destiny cannot defy me!",
+      "So this is the power of your will.",
+      "@I will transcend all‼@",
+      "I cannot stop",
+      "Clever",
+      "I'm sorry",
+      "The outcome remains the same"
     ]
   }
 }
