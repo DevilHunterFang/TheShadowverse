@@ -412,50 +412,50 @@
   "shadowverse:DiscardOnStartPower": {
     "NAME": "Discard",
     "DESCRIPTIONS": [
-      "カードを引く度、それを捨てる。あと #b",
-      " 働ける。"
+      "Each time you draw a card, discard randomly from your hand. Wears off in #b",
+      " turns."
     ]
   },
   "shadowverse:NervaPower1": {
-    "NAME": "喜悦の感情",
+    "NAME": "Faithful Joy",
     "DESCRIPTIONS": [
-      "#yカウント #b",
-      " :これを失い、 #y憤怒の感情 を得る。 NL 受ける最大ダメージは #b",
-      " まで。ターン開始時、受けたダメージがこれの最大値を上回ったなら、さらに #yカウントダウン #b1 進める。 NL ターン終了時、ドロー減少 #b1 を与える。"
+      "#yCountdown #b ",
+      " : Lose this effect and gain #yForlorn #yFury. NL You do not take more than #b",
+      " damage at a time. At the start of the turn, if the damage taken exceeds this maximum value, subtract #b1 from this #yCountdown. NL At the end of the turn, apply #b1 Draw Reduction."
     ]
   },
   "shadowverse:NervaPower2": {
-    "NAME": "憤怒の感情",
+    "NAME": "Forlorn Fury",
     "DESCRIPTIONS": [
-      "#yカウント #b",
-      " :これを失い、 #y悲哀の感情 を得る。 NL ターン開始時、HPが最大値より低いなら、最大値まで回復し、 #yカウントダウン #b1 進める。 NL ターン終了時、ターン数の半分だけ、 #y筋力 を得る。"
+      "#yCountdown #b ",
+      " : Lose this effect and gain #yRegretful #ySorrow. NL At the start of the turn, if your HP is less than maximum, heal all of your HP and subtract #b1 from this #yCountdown. NL At the end of your turn, gain #yStrength equal to half the number of turns."
     ]
   },
   "shadowverse:NervaPower3": {
-    "NAME": "悲哀の感情",
+    "NAME": "Regretful Sorrow",
     "DESCRIPTIONS": [
-      "#yカウント #b",
-      " :これを失い、 #y安楽の感情 を得る。 NL 敵がアタックをプレイ時、そのカードは次のターンになるまでプレイ不能になる。 NL ターン開始時、上記の能力が働いたなら、さらに #yカウントダウン #b1 進める。"
+      "#yCountdown #b ",
+      " :Lose this effect and gain #yIgnorant #yBliss. NL Whenever the enemy plays an Attack, it becomes Unplayable until the next turn. NL At the start of the turn, if a card is made Unplayable, subtract #b1 from this #yCountdown."
     ]
   },
   "shadowverse:NervaPower4": {
-    "NAME": "安楽の感情",
+    "NAME": "Ignorant Bliss",
     "DESCRIPTIONS": [
-      "#yカウント #b",
-      " :これを失い、 #y終焉の粛清 を得る。 NL ターン開始時、 #yドレイン を持つ #yシャドウソルジャー 3体出し、それを直ぐに行動させ、行動した後即死させる。 NL ターン終了時、敵全体は #y筋力 #b1 と #y仮HP #b6 を得る。"
+      "#yCountdown #b ",
+      " :Lose this effect and gain #yPurgation's #yEnd. NL At the start of the turn, summon 3 #yShadow #ySoldiers, give them #yDrain, make them act immediately and set their HP to 0 after. NL At the end of the turn, ALL enemies gain #b1 #yStrength and #b6 #yTemporary HP."
     ]
   },
   "shadowverse:NervaPower6": {
-    "NAME": "終焉の粛清",
+    "NAME": "Purgation's End",
     "DESCRIPTIONS": [
-      "ターン終了時、プレイヤーに #b",
-      " ダメージを与える。これの数が8以上に達したら、ネルヴァはゲームに勝利する。"
+      "At the end of the turn, deal #b",
+      " damage to the player. If this number reaches 8 or more, Nerva wins the combat."
     ]
   },
   "shadowverse:MonsterDrainPower": {
-    "NAME": "ドレイン",
+    "NAME": "Drain",
     "DESCRIPTIONS": [
-      "与えたダメージ分HPを回復する。ネルヴァも同時にその分を回復させる。"
+      "Heals HP equal to any damage dealt. #yNerva is also healed by the same amount."
     ]
   }
 }
