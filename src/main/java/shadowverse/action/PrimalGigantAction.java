@@ -8,7 +8,7 @@ import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import shadowverse.cards.Bishop.Amulet2.Jatelant;
 import shadowverse.cards.Elf.Left.PrimalGigant;
-import shadowverse.cards.Neutral.Temp.DeadSoulTaker;
+import shadowverse.cards.temp.DeadSoulTaker;
 
 import java.util.ArrayList;
 import java.util.Collections;

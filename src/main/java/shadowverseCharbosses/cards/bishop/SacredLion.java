@@ -13,7 +13,7 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.BufferPower;
-import shadowverse.cards.Neutral.Temp.LionBless;
+import shadowverse.cards.temp.LionBless;
 import shadowverse.characters.Bishop;
 import shadowverseCharbosses.cards.AbstractBossCard;
 import shadowverseCharbosses.powers.cardpowers.EnemyFlameBarrierPower;
