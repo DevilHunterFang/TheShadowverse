@@ -66,20 +66,22 @@ public class SummonShadeAction extends AbstractGameAction {
     }
 
     public void update() {
-        if (this.duration == this.startDuration) {
-            this.m.animX = 1200.0F * Settings.xScale;
-            this.m.init();
-            this.m.applyPowers();
-            (AbstractDungeon.getCurrRoom()).monsters.addMonster(getSmartPosition(), this.m);
-            addToBot(new ApplyPowerAction(this.m, this.m, new MinionPower(this.m)));
-        }
-        tickDuration();
-        if (this.isDone) {
-            this.m.animX = 0.0F;
-            this.m.showHealthBar();
-            this.m.usePreBattleAction();
-        } else {
-            this.m.animX = Interpolation.fade.apply(0.0F, 1200.0F * Settings.xScale, this.duration);
+        if (this.m != null){
+            if (this.duration == this.startDuration) {
+                this.m.animX = 1200.0F * Settings.xScale;
+                this.m.init();
+                this.m.applyPowers();
+                (AbstractDungeon.getCurrRoom()).monsters.addMonster(getSmartPosition(), this.m);
+                addToBot(new ApplyPowerAction(this.m, this.m, new MinionPower(this.m)));
+            }
+            tickDuration();
+            if (this.isDone) {
+                this.m.animX = 0.0F;
+                this.m.showHealthBar();
+                this.m.usePreBattleAction();
+            } else {
+                this.m.animX = Interpolation.fade.apply(0.0F, 1200.0F * Settings.xScale, this.duration);
+            }
         }
     }
 }

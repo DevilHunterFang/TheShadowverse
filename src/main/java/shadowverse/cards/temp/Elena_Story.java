@@ -23,7 +23,7 @@ public class Elena_Story extends CustomCard {
     public static final String IMG_PATH = "img/cards/Elena_Story.png";
 
     public Elena_Story() {
-        super(ID, NAME, IMG_PATH, 0, DESCRIPTION, CardType.SKILL, CardColor.COLORLESS, CardRarity.SPECIAL, CardTarget.ENEMY);
+        super(ID, NAME, IMG_PATH, 0, DESCRIPTION, CardType.SKILL, CardColor.COLORLESS, CardRarity.SPECIAL, CardTarget.ALL_ENEMY);
         this.selfRetain = true;
         this.exhaust = true;
     }

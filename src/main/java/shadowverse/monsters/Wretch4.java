@@ -21,7 +21,7 @@ import com.megacrit.cardcrawl.vfx.combat.InflameEffect;
 
 public class Wretch4 extends CustomMonster {
     public static final String ID = "shadowverse:Wretch4";
-    private static final MonsterStrings monsterStrings = CardCrawlGame.languagePack.getMonsterStrings("shadowverse:Wretch");
+    private static final MonsterStrings monsterStrings = CardCrawlGame.languagePack.getMonsterStrings("shadowverse:Wretch2");
     public static final String NAME = monsterStrings.NAME;
 
     public static final String[] MOVES = monsterStrings.MOVES;
