@@ -5,6 +5,7 @@
  import com.megacrit.cardcrawl.actions.animations.VFXAction;
  import com.megacrit.cardcrawl.actions.common.DamageAction;
  import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
+ import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
  import com.megacrit.cardcrawl.cards.AbstractCard;
  import com.megacrit.cardcrawl.cards.DamageInfo;
  import com.megacrit.cardcrawl.core.AbstractCreature;
@@ -54,6 +55,7 @@
            AbstractDungeon.actionManager.addToBottom(new VFXAction(new SmallLaserEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, this.owner.hb.cX, this.owner.hb.cY), 0.3F));
        }
        addToBot(new DamageAction(AbstractDungeon.player, damageInfo, AbstractGameAction.AttackEffect.NONE, true));
+       addToBot(new RemoveSpecificPowerAction(this.owner,this.owner,this));
    }
    
  }
