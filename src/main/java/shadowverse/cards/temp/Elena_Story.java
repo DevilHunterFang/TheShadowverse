@@ -104,7 +104,7 @@ public class Elena_Story extends CustomCard {
         addToBot(new SFXAction("Elena_Story"));
         for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters){
             if (mo instanceof Nerva){
-                addToBot(new KillNervaAction(abstractMonster));
+                addToBot(new KillNervaAction(mo));
             }
         }
     }
