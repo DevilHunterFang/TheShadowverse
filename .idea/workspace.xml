@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b766f6c-a243-4b15-a2e5-209602a87b5d" name="Changes" comment="0.0.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/Elena_Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/Elena_Story.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/TheShadowverseMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowverse/TheShadowverseMod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

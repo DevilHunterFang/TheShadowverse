@@ -24,7 +24,6 @@ import shadowverse.dungeons.Rivayle;
 import shadowverse.dungeons.WhispersOfPurgation;
 import shadowverse.events.GemFortune;
 import shadowverse.events.LelouchCollaboration;
-import shadowverse.events.Loli;
 import shadowverse.events.SellCard;
 import shadowverse.monsters.*;
 import shadowverse.relics.Bullet;
@@ -214,7 +213,6 @@ public class TheShadowverseMod implements PostInitializeSubscriber, EditCardsSub
 
         if (Loader.isModLoaded("shadowverse")) {
             BaseMod.addEvent(GemFortune.ID, GemFortune.class, Rivayle.ID);
-            BaseMod.addEvent(Loli.ID, Loli.class, Rivayle.ID);
         }
 
         BaseMod.addEvent(SellCard.ID, SellCard.class, Rivayle.ID);
