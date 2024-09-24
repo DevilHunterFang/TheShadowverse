@@ -190,28 +190,6 @@
       "死を1回だけ無効にし、HPを最大値の #b50% を回復する。 #b1 ターンを追加する。"
     ]
   },
-  "shadowverse:GuiltyShieldPower": {
-    "NAME": "ギルティ・シールド",
-    "DESCRIPTIONS": [
-      "自分への #b5 以上のダメージは #b4 になる。あと #b",
-      " ターン続く。"
-    ]
-  },
-  "shadowverse:JudgementSpearPower": {
-    "NAME": "ジャッジメント・スピア",
-    "DESCRIPTIONS": [
-      "ターン終了時にランダムな敵に #b",
-      " ダメージを与える。あと #b",
-      " ターン続く。"
-    ]
-  },
-  "shadowverse:EternalDogmaPower": {
-    "NAME": "エターナル・ドグマ",
-    "DESCRIPTIONS": [
-      "ターン開始時、追加でカードを #b1 引き、HPを #b2 回復する。あと #b",
-      " ターン続く。"
-    ]
-  },
   "shadowverse:UltimateBahmutPower": {
     "NAME": "アルティメットバハムート",
     "DESCRIPTIONS": [

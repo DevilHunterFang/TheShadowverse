@@ -341,34 +341,6 @@
       " .)"
     ]
   },
-  "shadowverse:DivineTreasureHerald": {
-    "NAME": "신기의 사자",
-    "DESCRIPTION": "피해를 !D! 주고 NL 방어도를 !B! 얻습니다. NL 유언: 이 카드가 소멸되면, 강화가 없는 *신기의 *울림 1장을 얻습니다. NL 소멸."
-  },
-  "shadowverse:DivineTreasureGuardian": {
-    "NAME": "신기의 파수꾼",
-    "DESCRIPTION": "피해를 !D! 줍니다. NL 방어도를 !B! 얻습니다. NL 모든 적에게 피해를 !M! 줍니다. NL 소멸."
-  },
-  "shadowverse:JudgmentSpear": {
-    "NAME": "저지먼트 스피어",
-    "DESCRIPTION": "턴 종료시 무작위 적에게 피해를 !M! 줍니다. NL 카운트다운 2: 이 효과를 잃습니다."
-  },
-  "shadowverse:GuiltyShield": {
-    "NAME": "길티 실드",
-    "DESCRIPTION": "5 이상의 피해를 4로 줄여 받습니다. NL 카운트다운 2: 이 효과를 잃습니다."
-  },
-  "shadowverse:EternalDogma": {
-    "NAME": "이터널 도그마",
-    "DESCRIPTION": "턴 시작시 체력을 2 회복하고 카드를 1장 뽑습니다. NL 카운트다운 2: 이 효과를 잃습니다."
-  },
-  "shadowverse:SummonDivineTreasure": {
-    "NAME": "신기의 울림",
-    "DESCRIPTION": "결단: 이 카드를 이하의 카드중 하나로 사용합니다: NL *저지먼트 *스피어 NL *길티 *실드 NL *이터널 *도그마 NL 강화 2: 추가로 *신기의 *사자 1장을 얻습니다. NL 강화 3: 추가로 *신기의 *파수꾼 1장을 얻습니다. NL 소멸."
-  },
-  "shadowverse:SummonDivineTreasure_Copy": {
-    "NAME": "신기의 울림",
-    "DESCRIPTION": "결단: 이 카드를 이하의 카드중 하나로 사용합니다: NL *저지먼트 *스피어 NL *길티 *실드 NL *이터널 *도그마 NL 소멸."
-  },
   "shadowverse:ImperialSaint": {
     "NAME": "임페리얼 세인트",
     "DESCRIPTION": "체력을 !M! 회복합니다. NL 흐릿함을 1 얻습니다. NL 이 다음 죽으려고 하면, 체력을 50% 회복하고 추가 턴을 얻습니다."

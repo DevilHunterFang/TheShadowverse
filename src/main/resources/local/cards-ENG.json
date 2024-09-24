@@ -341,34 +341,6 @@
       " Energy used.)"
     ]
   },
-  "shadowverse:DivineTreasureHerald": {
-    "NAME": "Divine Treasure Herald",
-    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Last_Words: When exhausted, add a *Summon *Divine *Treasure without Enhance to your hand. NL Exhaust."
-  },
-  "shadowverse:DivineTreasureGuardian": {
-    "NAME": "Divine Treasure Guardian",
-    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Deal !M! damage to ALL enemies. NL Exhaust."
-  },
-  "shadowverse:JudgmentSpear": {
-    "NAME": "Spear of Judgment",
-    "DESCRIPTION": "Deal !M! damage to a random enemy at the end of your turn. NL Countdown 2: Lose this effect."
-  },
-  "shadowverse:GuiltyShield": {
-    "NAME": "Shield of Transgression",
-    "DESCRIPTION": "If you would take 5 or more damage, that damage becomes 4. NL Countdown 2: Lose this effect."
-  },
-  "shadowverse:EternalDogma": {
-    "NAME": "Eternal Dogma",
-    "DESCRIPTION": "At the start of your turn, heal 2 HP and draw a card. NL Countdown 2: Lose this effect."
-  },
-  "shadowverse:SummonDivineTreasure": {
-    "NAME": "Summon Divine Treasure",
-    "DESCRIPTION": "Choose: Play this card as: NL *Judgment *Spear NL *Shield *of *Transgression NL OR *Eternal *Dogma NL Enhance 2: Then add a *Divine *Treasure *Herald to your hand. NL Enhance 3: Then add a *Divine *Treasure *Guardian to your hand. NL Exhaust."
-  },
-  "shadowverse:SummonDivineTreasure_Copy": {
-    "NAME": "Summon Divine Treasure",
-    "DESCRIPTION": "Choose: Play this card as: NL *Judgment *Spear NL *Shield *of *Transgression NL OR *Eternal *Dogma NL Exhaust."
-  },
   "shadowverse:ImperialSaint": {
     "NAME": "Imperial Saint",
     "DESCRIPTION": "Gain !M! Temporary HP. NL Gain 1 Blur. NL The next time you would die, heal to 50% of your max HP and take an extra turn after your turn instead."

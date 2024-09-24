@@ -341,34 +341,6 @@
       " 点能量。)"
     ]
   },
-  "shadowverse:DivineTreasureHerald": {
-    "NAME": "神器的使者",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL 谢幕曲 :当这张牌被 消耗 时，增加1张没有 爆能强化 的 *神器鸣动 到手中。 NL 消耗 。"
-  },
-  "shadowverse:DivineTreasureGuardian": {
-    "NAME": "神器的守护者",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL 对全体敌人造成 !M! 点伤害。 NL 消耗 。"
-  },
-  "shadowverse:JudgmentSpear": {
-    "NAME": "裁决之枪",
-    "DESCRIPTION": "回合结束时对随机敌人造成 !M! 点伤害。 NL 倒计时 2 :失去这个效果。"
-  },
-  "shadowverse:GuiltyShield": {
-    "NAME": "罪恶之盾",
-    "DESCRIPTION": "受到的5以上的伤害变为4。 NL 倒计时 2 :失去这个效果。"
-  },
-  "shadowverse:EternalDogma": {
-    "NAME": "永恒教义",
-    "DESCRIPTION": "回合开始时抽1张牌，回复2点生命。 NL 倒计时 2 :失去这个效果。"
-  },
-  "shadowverse:SummonDivineTreasure": {
-    "NAME": "神器鸣动",
-    "DESCRIPTION": "抉择 : NL *裁决之枪 NL *罪恶之盾 NL *永恒教义 NL 爆能强化 2 :增加1张 *神器的使者 到手中。 NL  爆能强化 3 :增加1张 *神器的守护者 到手中。 NL 消耗性  !stslib:ex! 。"
-  },
-  "shadowverse:SummonDivineTreasure_Copy": {
-    "NAME": "神器鸣动",
-    "DESCRIPTION": "抉择 : NL *裁决之枪 NL *罪恶之盾 NL *永恒教义 NL 消耗 。"
-  },
   "shadowverse:ImperialSaint": {
     "NAME": "威严圣者",
     "DESCRIPTION": "获得 !M! 点 临时生命 。 NL 获得1层 *残影 。 NL 死亡时无效一次死亡，回复最大生命值的50%并追加1个额外回合。"

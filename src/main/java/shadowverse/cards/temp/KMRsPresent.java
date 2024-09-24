@@ -36,7 +36,6 @@ public class KMRsPresent
         list.add(new AbyssDoomLord());
         list.add(new ImperialSaint());
         list.add(new InfiniflameDragon());
-        list.add(new SummonDivineTreasure());
         return list;
     }
 

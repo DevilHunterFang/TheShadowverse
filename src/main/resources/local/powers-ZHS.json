@@ -190,28 +190,6 @@
       "无效一次死亡，回复最大生命值 #b50% 的生命并追加 #b1 个额外回合。"
     ]
   },
-  "shadowverse:GuiltyShieldPower": {
-    "NAME": "罪恶之盾",
-    "DESCRIPTIONS": [
-      "受到的 #b5 以上的伤害变为 #b4 。 #b",
-      " 回合后时失去这个效果。"
-    ]
-  },
-  "shadowverse:JudgementSpearPower": {
-    "NAME": "裁决之枪",
-    "DESCRIPTIONS": [
-      "回合结束时对随机敌人造成 #b",
-      " 点伤害。 #b",
-      " 回合后失去这个效果。"
-    ]
-  },
-  "shadowverse:EternalDogmaPower": {
-    "NAME": "永恒教义",
-    "DESCRIPTIONS": [
-      "回合开始时额外抽 #b1 张牌，回复 #b2 点生命。 #b",
-      " 回合后失去这个效果。"
-    ]
-  },
   "shadowverse:UltimateBahmutPower": {
     "NAME": "究极巴哈姆特",
     "DESCRIPTIONS": [

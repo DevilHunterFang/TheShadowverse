@@ -337,34 +337,6 @@
       " 。)"
     ]
   },
-  "shadowverse:DivineTreasureHerald": {
-    "NAME": "神器の使者",
-    "DESCRIPTION": "!D! ダメージを与える。 NL !B! ブロック を得る。 NL ラストワード ：このカードが廃棄される時、 エンハンス を持たない *神器鳴動 1枚を手札に加える。 NL 廃棄 。"
-  },
-  "shadowverse:DivineTreasureGuardian": {
-    "NAME": "神器の番人",
-    "DESCRIPTION": "!D! ダメージを与える。 NL !B! ブロック を得る。 NL 敵全体に !M! ダメージを与える。 NL 廃棄 。"
-  },
-  "shadowverse:JudgmentSpear": {
-    "NAME": "ジャジメント・スピア",
-    "DESCRIPTION": "ターン終了時にランダムな敵に !M! ダメージを与える。 NL カウントダウン 2：この能力を失う。"
-  },
-  "shadowverse:GuiltyShield": {
-    "NAME": "ギルティ・シールド",
-    "DESCRIPTION": "自分への5以上のダメージは4になる。 NL カウントダウン 2：この能力を失う。"
-  },
-  "shadowverse:EternalDogma": {
-    "NAME": "エターナル・ドグマ",
-    "DESCRIPTION": "ターン開始時、追加でカードを1枚引き、HPを2回復する。 NL  カウントダウン 2：この能力を失う。"
-  },
-  "shadowverse:SummonDivineTreasure": {
-    "NAME": "神器鳴動",
-    "DESCRIPTION": "チョイス : NL *ジャジメント・スピア NL *ギルティ・シールド NL *エターナル・ドグマ NL エンハンス 2： *神器の使者 1枚を手札に加える。 NL エンハンス 3： *神器の番人 1枚を手札に加える。 NL あと !stslib:ex! 回使って廃棄する。"
-  },
-  "shadowverse:SummonDivineTreasure_Copy": {
-    "NAME": "神器鳴動",
-    "DESCRIPTION": "チョイス : NL *ジャジメント・スピア NL *ギルティ・シールド NL *エターナル・ドグマ NL 廃棄 。"
-  },
   "shadowverse:ImperialSaint": {
     "NAME": "インペリアルセイント",
     "DESCRIPTION": "!M! 仮HP を得る。 NL ブラー を1得る。 NL 死を1回だけ回避し、50%のHPを回復して1ターンを追加する。"
