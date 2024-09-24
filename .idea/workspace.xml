@@ -6,32 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b766f6c-a243-4b15-a2e5-209602a87b5d" name="Changes" comment="0.0.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/TheShadowverseMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowverse/TheShadowverseMod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/DivineTreasureGuardian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/DivineTreasureHerald.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/EternalDogma.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/GuiltyShield.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/JudgmentSpear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/KMRsPresent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/KMRsPresent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/SummonDivineTreasure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/SummonDivineTreasure_Copy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/powers/EternalDogmaPower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/powers/GuiltyShieldPower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/powers/JudgementSpearPower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/DivineTreasureGuardian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/DivineTreasureHerald.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/EternalDogma.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/GuiltyShield.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/JudgmentSpear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/cards/SummonDivineTreasure.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/local/cards-ENG.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/cards-ENG.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/local/cards-JPN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/cards-JPN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/local/cards-KOR.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/cards-KOR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/local/cards-ZHS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/cards-ZHS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/local/powers-ENG.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/powers-ENG.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/local/powers-JPN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/powers-JPN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/local/powers-KOR.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/powers-KOR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/local/powers-ZHS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/powers-ZHS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/local/events-ZHS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/events-ZHS.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
