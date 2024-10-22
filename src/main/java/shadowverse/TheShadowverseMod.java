@@ -17,7 +17,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.monsters.MonsterGroup;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import shadowverse.cards.Neutral.Temp.*;import shadowverse.cards.curse.*;
+import shadowverse.cards.curse.*;
 import shadowverse.cards.temp.*;
 import shadowverse.cards.temp.AbyssDoomLord;import shadowverse.cards.temp.DeadSoulTaker;import shadowverse.cards.temp.ImperialSaint;import shadowverse.cards.temp.InfiniflameDragon;import shadowverse.cards.temp.LegendSwordCommander;import shadowverse.cards.temp.LionBless;import shadowverse.cards.temp.ManaForce;import shadowverse.cards.temp.SevensForceSorcerer;import shadowverse.cards.temp.ShadowBahmut;import shadowverse.cards.temp.ShiningValkyrie;import shadowverse.cards.temp.UltimateBahmut;import shadowverse.dungeons.FinalPurgation;
 import shadowverse.dungeons.Rivayle;

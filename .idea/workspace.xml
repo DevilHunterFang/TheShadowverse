@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b766f6c-a243-4b15-a2e5-209602a87b5d" name="Changes" comment="0.0.1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/shadowverse/action/MinionBuffAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shadowverse/action/MinionSummonAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shadowverse/orbs/Minion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shadowverse/orbs/Quickblader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shadowverse/powers/OverflowPower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/local/events-JPN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/local/events-JPN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/TheShadowverseMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowverse/TheShadowverseMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/Rowen_Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/Rowen_Story.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/ShiningValkyrie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shadowverse/cards/temp/ShiningValkyrie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +66,11 @@
       <recent name="D:\TheShadowverse\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="shadowverse.action" />
+      <recent name="shadowverse.orbs" />
+      <recent name="shadowverse.powers" />
       <recent name="shadowverse.events" />
       <recent name="shadowverse.cards.temp" />
-      <recent name="shadowverse.dungeons" />
-      <recent name="shadowverse.effect" />
-      <recent name="shadowverse.monsters" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

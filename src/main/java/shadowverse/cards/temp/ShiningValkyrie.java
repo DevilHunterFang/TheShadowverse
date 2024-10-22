@@ -32,7 +32,6 @@ public class ShiningValkyrie extends CustomCard {
         this.magicNumber = this.baseMagicNumber;
         this.cardsToPreview = new Fairy_f();
         if (Loader.isModLoaded("shadowverse")) {
-            this.cardsToPreview = new shadowverse.cards.Neutral.Temp.Fairy();
             this.color = Elf.Enums.COLOR_GREEN;
             this.tags.add(AbstractShadowversePlayer.Enums.LEGEND);
         }

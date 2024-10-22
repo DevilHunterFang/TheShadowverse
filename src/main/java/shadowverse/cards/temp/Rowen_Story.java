@@ -52,8 +52,8 @@ public class Rowen_Story extends CustomCard {
         if (Loader.isModLoaded("shadowverse")) {
             addToBot(new ApplyPowerAction(AbstractDungeon.player,AbstractDungeon.player,new OverflowPower(AbstractDungeon.player,1),1));
             addToBot(new ApplyPowerAction(AbstractDungeon.player,AbstractDungeon.player,new OverflowPower(AbstractDungeon.player,2),2));
-            if (abstractPlayer.hasPower(OverflowPower.POWER_ID)){
-                TwoAmountPower p = (TwoAmountPower) abstractPlayer.getPower(OverflowPower.POWER_ID);
+            if (abstractPlayer.hasPower("shadowverse:OverflowPower")){
+                TwoAmountPower p = (TwoAmountPower) abstractPlayer.getPower("shadowverse:OverflowPower");
                 if (p.amount2 > 0){
                     addToBot(new ApplyPowerAction(abstractPlayer,abstractPlayer,new StrengthPower(abstractPlayer,this.magicNumber),this.magicNumber));
                     addToBot(new ApplyPowerAction(abstractPlayer,abstractPlayer,new LoseStrengthPower(abstractPlayer,this.magicNumber),this.magicNumber));
