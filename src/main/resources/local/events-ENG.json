@@ -38,24 +38,6 @@
       "Choose 1 card to sell"
     ]
   },
-  "Crossover": {
-    "NAME": "Storms Cross Craft",
-    "DESCRIPTIONS": [
-      "In pursuit of your coveted animated Grandmaster deck sleeves, there is an event taking place. As you come closer, you notice that it's the Omen of Storms Cross Craft Cup! ~'Sounds~ ~like~ ~it's~ ~another~ ~competition~ ~of~ #y~Luck~ .' NL #r@'Wait,@ #r@why@ #r@is@ #r@it@ #r@all@ #r@Swordcraft@ #r@and@ #r@Shadowcraft players?!'@ NL NL A man asks you with a smile on his face: NL 'Are you interested in entering the #y~Storms~ #y~Cross~ #y~Craft~ #y~Cup~ ?'",
-      "",
-      "#y'Marvelous!' NL Soon after your reply, the whole arena is shrouded in #p~thick~ #p~black~ #p~smoke~ ... NL NL Just as you're about to win your 4th match and be placed into Group A, your opponent plays Ladica, Verdant Claw and kills your leader on turn 5. NL NL The match is over and you're back in the Spire, but somehow you feel a bit #bAngry .",
-      "'What a disappointment...' NL ~Sooner~ ~or~ ~later~ ~you~ ~will~ ~join~ ~us!'~  NL #r@'Hahaha@ #r@Hahahahaha!'@ NL NL The man disappears, leaving only the disturbing laughter echoing in your ears.",
-      ""
-    ],
-    "OPTIONS": [
-      "[Attend the match] #gGain #gCross #gCraft Relic . #rLose #r",
-      " #rHP.",
-      "[Refuse]",
-      "[Attend the match] #gGain #gCross #gCraft Relic . #rLose #r",
-      "",
-      "[Leave]"
-    ]
-  },
   "shadowverse:IceschillendrigEvent": {
     "NAME": "Who is your enemy?",
     "DESCRIPTIONS": [
