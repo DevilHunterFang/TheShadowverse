@@ -260,7 +260,8 @@
   "shadowverse:AimedPower": {
     "NAME": "Aimed",
     "DESCRIPTIONS": [
-      "Increase next damage taken by #b"
+      "Increase next damage taken by #b ",
+      " points."
     ]
   },
   "shadowverse:BelphometPower": {
