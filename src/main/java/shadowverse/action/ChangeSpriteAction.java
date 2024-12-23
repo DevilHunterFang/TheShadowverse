@@ -4,7 +4,6 @@ import basemod.animations.SpriterAnimation;
 import com.badlogic.gdx.Gdx;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import shadowverse.monsters.SpriteCreature;
-import shadowverseCharbosses.bosses.KMR.KMR;
 
 public class ChangeSpriteAction extends AbstractGameAction {
 
@@ -15,9 +14,6 @@ public class ChangeSpriteAction extends AbstractGameAction {
     public ChangeSpriteAction(SpriterAnimation to, SpriteCreature c, float duration) {
         this.actionType = ActionType.SPECIAL;
         this.duration = duration;
-        if (c instanceof KMR){
-            to.setFlip(true,false);
-        }
         this.to = to;
         this.creature = c;
         this.ori = creature.getAnimation();
