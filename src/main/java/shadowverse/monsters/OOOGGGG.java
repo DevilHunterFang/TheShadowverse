@@ -107,6 +107,8 @@ public class OOOGGGG extends CustomMonster {
                 AbstractDungeon.actionManager.addToBottom( new HealAction(this, this, this.maxHealth / 2));
                 AbstractDungeon.actionManager.addToBottom( new ChangeStateAction(this, "REVIVE"));
                 AbstractDungeon.actionManager.addToBottom( new ApplyPowerAction(this, this, new RegrowPower(this), 1));
+                AbstractDungeon.actionManager.addToBottom( new ApplyPowerAction(this, this, new ReactivePower(this)));
+                AbstractDungeon.actionManager.addToBottom( new ApplyPowerAction(this, this, new MalleablePower(this)));
                 for (AbstractRelic r : AbstractDungeon.player.relics)
                     r.onSpawnMonster(this);
                 break;

@@ -95,15 +95,15 @@ public class Iceschillendrig extends CustomMonster implements SpriteCreature {
         if (AbstractDungeon.ascensionLevel >= 19) {
             this.debuffAmount = 3;
             this.bloodHitCount = 7;
-            this.Dmg = 24;
+            this.Dmg = 25;
         } else if (AbstractDungeon.ascensionLevel >= 4) {
             this.bloodHitCount = 6;
             this.debuffAmount = 2;
-            this.Dmg = 22;
+            this.Dmg = 23;
         } else {
             this.bloodHitCount = 5;
             this.debuffAmount = 2;
-            this.Dmg = 20;
+            this.Dmg = 21;
         }
         this.damage.add(new DamageInfo(this, this.Dmg));
         this.damage.add(new DamageInfo(this, 2));

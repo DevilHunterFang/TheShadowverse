@@ -286,7 +286,7 @@
   "shadowverse:TaketsumiPower2": {
     "NAME": "安楽の狂宴",
     "DESCRIPTIONS": [
-      "#yナテラの宝樹 の数が上がる時、それが5以上なら、敵全体に #b1 の #y筋力 と #b6 の #y仮HP を得る。"
+      "#yナテラの宝樹 の数が上がる時、それが5以上なら、敵全体に #b1 の #y筋力 と #b6 の #y最大HP を得る。"
     ]
   },
   "shadowverse:Itsurugi_SlashPower": {

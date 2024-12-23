@@ -263,8 +263,8 @@ public class TheShadowverseMod implements PostInitializeSubscriber, EditCardsSub
         reflectedMap.put("Alector_PREP", new Sfx(voicePath + "Alector_PREP.wav"));
         reflectedMap.put("Alector_D1", new Sfx(voicePath + "Alector_D1.wav"));
         reflectedMap.put("Alector_D2", new Sfx(voicePath + "Alector_D2.wav"));
-        reflectedMap.put("Belphomet2", new Sfx(voicePath + "Belphomet2.wav"));
-        reflectedMap.put("Belphomet3", new Sfx(voicePath + "Belphomet3.wav"));
+        reflectedMap.put("Belphomet2", new Sfx(voicePath + "Belphomet2_1.wav"));
+        reflectedMap.put("Belphomet3", new Sfx(voicePath + "Belphomet3_1.wav"));
         reflectedMap.put("Belphomet4", new Sfx(voicePath + "Belphomet4.wav"));
         reflectedMap.put("Belphomet5", new Sfx(voicePath + "Belphomet5.wav"));
         reflectedMap.put("Belphomet6", new Sfx(voicePath + "Belphomet6.wav"));

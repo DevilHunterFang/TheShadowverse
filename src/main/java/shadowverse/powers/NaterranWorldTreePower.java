@@ -39,7 +39,7 @@ public class NaterranWorldTreePower extends AbstractPower {
             for (AbstractMonster m : (AbstractDungeon.getMonsters()).monsters) {
                 if (m != null && !m.isDying && !m.isEscaping) {
                     addToBot(new ApplyPowerAction(m, this.owner, new StrengthPower(m, 1), 1));
-                    addToBot(new AddTemporaryHPAction(m, this.owner, 6));
+                    m.increaseMaxHp(6,true);
                 }
             }
         }

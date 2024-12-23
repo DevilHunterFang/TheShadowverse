@@ -286,7 +286,7 @@
   "shadowverse:TaketsumiPower2": {
     "NAME": "Blissful Revelry",
     "DESCRIPTIONS": [
-      "Whenever #yNaterran #yGreat #yTree is increased, if there are 5 or more, ALL enemies gain #b1 Strength and #b6 Temporary HP."
+      "Whenever #yNaterran #yGreat #yTree is increased, if there are 5 or more, ALL enemies gain #b1 Strength and #b6 Max HP."
     ]
   },
   "shadowverse:Itsurugi_SlashPower": {

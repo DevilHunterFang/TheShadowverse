@@ -286,7 +286,7 @@
   "shadowverse:TaketsumiPower2": {
     "NAME": "安乐的狂宴",
     "DESCRIPTIONS": [
-      "获得 #y那塔拉的宝树 时，如果已有5层以上，全体敌人获得 #b1 点 #y力量 和 #b6 点 #y临时生命 。"
+      "获得 #y那塔拉的宝树 时，如果已有5层以上，全体敌人获得 #b1 点 #y力量 和 #b6 点 #y最大生命 。"
     ]
   },
   "shadowverse:Itsurugi_SlashPower": {
