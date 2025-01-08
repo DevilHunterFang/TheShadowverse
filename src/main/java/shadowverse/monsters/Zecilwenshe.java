@@ -86,8 +86,8 @@ public class Zecilwenshe extends CustomMonster {
             this.buffAmount = 1;
             this.blockAmt = 18;
         } else {
-            this.strikeDmg = 6;
-            this.daggerDmg = 20;
+            this.strikeDmg = 220;
+            this.daggerDmg = 6;
             this.buffAmount = 1;
             this.blockAmt = 15;
         }
