@@ -254,7 +254,7 @@
     "NAME": "Rapid",
     "DESCRIPTIONS": [
       "After playing #b ",
-      " card, take an extra turn after this one."
+      " card, perform the intended action."
     ]
   },
   "shadowverse:AimedPower": {
