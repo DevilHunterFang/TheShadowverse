@@ -76,7 +76,7 @@
   "shadowverse:NahtPower": {
     "NAME": "Tyrant's Box",
     "DESCRIPTIONS": [
-      "The first card played in each turn that target this enemy will be invalid and deposited in the box",
+      "The first card played in each turn that affects this enemy (even if not targeted) will be invalid and deposited in the box",
       ". Boxed cards:",
       "triggered this turn.",
       "not triggered this turn."
@@ -267,8 +267,8 @@
   "shadowverse:BelphometPower": {
     "NAME": "Barrier of Joy",
     "DESCRIPTIONS": [
-      "Take #b ",
-      " less damage. Reduce this by the same amount of damage taken. Restore this effect at the start of the turn."
+      "Prevent the next #b ",
+      " damage. Reduce this by the same amount of damage taken. Restore this effect at the start of the turn."
     ]
   },
   "shadowverse:NicolaPower": {
@@ -366,7 +366,7 @@
   "shadowverse:NexusPower": {
     "NAME": "Eternal Fury",
     "DESCRIPTIONS": [
-      "Whenever you would die, #rExhaust ALL attacks in the enemy's discard pile, shuffle ALL Attacks in the enemy's hand into their draw pile. Enemy heals #b5 HP and reduce this effect to 0. NL At the start of your turn, summon 2 #yShadow #ySoldiers and make them act immediately. Set their HP to 0 afterward. NL #yNexus is strengthened for each #yHollow #yShadow defeated this combat. NL (Damage taken cannot exceed #b",
+      "Whenever Nexus would die, ALL attacks in your discard pile are #rExhausted, and ALL attacks in your hand are shuffled into your draw pile. Enemy heals #b5 HP and reduce this effect to 0. NL At the start of the turn, summons 2 #yShadow #ySoldiers and makes them act immediately. Set their HP to 0 afterward. NL #yNexus is strengthened for each #yHollow #yShadow defeated this combat. NL (Damage taken cannot exceed #b",
       " ) "
     ]
   },
