@@ -193,7 +193,7 @@
   "shadowverse:UltimateBahmutPower": {
     "NAME": "Ultimate Bahamut",
     "DESCRIPTIONS": [
-      "At the end of each turn, decrease this countdown by #b1. Die when the countdown reaches 0."
+      "At the end of each turn, decrease this countdown by #b1. All enemies die when the countdown reaches 0."
     ]
   },
   "shadowverse:ShiningValkyriePower": {
@@ -254,7 +254,7 @@
     "NAME": "Rapid",
     "DESCRIPTIONS": [
       "After playing #b ",
-      " card, perform the intended action."
+      " cards, perform the intended action."
     ]
   },
   "shadowverse:AimedPower": {
@@ -346,7 +346,7 @@
   "shadowverse:MaishaPower2": {
     "NAME": "Hero of Purgation",
     "DESCRIPTIONS": [
-      "This number is treated as Valor. NL Maisha Gains #b1 Valor at the end of the turn. NL Gains #b2 Valor instead if any Energy was remaining and draws #b1 additional card next turn. NL Each turn, randomly plays a #yMaisha's #yTechnique, #yMaisha's #ySkill or #yMaisha's #yUltimate."
+      "This number is treated as Valor. NL Maisha Gains #b1 Valor at the end of the turn. NL Gains #b2 Valor instead if Maisha had any Energy remaining and draws #b1 additional card next turn. NL Each turn, randomly plays a #yMaisha's #yTechnique, #yMaisha's #ySkill or #yMaisha's #yUltimate."
     ]
   },
   "shadowverse:SionPower": {
@@ -366,7 +366,7 @@
   "shadowverse:NexusPower": {
     "NAME": "Eternal Fury",
     "DESCRIPTIONS": [
-      "Whenever Nexus would die, ALL attacks in your discard pile are #rExhausted, and ALL attacks in your hand are shuffled into your draw pile. Enemy heals #b5 HP and reduce this effect to 0. NL At the start of the turn, summons 2 #yShadow #ySoldiers and makes them act immediately. Set their HP to 0 afterward. NL #yNexus is strengthened for each #yHollow #yShadow defeated this combat. NL (Damage taken cannot exceed #b",
+      "Whenever Nexus would die, ALL attacks in your discard pile are #rExhausted, and ALL attacks in your hand are shuffled into your draw pile. Enemy heals #b5 HP and reduce this effect to 0. NL At the start of the turn, summons 2 #yShadow #ySoldiers and makes them act immediately, attacking for 9 base damage. Set their HP to 0 afterward. NL #yNexus is strengthened for each #yHollow #yShadow defeated this combat. NL (Damage taken cannot exceed #b)",
       " ) "
     ]
   },
@@ -428,7 +428,7 @@
     "NAME": "Purgation's End",
     "DESCRIPTIONS": [
       "At the end of the turn, deal #b",
-      " damage to the player. If this number reaches 8 or more, Nerva wins the combat."
+      " damage to the player. If the counter below reaches 8 or more, Nerva wins the combat."
     ]
   },
   "shadowverse:MonsterDrainPower": {
