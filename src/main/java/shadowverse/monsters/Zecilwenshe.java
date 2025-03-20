@@ -86,7 +86,7 @@ public class Zecilwenshe extends CustomMonster {
             this.buffAmount = 1;
             this.blockAmt = 18;
         } else {
-            this.strikeDmg = 220;
+            this.strikeDmg = 22;
             this.daggerDmg = 6;
             this.buffAmount = 1;
             this.blockAmt = 15;
@@ -218,12 +218,7 @@ public class Zecilwenshe extends CustomMonster {
         super.damage(info);
         if (this.currentHealth <= 0 && !this.halfDead) {
             this.halfDead = true;
-            for (AbstractPower p : this.powers){
-                p.onDeath();
-            }
             AbstractDungeon.actionManager.addToBottom(new RemoveDebuffsAction(this));
-            for (AbstractRelic r : AbstractDungeon.player.relics)
-                r.onMonsterDeath(this);
             deathCount++;
             int life = 2;
             if (AbstractDungeon.getCurrRoom().monsters.monsters.stream().anyMatch(abstractMonster -> abstractMonster instanceof Iceschillendrig))
@@ -234,6 +229,11 @@ public class Zecilwenshe extends CustomMonster {
                 this.die();
                 return;
             }
+            for (AbstractPower p : this.powers){
+                p.onDeath();
+            }
+            for (AbstractRelic r : AbstractDungeon.player.relics)
+                r.onMonsterDeath(this);
             setMove((byte) 5, Intent.UNKNOWN);
             createIntent();
             AbstractDungeon.actionManager.addToBottom(new SetMoveAction(this, (byte) 5, Intent.UNKNOWN));
