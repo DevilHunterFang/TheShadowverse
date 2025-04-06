@@ -80,26 +80,26 @@ public class Naht extends CustomMonster implements SpriteCreature {
         this.type = EnemyType.BOSS;
         this.turnsTaken = 0;
         if (AbstractDungeon.ascensionLevel >= 19) {
-            this.heavyDmg = 21;
-            this.multiDmg = 6;
-            this.backDmg = 8;
-            this.minionAmt = 2;
-            this.strAmount = 3;
-            this.debuffAmount = 3;
-        } else if (AbstractDungeon.ascensionLevel >= 4) {
-            this.heavyDmg = 19;
-            this.multiDmg = 5;
-            this.backDmg = 7;
-            this.minionAmt = 2;
-            this.strAmount = 2;
-            this.debuffAmount = 2;
-        } else {
             this.heavyDmg = 17;
-            this.multiDmg = 4;
+            this.multiDmg = 5;
             this.backDmg = 6;
-            this.minionAmt = 1;
+            this.minionAmt = 2;
             this.strAmount = 2;
             this.debuffAmount = 2;
+        } else if (AbstractDungeon.ascensionLevel >= 4) {
+            this.heavyDmg = 15;
+            this.multiDmg = 4;
+            this.backDmg = 5;
+            this.minionAmt = 2;
+            this.strAmount = 1;
+            this.debuffAmount = 1;
+        } else {
+            this.heavyDmg = 13;
+            this.multiDmg = 3;
+            this.backDmg = 4;
+            this.minionAmt = 1;
+            this.strAmount = 1;
+            this.debuffAmount = 1;
         }
         this.damage.add(new DamageInfo(this, this.heavyDmg));
         this.damage.add(new DamageInfo(this, this.multiDmg));
