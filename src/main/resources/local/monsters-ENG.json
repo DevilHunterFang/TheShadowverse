@@ -29,6 +29,22 @@
     "DIALOG": [
     ]
   },
+  "shadowverse:Scoundrel": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Rivaylian Bandit",
+    "DIALOG": [
+    ]
+  },
+  "shadowverse:Scoundrel2": {
+    "MOVES": [
+      ""
+    ],
+    "NAME": "Rivaylian Bandit",
+    "DIALOG": [
+    ]
+  },
   "shadowverse:WorldEliminator": {
     "MOVES": [
       ""
